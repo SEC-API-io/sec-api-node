@@ -39,7 +39,7 @@
   },
   "homepage": "https://github.com/janlukasschroeder/sec-api#readme",
   "dependencies": {
-    "axios": "^0.21.4",
+    "axios": "^0.30.2",
     "socket.io-client": "^2.4.0"
   },
   "bin": {
