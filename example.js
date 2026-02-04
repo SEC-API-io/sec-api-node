@@ -50,6 +50,22 @@ const fullTextSearchExample = async () => {
 // fullTextSearchExample();
 
 /**
+ * Download API
+ */
+const { downloadApi } = secApi;
+
+const downloadApiExample = async () => {
+  const filingUrl =
+    'https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm';
+
+  const data = await downloadApi.getFile(filingUrl);
+
+  console.log(data.slice(0, 1000));
+};
+
+// downloadApiExample();
+
+/**
  * Render API
  */
 const { renderApi } = secApi;

@@ -1,7 +1,7 @@
 {
   "name": "sec-api",
-  "version": "3.1.5",
-  "description": "sec.gov EDGAR API Wrapper",
+  "version": "3.1.6",
+  "description": "SEC-API.io JavaScript Library",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

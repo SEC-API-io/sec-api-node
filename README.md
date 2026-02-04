@@ -1,38 +1,101 @@
-# sec.gov EDGAR filings query, extraction, parser and real-time streaming API
+# SEC-API.io JavaScript API Library
 
-- Covers +18 million SEC Edgar filings for **over 10,000** publicly listed companies, ETFs, hedge funds, mutual funds, and investors dating back to 1993.
-- Every filing is **mapped to a CIK and ticker**.
-- **All +150 form types** are supported, eg 10-Q, 10-K, 4, 8-K, 13-F, S-1, 424B4 and many more.
-  [See the list of supported form types here.](https://sec-api.io/#list-of-sec-form-types)
-- The API returns a new filing as soon as it is published on SEC EDGAR.
-- XBRL-to-JSON converter and parser API. Extract standardized financial statements from any 10-K and 10-Q filing.
-- **No XBRL/XML** needed - JSON formatted.
-- 13F holdings API included. Monitor all institutional ownerships in real-time.
-- Python, R, Java, C++, Excel scripts are supported through websockets
-- Client- and server-side JavaScript supported (Node.js, React, React Native, Angular, Vue, etc.)
-- Free API key available on [sec-api.io](https://sec-api.io)
+`sec-api` is a JavaScript library for accessing the complete EDGAR database, including over **20 million SEC filings** from 1993/94 to the present and more than **100 million exhibits and attachments**.
 
-You can find more examples and details here: [sec-api.io/docs](https://sec-api.io/docs)
+Download filings and related documents, such as complete submission files, index pages, SGML headers, XML and XBRL files, PDFs, and more, at up to **20 requests per second**, with **no API key required**.
 
-Data source: [sec.gov](https://www.sec.gov/edgar/searchedgar/companysearch.html)
+The full API documentation is available at [sec-api.io/docs](https://sec-api.io/docs).
 
-# Getting Started
+## Quick Start
 
-You can use the API in your command line, or develop your own application
-using the API as imported package. Both options are explained below.
+```bash
+npm install sec-api
+```
 
-**Before you start**:
+**Download EDGAR Filings Free of Charge**
 
-- Install Node.js if you haven't already. On Mac in the command line type `brew install node`.
-- Get your free API key here: [sec-api.io](https://sec-api.io)
+```js
+const { downloadApi } = require('sec-api');
 
-# Query API
+// optional, only needed for higher rate limits.
+// downloadApi.setApiKey('YOUR_API_KEY');
 
-The query API allows you to search and filter all 18 million filings published on SEC EDGAR.
+const filingUrl =
+  'https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm';
 
----
+const data = await downloadApi.getFile(filingUrl);
 
-The example below returns the most recent 10-Q filings.
+console.log(data.slice(0, 1000));
+```
+
+## Feature Overview
+
+**EDGAR Filing Search & Download APIs**
+
+- [SEC Filing Search API](#sec-edgar-filings-query-api)
+- [Full-Text Search API](#full-text-search-api)
+- [Real-Time Filing Stream API](#filings-real-time-stream-api)
+- [Download API - Download any SEC filing, exhibit and attached file](#filing--exhibit-download-api)
+- [PDF Generator API - Download SEC filings and exhibits as PDF](#pdf-generator-api)
+
+**Converter & Extractor APIs**
+
+- [XBRL-to-JSON Converter API + Financial Statements](#xbrl-to-json-converter-api)
+- [10-K/10-Q/8-K Section Extraction API](#10-k10-q8-k-section-extractor-api)
+
+**Investment Advisers**
+
+- [Form ADV API - Investment Advisors (Firm & Indvl. Advisors, Brochures, Schedules)](#form-adv-api)
+
+**Ownership Data APIs**
+
+- [Form 3/4/5 API - Insider Trading Disclosures](#insider-trading-data-api)
+- [Form 144 API - Restricted Stock Sales by Insiders](#form-144-api)
+- [Form 13F API - Institutional Investment Manager Holdings & Cover Pages](#form-13f-institutional-holdings-database)
+- [Form 13D/13G API - Activist and Passive Investor Holdings](#form-13d-13g-api)
+- [Form N-PORT API - Mutual Funds, ETFs and Closed-End Fund Holdings](#form-n-port-api)
+
+**Investment Companies**
+
+- [Form N-CEN API - Annual Reports](#form-n-cen-api---annual-reports-by-investment-companies)
+- [Form N-PX API - Proxy Voting Records](#form-n-px-proxy-voting-records-api)
+
+**Security Offerings APIs**
+
+- [Form S-1/424B4 API - Registration Statements and Prospectuses (IPOs, Debt/Warrants/... Offerings)](#form-s-1424b4-api)
+- [Form C API - Crowdfunding Offerings & Campaigns](#form-c-api---crowdfunding-campaigns)
+- [Form D API - Private Security Offerings](#form-d-api)
+- [Regulation A APIs - Offering Statements by Small Companies (Form 1-A, Form 1-K, Form 1-Z)](#regulation-a-apis)
+
+**Structured Material Event Data from Form 8-K**
+
+- [Auditor and Accountant Changes (Item 4.01)](#auditor-and-accountant-changes-item-401)
+- [Financial Restatements & Non-Reliance on Prior Financial Results (Item 4.02)](#financial-restatements--non-reliance-on-prior-financial-results-item-402)
+- [Changes of Directors, Board Members and Compensation Plans (Item 5.02)](#changes-of-directors-executives-board-members-and-compensation-plans-item-502)
+
+**Public Company Data**
+
+- [Directors & Board Members API](#directors--board-members-data-api)
+- [Executive Compensation Data API](#executive-compensation-data-api)
+- [Outstanding Shares & Public Float](#outstanding-shares--public-float-api)
+- [Company Subsidiary API](#subsidiary-api)
+
+**Enforcement Actions, Proceedings, AAERs & SRO Filings**
+
+- [SEC Enforcement Actions](#sec-enforcement-actions-database-api)
+- [SEC Litigation Releases](#sec-litigation-releases-database-api)
+- [SEC Administrative Proceedings](#sec-administrative-proceedings-database-api)
+- [AAER Database API - Accounting and Auditing Enforcement Releases](#aaer-database-api)
+- [SRO Filings Database API](#sro-filings-database-api)
+
+**Other APIs**
+
+- [CUSIP/CIK/Ticker Mapping API](#cusipcikticker-mapping-api)
+- [EDGAR Entities Database API](#edgar-entities-database)
+
+## SEC EDGAR Filings Query API
+
+The Query API allows searching and filtering all 20 million filings and 100 million exhibits published on the SEC EDGAR database since 1993 to present, with new filings being added in 300 milliseconds after their publication on EDGAR.
 
 ```js
 const { queryApi } = require('sec-api');
@@ -40,24 +103,85 @@ const { queryApi } = require('sec-api');
 queryApi.setApiKey('YOUR_API_KEY');
 
 const query = {
-  query: { query_string: { query: 'formType:"10-Q"' } }, // get most recent 10-Q filings
-  from: '0', // start with first filing. used for pagination.
-  size: '10', // limit response to 10 filings
+  query: 'formType:"10-Q"', // get most recent 10-Q filings
+  from: '0', // used for pagination. set to 50 to retrieve the next 50 metadata objects.
+  size: '50', // number of results per response
   sort: [{ filedAt: { order: 'desc' } }], // sort result by filedAt
 };
 
 const filings = await queryApi.getFilings(rawQuery);
 ```
 
+<details>
+  <summary>Full Response Example</summary>
+  
+```json
+{
+  "total": {  "value": 47,  "relation": "eq" },
+  "filings": [
+    {
+      "id": "3ba530142cd52e76b7e15cc9000d2c33",
+      "ticker": "TSLA",
+      "formType": "10-Q",
+      "description": "Form 10-Q - Quarterly report [Sections 13 or 15(d)]",
+      "accessionNo": "0001628280-25-045968",
+      "cik": "1318605",
+      "companyNameLong": "Tesla, Inc. (Filer)",
+      "companyName": "Tesla, Inc.",
+      "filedAt": "2025-10-22T21:08:43-04:00",
+      "periodOfReport": "2025-09-30",
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/0001628280-25-045968-index.htm",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/0001628280-25-045968.txt",
+      "entities": [
+        {
+          "fiscalYearEnd": "1231",
+          "stateOfIncorporation": "TX",
+          "act": "34",
+          "cik": "1318605",
+          "fileNo": "001-34756",
+          "irsNo": "912197729",
+          "companyName": "Tesla, Inc. (Filer)",
+          "type": "10-Q",
+          "sic": "3711 Motor Vehicles &amp; Passenger Car Bodies",
+          "filmNo": "251411222",
+          "undefined": "04 Manufacturing)"
+        }
+      ],
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "1573631",
+          "documentUrl": "https://www.sec.gov/ix?doc=/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "description": "10-Q",
+          "type": "10-Q"
+        },
+        // ... more files
+      ],
+      "dataFiles": [
+        {
+          "sequence": "5",
+          "size": "54524",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.xsd",
+          "description": "XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT",
+          "type": "EX-101.SCH"
+        },
+        // ... more files
+      ],
+    },
+  ]
+}
+```
+
+</details>
+
 > See the documentation for more details: https://sec-api.io/docs/query-api
 
-# Full-Text Search API
+## Full-Text Search API
 
-Full-text search allows you to search the full text of all EDGAR filings submitted since 2001. The full text of a filing includes all data in the filing itself as well as all attachments (such as exhibits) to the filing.
+The SEC Filing Full-Text Search API enables searches across the full text of all EDGAR filings submitted since 2001. Each search scans the entire filing content, including all attachments, such as exhibits.
 
----
-
-The example below returns all 8-K and 10-Q filings and their exhibits, filed between 01-01-2021 and 14-06-2021, that include the exact phrase "LPCN 1154".
+The following example returns all 8-K and 10-Q filings and their exhibits, filed between 01-01-2021 and 14-06-2021, that include the exact phrase "LPCN 1154".
 
 ```js
 const { fullTextSearchApi } = require('sec-api');
@@ -76,20 +200,9 @@ const filings = await fullTextSearchApi.getFilings(rawQuery);
 
 > See the documentation for more details: https://sec-api.io/docs/full-text-search-api
 
-# Real-Time Streaming API
+## Filings Real-Time Stream API
 
-The stream API provides a live stream (aka feed) of newly published filings on SEC EDGAR.
-A new filing is sent to your connected client as soon as its published.
-
----
-
-Type in your command line:
-
-1. `mkdir my-project && cd my-project` to create a new folder for your project.
-2. `npm init -y` to set up Node.js boilerplate.
-3. `npm install sec-api` to install the package.
-4. `touch index.js` to create a new file. Copy/paste the example code below
-   into the file `index.js`. Replace `YOUR_API_KEY` with the API key provided on [sec-api.io](https://sec-api.io)
+The Stream API provides a real-time feed of the latest filings submitted to the SEC EDGAR database via a WebSocket connection. This push-based technology ensures immediate delivery of metadata for each new filing as it becomes publicly available.
 
 ```js
 const { streamApi } = require('sec-api');
@@ -99,60 +212,30 @@ streamApi.connect('YOUR_API_KEY');
 streamApi.on('filing', (filing) => console.log(filing));
 ```
 
-5. `node index.js` to start listening for new filings. New filings are
-   printed in your console as soon as they are published on SEC EDGAR.
-
 > See the documentation for more details: https://sec-api.io/docs/stream-api
 
-## Command Line
+## Filing & Exhibit Download API
 
-In your command line, type
-
-1. `npm install sec-api -g` to install the package
-2. `sec-api YOUR_API_KEY` to connect to the stream. Replace `YOUR_API_KEY` with
-   the API key provided on [sec-api.io](https://sec-api.io)
-3. Done! You will see new filings printed in your command line
-   as soon as they are published on SEC EDGAR.
-
-## React
-
-Live Demo: https://codesandbox.io/s/01xqz2ml9l (requires an API key to work)
+On the free plan, you can download up to 20 SEC filings per second without an API key. Paid plans allow for higher throughput—up to 60,000 filings within a 5-minute window. Access is provided to all 20+ million EDGAR filings dating back to 1993, including over 100 million attachments and exhibits such as Exhibit 99, complete submission files, SGML headers, and more.
 
 ```js
-import { streamApi } from 'sec-api';
+const { downloadApi } = require('sec-api');
 
-class Filings extends React.Component {
-  componentDidMount() {
-    const socket = streamApi('YOUR_API_KEY');
-    socket.on('filing', (filing) => console.log(filing));
-  }
+downloadApi.setApiKey('YOUR_API_KEY');
 
-  // ...
-}
+const filingUrl =
+  'https://www.sec.gov/Archives/edgar/data/1841925/000121390021032758/ea142795-8k_indiesemic.htm';
+
+const filingContent = await downloadApi.getFile(filingUrl);
 ```
 
-# XBRL-To-JSON Converter API
+> See the documentation for more details: https://sec-api.io/docs/sec-filings-render-api
 
-Parse and standardize any XBRL and convert it to JSON. Extract financial statements and meta data from 10-K and 10-Q filings.
+## XBRL-To-JSON Converter API
 
-The entire US GAAP taxonomy is fully supported. All XBRL items are fully converted into JSON, including `us-gaap`, `dei` and custom items. XBRL facts are automatically mapped to their respective context including period instants and date ranges.
+Parse and standardize any XBRL data and convert it to standardized JSON format in seconds without coding. Extract financial statements from annual and quarterly reports (10-K, 10-Q, 20-F, 40-F), offerings such as S-1 filings, and post-effective amendements for registration statements (POS AM), accounting policies and footnotes, risk-return summaries of mutual fund and ETF prospectuses (485BPOS) and general information from event filings (8-K). All XBRL-supported filing types can be converterd.
 
-All financial statements are accessible and standardized:
-
-- StatementsOfIncome
-- StatementsOfIncomeParenthetical
-- StatementsOfComprehensiveIncome
-- StatementsOfComprehensiveIncomeParenthetical
-- BalanceSheets
-- BalanceSheetsParenthetical
-- StatementsOfCashFlows
-- StatementsOfCashFlowsParenthetical
-- StatementsOfShareholdersEquity
-- StatementsOfShareholdersEquityParenthetical
-
-Variants such as `ConsolidatedStatementsofOperations` or `ConsolidatedStatementsOfLossIncome` are automatically standardized to their root name, e.g. `StatementsOfIncome`.
-
-## Income Statement - Example Item
+### Income Statement Item Example
 
 ```json
 {
@@ -181,15 +264,16 @@ Variants such as `ConsolidatedStatementsofOperations` or `ConsolidatedStatements
 }
 ```
 
-## Usage
+### Usage
 
-There are 3 ways to convert XBRL to JSON:
+Convert XBRL filings to JSON using one of the following three input methods:
 
-- `htmUrl`: Provide the URL of the filing ending with `.htm`.
-  Example URL: https://www.sec.gov/Archives/edgar/data/1318605/000156459021004599/tsla-10k_20201231.htm
-- `xbrlUrl`: Provide the URL of the XBRL file ending with `.xml`. The XBRL file URL can be found in the `dataFiles` array returned by our query API. The array item has the description `EXTRACTED XBRL INSTANCE DOCUMENT` or similar.
-  Example URL: https://www.sec.gov/Archives/edgar/data/1318605/000156459021004599/tsla-10k_20201231_htm.xml
-- `accessionNo`: Provide the accession number of the filing, e.g. `0001564590-21-004599`
+1. **`htmUrl`** - URL of the filing’s HTML page (typically ending in `.htm`).
+   Example: `https://www.sec.gov/Archives/edgar/data/1318605/000156459021004599/tsla-10k_20201231.htm`
+2. **`xbrlUrl`** - Direct URL to the XBRL instance document (ending in `.xml`).
+   This URL is available in the `dataFiles` array returned by the query API. Look for an item with the description `"EXTRACTED XBRL INSTANCE DOCUMENT"` or similar.
+   Example: `https://www.sec.gov/Archives/edgar/data/1318605/000156459021004599/tsla-10k_20201231_htm.xml`
+3. **`accessionNo`** - SEC accession number of the filing (e.g., `0001564590-21-004599`).
 
 ```js
 const { xbrlApi } = secApi;
@@ -197,137 +281,138 @@ const { xbrlApi } = secApi;
 xbrlApi.setApiKey('YOUR_API_KEY');
 
 // 10-K HTM File URL example
-xbrlApi
-  .xbrlToJson({
-    htmUrl:
-      'https://www.sec.gov/Archives/edgar/data/320193/000032019320000096/aapl-20200926.htm',
-  })
-  .then(console.log);
+const xbrlJson1 = await xbrlApi.xbrlToJson({
+  htmUrl:
+    'https://www.sec.gov/Archives/edgar/data/320193/000032019320000096/aapl-20200926.htm',
+});
 
 // 10-K XBRL File URL Example
-xbrlApi
-  .xbrlToJson({
-    xbrlUrl:
-      'https://www.sec.gov/Archives/edgar/data/320193/000032019320000096/aapl-20200926_htm.xml',
-  })
-  .then(console.log);
+const xbrlJson2 = await xbrlApi.xbrlToJson({
+  xbrlUrl:
+    'https://www.sec.gov/Archives/edgar/data/320193/000032019320000096/aapl-20200926_htm.xml',
+});
 
 // 10-K Accession Number Example
-xbrlApi.xbrlToJson({ accessionNo: '0000320193-20-000096' }).then(console.log);
+const xbrlJson3 = await xbrlApi.xbrlToJson({
+  accessionNo: '0000320193-20-000096',
+});
 ```
 
-## Example Response
-
-Note: response is shortened.
+### Example Response
 
 ```json
 {
- "CoverPage": {
-  "DocumentPeriodEndDate": "2020-09-26",
-  "EntityRegistrantName": "Apple Inc.",
-  "EntityIncorporationStateCountryCode": "CA",
-  "EntityTaxIdentificationNumber": "94-2404110",
-  "EntityAddressAddressLine1": "One Apple Park Way",
-  "EntityAddressCityOrTown": "Cupertino",
-  "EntityAddressStateOrProvince": "CA",
-  "EntityAddressPostalZipCode": "95014",
-  "CityAreaCode": "408",
-  "LocalPhoneNumber": "996-1010",
-  "TradingSymbol": "AAPL",
-  "EntityPublicFloat": {
-   "decimals": "-6",
-   "unitRef": "usd",
-   "period": {
-    "instant": "2020-03-27"
-   },
-   "value": "1070633000000"
+  "CoverPage": {
+    "DocumentPeriodEndDate": "2020-09-26",
+    "EntityRegistrantName": "Apple Inc.",
+    "EntityIncorporationStateCountryCode": "CA",
+    "EntityTaxIdentificationNumber": "94-2404110",
+    "EntityAddressAddressLine1": "One Apple Park Way",
+    "EntityAddressCityOrTown": "Cupertino",
+    "EntityAddressStateOrProvince": "CA",
+    "EntityAddressPostalZipCode": "95014",
+    "CityAreaCode": "408",
+    "LocalPhoneNumber": "996-1010",
+    "TradingSymbol": "AAPL",
+    "EntityPublicFloat": {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2020-03-27"
+      },
+      "value": "1070633000000"
+    },
+    "EntityCommonStockSharesOutstanding": {
+      "decimals": "-3",
+      "unitRef": "shares",
+      "period": {
+        "instant": "2020-10-16"
+      },
+      "value": "17001802000"
+    },
+    "DocumentFiscalPeriodFocus": "FY",
+    "CurrentFiscalYearEndDate": "--09-26"
   },
-  "EntityCommonStockSharesOutstanding": {
-   "decimals": "-3",
-   "unitRef": "shares",
-   "period": {
-    "instant": "2020-10-16"
-   },
-   "value": "17001802000"
+  "StatementsOfIncome": {
+    "RevenueFromContractWithCustomerExcludingAssessedTax": [
+      {
+        "decimals": "-6",
+        "unitRef": "usd",
+        "period": {
+          "startDate": "2019-09-29",
+          "endDate": "2020-09-26"
+        },
+        "segment": {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "us-gaap:ProductMember"
+        },
+        "value": "220747000000"
+      },
+      {
+        "decimals": "-6",
+        "unitRef": "usd",
+        "period": {
+          "startDate": "2018-09-30",
+          "endDate": "2019-09-28"
+        },
+        "segment": {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "us-gaap:ProductMember"
+        },
+        "value": "213883000000"
+      }
+    ]
   },
-  "DocumentFiscalPeriodFocus": "FY",
-  "CurrentFiscalYearEndDate": "--09-26"
- },
- "StatementsOfIncome": {
-  "RevenueFromContractWithCustomerExcludingAssessedTax": [
-   {
-    "decimals": "-6",
-    "unitRef": "usd",
-    "period": {
-     "startDate": "2019-09-29",
-     "endDate": "2020-09-26"
-    },
-    "segment": {
-     "dimension": "srt:ProductOrServiceAxis",
-     "value": "us-gaap:ProductMember"
-    },
-    "value": "220747000000"
-   },
-   {
-    "decimals": "-6",
-    "unitRef": "usd",
-    "period": {
-     "startDate": "2018-09-30",
-     "endDate": "2019-09-28"
-    },
-    "segment": {
-     "dimension": "srt:ProductOrServiceAxis",
-     "value": "us-gaap:ProductMember"
-    },
-    "value": "213883000000"
-   }
-  ]
- },
- "BalanceSheets": {
-  "CashAndCashEquivalentsAtCarryingValue": [
-   {
-    "decimals": "-6",
-    "unitRef": "usd",
-    "period": {
-     "instant": "2020-09-26"
-    },
-    "value": "38016000000"
-   },
-   {
-    "decimals": "-6",
-    "unitRef": "usd",
-    "period": {
-     "instant": "2019-09-28"
-    },
-    "value": "48844000000"
-   },
-   {
-    "decimals": "-6",
-    "unitRef": "usd",
-    "period": {
-     "instant": "2020-09-26"
-    },
-    "segment": {
-     "dimension": "us-gaap:FinancialInstrumentAxis",
-     "value": "us-gaap:CashMember"
-    },
-    "value": "17773000000"
-   }
-  ]
- }
+  "BalanceSheets": {
+    "CashAndCashEquivalentsAtCarryingValue": [
+      {
+        "decimals": "-6",
+        "unitRef": "usd",
+        "period": {
+          "instant": "2020-09-26"
+        },
+        "value": "38016000000"
+      },
+      {
+        "decimals": "-6",
+        "unitRef": "usd",
+        "period": {
+          "instant": "2019-09-28"
+        },
+        "value": "48844000000"
+      },
+      {
+        "decimals": "-6",
+        "unitRef": "usd",
+        "period": {
+          "instant": "2020-09-26"
+        },
+        "segment": {
+          "dimension": "us-gaap:FinancialInstrumentAxis",
+          "value": "us-gaap:CashMember"
+        },
+        "value": "17773000000"
+      }
+    ]
+  }
+}
 ```
 
 > See the documentation for more details: https://sec-api.io/docs/xbrl-to-json-converter-api
 
-# 10-K/10-Q Section Extractor API
+## 10-K/10-Q/8-K Section Extractor API
 
-The Extractor API returns individual sections from 10-Q and 10-K filings. The extracted section is cleaned and standardized - in raw text or in standardized HTML. You can programmatically extract one or multiple sections from any 10-Q and 10-K filing.
+The Extractor API extracts any text section from 10-Q, 10-K and 8-K SEC filings, and returns the extracted content in cleaned and standardized text or HTML format.
 
-All 10-K and 10-Q sections can be extracted:
+Supported sections:
+
+<details>
+  <summary>10-K Sections</summary>
 
 - 1 - Business
 - 1A - Risk Factors
 - 1B - Unresolved Staff Comments
+- 1C - Cybersecurity
 - 2 - Properties
 - 3 - Legal Proceedings
 - 4 - Mine Safety Disclosures
@@ -344,8 +429,71 @@ All 10-K and 10-Q sections can be extracted:
 - 12 - Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters
 - 13 - Certain Relationships and Related Transactions, and Director Independence
 - 14 - Principal Accountant Fees and Services
+- 15 - Exhibits and Financial Statement Schedules
 
-## Example
+</details>
+
+<details>
+  <summary>10-Q Sections</summary>
+
+- **Part 1:**
+  - 1 - Financial Statements
+  - 2 - Management’s Discussion and Analysis of Financial Condition and Results of Operations
+  - 3 - Quantitative and Qualitative Disclosures About Market Risk
+  - 4 - Controls and Procedures
+
+- **Part 2:**
+  - 1 - Legal Proceedings
+  - 1A - Risk Factors
+  - 2 - Unregistered Sales of Equity Securities and Use of Proceeds
+  - 3 - Defaults Upon Senior Securities
+  - 4 - Mine Safety Disclosures
+  - 5 - Other Information
+  - 6 - Exhibits
+
+</details>
+<details>
+  <summary>8-K Sections</summary>
+
+- 1.01: Entry into a Material Definitive Agreement
+- 1.02: Termination of a Material Definitive Agreement
+- 1.03: Bankruptcy or Receivership
+- 1.04: Mine Safety - Reporting of Shutdowns and Patterns of Violations
+- 1.05: Material Cybersecurity Incidents (introduced in 2023)
+- 2.01: Completion of Acquisition or Disposition of Assets
+- 2.02: Results of Operations and Financial Condition
+- 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant
+- 2.04: Triggering Events That Accelerate or Increase a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement
+- 2.05: Cost Associated with Exit or Disposal Activities
+- 2.06: Material Impairments
+- 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing
+- 3.02: Unregistered Sales of Equity Securities
+- 3.03: Material Modifications to Rights of Security Holders
+- 4.01: Changes in Registrant's Certifying Accountant
+- 4.02: Non-Reliance on Previously Issued Financial Statements or a Related Audit Report or Completed Interim Review
+- 5.01: Changes in Control of Registrant
+- 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers
+- 5.03: Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year
+- 5.04: Temporary Suspension of Trading Under Registrant's Employee Benefit Plans
+- 5.05: Amendments to the Registrant's Code of Ethics, or Waiver of a Provision of the Code of Ethics
+- 5.06: Change in Shell Company Status
+- 5.07: Submission of Matters to a Vote of Security Holders
+- 5.08: Shareholder Nominations Pursuant to Exchange Act Rule 14a-11
+- 6.01: ABS Informational and Computational Material
+- 6.02: Change of Servicer or Trustee
+- 6.03: Change in Credit Enhancement or Other External Support
+- 6.04: Failure to Make a Required Distribution
+- 6.05: Securities Act Updating Disclosure
+- 6.06: Static Pool
+- 6.10: Alternative Filings of Asset-Backed Issuers
+- 7.01: Regulation FD Disclosure
+- 8.01: Other Events
+- 9.01: Financial Statements and Exhibits
+- Signature
+
+</details>
+
+### Usage
 
 ```js
 const { extractorApi } = secApi;
@@ -362,220 +510,3 @@ console.log(sectionHtml);
 ```
 
 > See the documentation for more details: https://sec-api.io/docs/sec-filings-item-extraction-api
-
-# Filing Render & Download API
-
-Download or render up to 40 filings per second. All filings, exhibits and attachements are supported. Access over 650,000 gigabyte of filings data. You can process the downloaded data in memory or save it to your hard drive.
-
-```js
-const { renderApi } = require('sec-api');
-
-renderApi.setApiKey('YOUR_API_KEY');
-
-const filingUrl =
-  'https://www.sec.gov/Archives/edgar/data/1841925/000121390021032758/ea142795-8k_indiesemic.htm';
-
-const filingContent = await renderApi.getFilingContent(filingUrl);
-```
-
-> See the documentation for more details: https://sec-api.io/docs/sec-filings-render-api
-
-# Response Format
-
-- `accessionNo` (string) - Accession number of filing, e.g. 0000028917-20-000033
-- `cik` (string) - CIK of the filing issuer. Important: trailing `0` are removed.
-- `ticker` (string) - Ticker of company, e.g. AMOT. A ticker is not available when non-publicly traded companies report filings (e.g. form 4 reported by directors). Please contact us if you find filings that you think should have tickers (but don't).
-- `companyName` (string) - Name of company, e.g. Allied Motion Technologies Inc
-- `companyNameLong` (string) - Long version of company name including the filer type (Issuer, Filer, Reporting), e.g. ALLIED MOTION TECHNOLOGIES INC (0000046129) (Issuer)
-- `formType` (string) - sec.gov form type, e.g 10-K. [See the list of supported form types here.](https://sec-api.io/#list-of-sec-form-types)
-- `description` (string) - Description of the form, e.g. Statement of changes in beneficial ownership of securities
-- `linkToFilingDetails` (string) - Link to HTML, XML or PDF version of the filing.
-- `linkToTxt` (string) - Link to the plain text version of the filing. This file can be multiple MBs large.
-- `linkToHtml` (string) - Link to index page of the filing listing all exhibits and the original HTML file.
-- `linkToXbrl` (string, optional) - Link to XBRL version of the filing (if available).
-- `filedAt` (string) - The date (format: YYYY-MM-DD HH:mm:SS TZ) the filing was filed, eg 2019-12-06T14:41:26-05:00.
-- `periodOfReport` (string, if reported) - Period of report, e.g. 2021-06-08
-- `effectivenessDate` (string, if reported) - Effectiveness date, e.g. 2021-06-08
-- `id` (string) - Unique ID of the filing.
-- `entities` (array) - A list of all entities referred to in the filing. The first item in the array always represents the filing issuer. Each array element is an object with the following keys:
-  - `companyName` (string) - Company name of the entity, e.g. DILLARD'S, INC. (Issuer)
-  - `cik` (string) - CIK of the entity. Trailing 0 are not removed here, e.g. 0000028917
-  - `irsNo` (string, optional) - IRS number of the entity, e.g. 710388071
-  - `stateOfIncorporation` (string, optional) - State of incorporation of entity, e.g. AR
-  - `fiscalYearEnd` (string, optional) - Fiscal year end of the entity, e.g. 0201
-  - `sic` (string, optional) - SIC of the entity, e.g. 5311 Retail-Department Stores
-  - `type` (string, optional) - Type of the filing being filed. Same as formType, e.g. 4
-  - `act` (string, optional) - The SEC act pursuant to which the filing was filed, e.g. 34
-  - `fileNo` (string, optional) - Filer number of the entity, e.g. 001-06140
-  - `filmNo` (string, optional) - Film number of the entity, e.g. 20575664
-- `documentFormatFiles` (array) - An array listing all primary files of the filing. The first item of the array is always the filing itself. The last item of the array is always the TXT version of the filing. All other items can represent exhibits, press releases, PDF documents, presentations, graphics, XML files, and more. An array item is represented as follows:
-  - `sequence` (string, optional) - The sequence number of the filing, e.g. 1
-  - `description` (string, optional) - Description of the file, e.g. EXHIBIT 31.1
-  - `documentUrl` (string) - URL to the file on SEC.gov
-  - `type` (string, optional) - Type of the file, e.g. EX-32.1, GRAPHIC or 10-Q
-  - `size` (string, optional) - Size of the file, e.g. 6627216
-- `dataFiles` (array) - List of data files (filing attachments, exhibits, XBRL files) attached to the filing.
-  - `sequence` (string) - Sequence number of the file, e.g. 6
-  - `description` (string) - Description of the file, e.g. XBRL INSTANCE DOCUMENT
-  - `documentUrl` (string) - URL to the file on SEC.gov
-  - `type` (string, optional) - Type of the file, e.g. EX-101.INS, EX-101.DEF or EX-101.PRE
-  - `size` (string, optional) - Size of the file, e.g. 6627216
-- `seriesAndClassesContractsInformation` (array) - List of series and classes/contracts information
-  - `series` (string) - Series ID, e.g. S000001297
-  - `name` (string) - Name of entity, e.g. PRUDENTIAL ANNUITIES LIFE ASSUR CORP VAR ACCT B CL 1 SUB ACCTS
-  - `classesContracts` (array) - List of classes/contracts. Each list item has the following keys:
-    - `classContract` (string) - Class/Contract ID, e.g. C000011787
-    - `name` (string) - Name of class/contract entity, e.g. Class L
-    - `ticker` (string) - Ticker class/contract entity, e.g. URTLX
-
-## 13F Institutional Ownerships
-
-13F filings report institutional ownerships. Each 13F filing has an attribute `holdings` (array). An array item in holdings represents one holding and has the following attributes:
-
-- `nameOfIssuer` (string) - Name of issuer, e.g. MICRON TECHNOLOGY INC
-- `titleOfClass` (string) - Title of class, e.g. COM
-- `cusip` (string) - CUSIP of security, e.g. 98850P109
-- `value` (integer) - Absolute holding value in $, e.g. 18000. Note: `value` doesn't have to be multiplied by 1000 anymore. It's done by our API automatically.
-- `shrsOrPrnAmt` (object)
-  - `sshPrnamt` (integer) - Shares or PRN AMT, e.g. 345
-  - `sshPrnamtType` (string) - Share/PRN type, e.g. "SH"
-- `putCall` (string, optional) - Put / Call, e.g. Put
-- `investmentDiscretion` (string) - Investment discretion, e.g. "SOLE"
-- `otherManager` (string, optional) - Other manager, e.g. 7
-- `votingAuthority` (object)
-  - `Sole` (integer) - Sole, e.g. 345
-  - `Shared` (integer) - Shared, e.g. 345
-  - `None` (integer) - None, e.g. 345
-
-## Example JSON Response
-
-```json
-{
-  "id": "79ad9e452ea42402df4fe55c636191d6",
-  "accessionNo": "0001213900-21-032169",
-  "cik": "1824149",
-  "ticker": "JOFF",
-  "companyName": "JOFF Fintech Acquisition Corp.",
-  "companyNameLong": "JOFF Fintech Acquisition Corp. (Filer)",
-  "formType": "10-Q",
-  "description": "Form 10-Q - Quarterly report [Sections 13 or 15(d)]",
-  "filedAt": "2021-06-11T17:25:44-04:00",
-  "linkToTxt": "https://www.sec.gov/Archives/edgar/data/1824149/000121390021032169/0001213900-21-032169.txt",
-  "linkToHtml": "https://www.sec.gov/Archives/edgar/data/1824149/000121390021032169/0001213900-21-032169-index.htm",
-  "linkToXbrl": "",
-  "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/1824149/000121390021032169/f10q0321_jofffintech.htm",
-  "entities": [
-    {
-      "companyName": "JOFF Fintech Acquisition Corp. (Filer)",
-      "cik": "1824149",
-      "irsNo": "852863893",
-      "stateOfIncorporation": "DE",
-      "fiscalYearEnd": "1231",
-      "type": "10-Q",
-      "act": "34",
-      "fileNo": "001-40005",
-      "filmNo": "211012398",
-      "sic": "6770 Blank Checks"
-    }
-  ],
-  "documentFormatFiles": [
-    {
-      "sequence": "1",
-      "description": "QUARTERLY REPORT",
-      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1824149/000121390021032169/f10q0321_jofffintech.htm",
-      "type": "10-Q",
-      "size": "274745"
-    },
-    {
-      "sequence": "2",
-      "description": "CERTIFICATION",
-      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1824149/000121390021032169/f10q0321ex31-1_jofffintech.htm",
-      "type": "EX-31.1",
-      "size": "12209"
-    },
-    {
-      "sequence": "3",
-      "description": "CERTIFICATION",
-      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1824149/000121390021032169/f10q0321ex31-2_jofffintech.htm",
-      "type": "EX-31.2",
-      "size": "12220"
-    },
-    {
-      "sequence": "4",
-      "description": "CERTIFICATION",
-      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1824149/000121390021032169/f10q0321ex32-1_jofffintech.htm",
-      "type": "EX-32.1",
-      "size": "4603"
-    },
-    {
-      "sequence": "5",
-      "description": "CERTIFICATION",
-      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1824149/000121390021032169/f10q0321ex32-2_jofffintech.htm",
-      "type": "EX-32.2",
-      "size": "4607"
-    },
-    {
-      "sequence": " ",
-      "description": "Complete submission text file",
-      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1824149/000121390021032169/0001213900-21-032169.txt",
-      "type": " ",
-      "size": "2344339"
-    }
-  ],
-  "dataFiles": [
-    {
-      "sequence": "6",
-      "description": "XBRL INSTANCE FILE",
-      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1824149/000121390021032169/joff-20210331.xml",
-      "type": "EX-101.INS",
-      "size": "248137"
-    },
-    {
-      "sequence": "7",
-      "description": "XBRL SCHEMA FILE",
-      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1824149/000121390021032169/joff-20210331.xsd",
-      "type": "EX-101.SCH",
-      "size": "43550"
-    },
-    {
-      "sequence": "8",
-      "description": "XBRL CALCULATION FILE",
-      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1824149/000121390021032169/joff-20210331_cal.xml",
-      "type": "EX-101.CAL",
-      "size": "21259"
-    },
-    {
-      "sequence": "9",
-      "description": "XBRL DEFINITION FILE",
-      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1824149/000121390021032169/joff-20210331_def.xml",
-      "type": "EX-101.DEF",
-      "size": "182722"
-    },
-    {
-      "sequence": "10",
-      "description": "XBRL LABEL FILE",
-      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1824149/000121390021032169/joff-20210331_lab.xml",
-      "type": "EX-101.LAB",
-      "size": "309660"
-    },
-    {
-      "sequence": "11",
-      "description": "XBRL PRESENTATION FILE",
-      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1824149/000121390021032169/joff-20210331_pre.xml",
-      "type": "EX-101.PRE",
-      "size": "186873"
-    }
-  ],
-  "seriesAndClassesContractsInformation": [],
-  "periodOfReport": "2021-03-31",
-  "effectivenessDate": "2021-03-31"
-}
-```
-
-# Contact
-
-Let me know how I can improve the library or if you have any feature
-suggestions. I'm happy to implement them.
-
-Just open a new issue on github here:
-[https://github.com/janlukasschroeder/sec-api/issues](https://github.com/janlukasschroeder/sec-api/issues)

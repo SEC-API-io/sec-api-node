@@ -1,6 +1,7 @@
 module.exports = {
   io: {
     server: 'https://api.sec-api.io:3334',
+    // server: 'http://localhost:3333',
     namespace: {
       allFilings: 'all-filings',
     },
@@ -10,6 +11,12 @@ module.exports = {
   },
   fullTextApi: {
     endpoint: 'https://api.sec-api.io/full-text-search',
+  },
+  downloadApiV1: {
+    endpoint: 'https://archive.sec-api.io',
+  },
+  downloadApiV2: {
+    endpoint: 'https://edgar-mirror.sec-api.io',
   },
   renderApi: {
     endpoint: 'https://api.sec-api.io/filing-reader',
