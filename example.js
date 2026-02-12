@@ -85,7 +85,7 @@ const renderApiExample = async () => {
 /**
  * Stream API
  */
-const { streamApi } = secApi;
+// const { streamApi } = secApi;
 
 // uncomment
 // streamApi.connect(yourApiKey);

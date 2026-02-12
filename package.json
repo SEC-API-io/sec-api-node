@@ -32,15 +32,14 @@
     "13-G",
     "TO-C"
   ],
-  "author": "Jan Schroeder",
+  "author": "Dr. Jan Schroeder",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/janlukasschroeder/sec-api/issues"
   },
   "homepage": "https://github.com/janlukasschroeder/sec-api#readme",
   "dependencies": {
-    "axios": "^0.21.4",
-    "socket.io-client": "^2.4.0"
+    "axios": "^1.13.5"
   },
   "bin": {
     "sec-api": "./index.js"

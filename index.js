@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-const io = require('socket.io-client');
+// const io = require('socket.io-client');
 const config = require('./config');
-const events = require('events');
+// const events = require('events');
 const axios = require('axios');
 
 const store = { apiKey: '' };
@@ -14,44 +14,44 @@ const setApiKey = (apiKey) => {
 /*
  * Stream API
  */
-const streamApiStore = {};
+// const streamApiStore = {};
 
-const initSocket = (apiKey) => {
-  const uri = config.io.server + '/' + config.io.namespace.allFilings;
-  const params = {
-    query: { apiKey },
-    transports: ['websocket'], // ensure traffic goes through load balancer
-  };
-  streamApiStore.socket = io(uri, params);
-  streamApiStore.socket.on('connect', () =>
-    console.log('Socket connected to', uri),
-  );
-  streamApiStore.socket.on('filing', handleNewFiling);
-  streamApiStore.socket.on('filings', handleNewFilings);
-  streamApiStore.socket.on('error', console.error);
-};
+// const initSocket = (apiKey) => {
+//   const uri = config.io.server + '/' + config.io.namespace.allFilings;
+//   const params = {
+//     query: { apiKey },
+//     transports: ['websocket'], // ensure traffic goes through load balancer
+//   };
+//   streamApiStore.socket = io(uri, params);
+//   streamApiStore.socket.on('connect', () =>
+//     console.log('Socket connected to', uri),
+//   );
+//   streamApiStore.socket.on('filing', handleNewFiling);
+//   streamApiStore.socket.on('filings', handleNewFilings);
+//   streamApiStore.socket.on('error', console.error);
+// };
 
-const handleNewFiling = (filing) => {
-  streamApiStore.eventEmitter.emit('filing', filing);
-};
+// const handleNewFiling = (filing) => {
+//   streamApiStore.eventEmitter.emit('filing', filing);
+// };
 
-const handleNewFilings = (filings) => {
-  streamApiStore.eventEmitter.emit('filings', filings);
-};
+// const handleNewFilings = (filings) => {
+//   streamApiStore.eventEmitter.emit('filings', filings);
+// };
 
-const close = () => {
-  if (streamApiStore.socket.close) {
-    streamApiStore.socket.close();
-  }
-};
+// const close = () => {
+//   if (streamApiStore.socket.close) {
+//     streamApiStore.socket.close();
+//   }
+// };
 
-const connect = (apiKey) => {
-  setApiKey(apiKey);
-  initSocket(apiKey);
-  streamApiStore.eventEmitter = new events.EventEmitter();
-  modules.streamApi.on = streamApiStore.eventEmitter.on;
-  return streamApiStore.eventEmitter;
-};
+// const connect = (apiKey) => {
+//   setApiKey(apiKey);
+//   initSocket(apiKey);
+//   streamApiStore.eventEmitter = new events.EventEmitter();
+//   modules.streamApi.on = streamApiStore.eventEmitter.on;
+//   return streamApiStore.eventEmitter;
+// };
 
 /*
  * Query API
@@ -228,11 +228,11 @@ const getSection = async (filingUrl, section = '1A', returnType = 'text') => {
  */
 const modules = {
   setApiKey,
-  streamApi: {
-    setApiKey,
-    connect,
-    close,
-  },
+  // streamApi: {
+  //   setApiKey,
+  //   connect,
+  //   close,
+  // },
   queryApi: {
     setApiKey,
     getFilings: getFilingsQuery,
@@ -265,13 +265,15 @@ module.exports = modules;
  * Command Line Execution - Stream API
  */
 if (require.main === module) {
-  const apiKey = process.argv[2];
-  const emitter = connect(apiKey);
-  let messageCounter = 0;
-
-  emitter.on('filing', (filing) => {
-    // console.log(JSON.stringify(filing, null, 1))
-    messageCounter++;
-    console.log(filing.id, filing.formType, filing.filedAt, messageCounter);
-  });
+  // const apiKey = process.argv[2];
+  // const emitter = connect(apiKey);
+  // let messageCounter = 0;
+  // emitter.on('filing', (filing) => {
+  //   // console.log(JSON.stringify(filing, null, 1))
+  //   messageCounter++;
+  //   console.log(filing.id, filing.formType, filing.filedAt, messageCounter);
+  // });
+  console.log(
+    'sec-api npm package working. Please import the package and use the provided methods to interact with the API.',
+  );
 }

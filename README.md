@@ -205,11 +205,29 @@ const filings = await fullTextSearchApi.getFilings(rawQuery);
 The Stream API provides a real-time feed of the latest filings submitted to the SEC EDGAR database via a WebSocket connection. This push-based technology ensures immediate delivery of metadata for each new filing as it becomes publicly available.
 
 ```js
-const { streamApi } = require('sec-api');
+const WebSocket = require('ws');
 
-streamApi.connect('YOUR_API_KEY');
+const API_KEY = 'YOUR_API'; // replace this with your actual API key
+const STREAM_API_URL = 'wss://stream.sec-api.io?apiKey=' + API_KEY;
 
-streamApi.on('filing', (filing) => console.log(filing));
+const ws = new WebSocket(STREAM_API_URL);
+
+ws.on('open', () => console.log('✅ Connected to:', STREAM_API_URL));
+ws.on('close', () => console.log('Connection closed'));
+ws.on('error', (err) => console.log('Error:', err.message));
+
+ws.on('message', (message) => {
+  const filings = JSON.parse(message.toString());
+  filings.forEach((filing) => {
+    console.log(
+      filing.id,
+      filing.cik,
+      filing.formType,
+      filing.filedAt,
+      filing.linkToFilingDetails,
+    );
+  });
+});
 ```
 
 > See the documentation for more details: https://sec-api.io/docs/stream-api
@@ -298,8 +316,9 @@ const xbrlJson3 = await xbrlApi.xbrlToJson({
 });
 ```
 
-### Example Response
-
+<details>
+  <summary>Example Response</summary>
+  
 ```json
 {
   "CoverPage": {
@@ -397,6 +416,8 @@ const xbrlJson3 = await xbrlApi.xbrlToJson({
   }
 }
 ```
+
+</details>
 
 > See the documentation for more details: https://sec-api.io/docs/xbrl-to-json-converter-api
 
