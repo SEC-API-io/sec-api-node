@@ -1,0 +1,167 @@
+[
+  {
+    "name": "CORIENT PARTNERS LLC",
+    "ownerType": "DE",
+    "entityOwned": "CORIENT PRIVATE WEALTH LLC",
+    "status": "OWNER",
+    "dateStatusAcquired": "2022-02",
+    "ownershipCode": "E",
+    "isControlPerson": true,
+    "isPublicReporting": false,
+    "crd": ""
+  },
+  {
+    "name": "CORIENT HOLDINGS INC",
+    "ownerType": "DE",
+    "entityOwned": "CORIENT MANAGEMENT LLC",
+    "status": "OWNER",
+    "dateStatusAcquired": "2023-07",
+    "ownershipCode": "F",
+    "isControlPerson": true,
+    "isPublicReporting": false,
+    "crd": ""
+  },
+  {
+    "name": "CI FINANCIAL CORP.",
+    "ownerType": "FE",
+    "entityOwned": "CORIENT HOLDINGS INC",
+    "status": "OWNER",
+    "dateStatusAcquired": "2019-11",
+    "ownershipCode": "E",
+    "isControlPerson": true,
+    "isPublicReporting": false,
+    "crd": ""
+  },
+  {
+    "name": "CORIENT MANAGEMENT LLC",
+    "ownerType": "FE",
+    "entityOwned": "CORIENT PARTNERS LLC",
+    "status": "OWNER",
+    "dateStatusAcquired": "2023-12",
+    "ownershipCode": "E",
+    "isControlPerson": true,
+    "isPublicReporting": false,
+    "crd": ""
+  },
+  {
+    "name": "MC CIF WEALTH MANAGEMENT (UK) LTD",
+    "ownerType": "FE",
+    "entityOwned": "CI FINANCIAL CORP.",
+    "status": "OWNER",
+    "dateStatusAcquired": "2025-08",
+    "ownershipCode": "E",
+    "isControlPerson": true,
+    "isPublicReporting": false,
+    "crd": ""
+  },
+  {
+    "name": "MC ACCELERATE HOLDINGS (UK) LP",
+    "ownerType": "FE",
+    "entityOwned": "MC CIF WEALTH MANAGEMENT (UK) LTD",
+    "status": "OWNER",
+    "dateStatusAcquired": "2025-08",
+    "ownershipCode": "E",
+    "isControlPerson": true,
+    "isPublicReporting": false,
+    "crd": ""
+  },
+  {
+    "name": "MC ACCELERATE CO-INVEST (UK) LP",
+    "ownerType": "FE",
+    "entityOwned": "MC ACCELERATE HOLDINGS (UK) LP",
+    "status": "OWNER",
+    "dateStatusAcquired": "2025-08",
+    "ownershipCode": "E",
+    "isControlPerson": true,
+    "isPublicReporting": false,
+    "crd": ""
+  },
+  {
+    "name": "MC CIF WEALTH MANAGEMENT HOLDINGS (UK) LTD",
+    "ownerType": "FE",
+    "entityOwned": "MC ACCELERATE CO-INVEST (UK) LP",
+    "status": "OWNER",
+    "dateStatusAcquired": "2025-08",
+    "ownershipCode": "D",
+    "isControlPerson": true,
+    "isPublicReporting": false,
+    "crd": ""
+  },
+  {
+    "name": "MC MANAGER HOLDCO CIF (UK) LTD",
+    "ownerType": "FE",
+    "entityOwned": "MC CIF WEALTH MANAGEMENT HOLDINGS (UK) LTD",
+    "status": "OWNER",
+    "dateStatusAcquired": "2025-08",
+    "ownershipCode": "D",
+    "isControlPerson": true,
+    "isPublicReporting": false,
+    "crd": ""
+  },
+  {
+    "name": "MUBADALA CAPITAL LP (UK)",
+    "ownerType": "FE",
+    "entityOwned": "MC MANAGER HOLDCO CIF (UK) LTD",
+    "status": "OWNER",
+    "dateStatusAcquired": "2025-08",
+    "ownershipCode": "E",
+    "isControlPerson": true,
+    "isPublicReporting": false,
+    "crd": ""
+  },
+  {
+    "name": "MDC CAPITAL MANAGEMENT LLC (UAE)",
+    "ownerType": "FE",
+    "entityOwned": "MUBADALA CAPITAL LP (UK)",
+    "status": "OWNER",
+    "dateStatusAcquired": "2025-08",
+    "ownershipCode": "E",
+    "isControlPerson": true,
+    "isPublicReporting": false,
+    "crd": ""
+  },
+  {
+    "name": "MUBADALA CAPITAL LLC (UAE)",
+    "ownerType": "FE",
+    "entityOwned": "MDC CAPITAL MANAGEMENT LLC (UAE)",
+    "status": "OWNER",
+    "dateStatusAcquired": "2025-08",
+    "ownershipCode": "E",
+    "isControlPerson": true,
+    "isPublicReporting": false,
+    "crd": ""
+  },
+  {
+    "name": "MAMOURA DIVERSIFIED GLOBAL HOLDING PJSC (UAE)",
+    "ownerType": "FE",
+    "entityOwned": "MUBADALA CAPITAL LLC (UAE)",
+    "status": "OWNER",
+    "dateStatusAcquired": "2025-08",
+    "ownershipCode": "E",
+    "isControlPerson": true,
+    "isPublicReporting": false,
+    "crd": ""
+  },
+  {
+    "name": "MUBADALA INVESTMENT COMPANY PJSC (UAE)",
+    "ownerType": "FE",
+    "entityOwned": "MAMOURA DIVERSIFIED GLOBAL HOLDING PJSC (UAE)",
+    "status": "OWNER",
+    "dateStatusAcquired": "2025-08",
+    "ownershipCode": "E",
+    "isControlPerson": true,
+    "isPublicReporting": false,
+    "crd": ""
+  },
+  {
+    "name": "GOVERNMENT OF ABU DHABI",
+    "ownerType": "FE",
+    "entityOwned": "MUBADALA INVESTMENT COMPANY PJSC (UAE)",
+    "status": "OWNER",
+    "dateStatusAcquired": "2025-08",
+    "ownershipCode": "E",
+    "isControlPerson": true,
+    "isPublicReporting": false,
+    "crd": ""
+  }
+]

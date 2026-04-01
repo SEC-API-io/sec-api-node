@@ -1,0 +1,196 @@
+{
+  "total": {
+    "value": 10000,
+    "relation": "gte"
+  },
+  "data": [
+    {
+      "id": "8673f62b218d47bba6c85d8c101caba8",
+      "accessionNo": "0001639553-26-000002",
+      "fileNo": "811-23054",
+      "formType": "N-CEN",
+      "filedAt": "2026-03-16T17:18:30-04:00",
+      "periodOfReport": "2025-12-31",
+      "entities": [
+        {
+          "cik": "1639553",
+          "companyName": "Variable Annuity-8 Series Account (of Empower Life & Annuity Insurance Co of New York) (Filer)",
+          "irsNo": "132690792",
+          "fiscalYearEnd": "1231",
+          "stateOfIncorporation": "NY",
+          "act": "40",
+          "fileNo": "811-23054",
+          "filmNo": "26757950"
+        }
+      ],
+      "seriesClass": {
+        "reportClass": [
+          {
+            "classIds": [
+              "C000158471",
+              "C000158472"
+            ]
+          }
+        ]
+      },
+      "generalInfo": {
+        "reportEndingPeriod": "2025-12-31",
+        "isReportPeriodLt12": false
+      },
+      "registrantInfo": {
+        "registrantFullName": "Variable Annuity-8 Series Account (of Empower Life & Annuity Insurance Co of New York)",
+        "investmentCompFileNo": "811-23054",
+        "registrantCik": "1639553",
+        "registrantLei": "00000000000000000000",
+        "registrantStreet1": "370 Lexington Ave, Suite 703",
+        "registrantCity": "New York",
+        "registrantZipCode": "10017",
+        "registrantState": "NY",
+        "registrantCountry": "US",
+        "registrantPhoneNumber": "800-537-2033",
+        "websites": [
+          "N/A"
+        ],
+        "locationBooksRecords": [
+          {
+            "officeName": "Empower Annuity Insurance Company of America",
+            "officeAddress1": "8515 East Orchard Road",
+            "officeCity": "Greenwood Village",
+            "officeState": "CO",
+            "officeCountry": "US",
+            "officeRecordsZipCode": "80111",
+            "officePhone": "303-737-3000",
+            "booksRecordsDesc": "All accounts, books, or other documents required to be maintained by Section 31(a) of the Investment Company Act of 1940 and the rules promulgated thereunder."
+          }
+        ],
+        "isRegistrantFirstFiling": false,
+        "isRegistrantLastFiling": false,
+        "familyInvCompFullName": "Empower Funds, Inc.",
+        "isRegistrantFamilyInvComp": true,
+        "registrantClassificationType": "N-4",
+        "isSecuritiesActRegistration": true,
+        "chiefComplianceOfficers": [
+          {
+            "ccoName": "Ahmed Abdul-Jaleel",
+            "crdNumber": "008065071",
+            "ccoStreet1": "8515 East Orchard Road",
+            "ccoCity": "Greenwood Village",
+            "ccoState": "CO",
+            "ccoCountry": "US",
+            "ccoZipCode": "80111",
+            "ccoPhone": "XXXXXX",
+            "isCcoChangedSinceLastFiling": true,
+            "ccoEmployers": [
+              {
+                "ccoEmployerName": "N/A",
+                "ccoEmployerId": "N/A"
+              }
+            ]
+          }
+        ],
+        "isRegistrantSubmittedMatter": false,
+        "isPreviousLegalProceeding": false,
+        "isPreviousProceedingTerminated": false,
+        "isFinancialSupportDuringPeriod": false,
+        "isExemptionFromAct": false,
+        "principalUnderwriters": [
+          {
+            "principalUnderwriterName": "Empower Financial Services, Inc.",
+            "principalUnderwriterFileNo": "008-33854",
+            "principalUnderwriterCrdNumber": "000013109",
+            "principalUnderwriterLei": "N/A",
+            "principalUnderWriterState": "CO",
+            "principalUnderWriterCountry": "US",
+            "isPrincipalUnderwriterAffiliatedWithRegistrant": true
+          }
+        ],
+        "isUnderwriterHiredOrTerminated": false,
+        "publicAccountants": [
+          {
+            "publicAccountantName": "Deloitte & Touche LLP",
+            "pcaobNumber": "34",
+            "publicAccountantLei": "549300FJV7IV1ZHGAV28",
+            "publicAccountantState": "CO",
+            "publicAccountantCountry": "US"
+          }
+        ],
+        "isPublicAccountantChanged": false,
+        "isOpinionOffered": false,
+        "isMaterialChange": false,
+        "isAccountingPrincipleChange": false
+      },
+      "unitInvestmentTrust": {
+        "depositors": [
+          {
+            "depositorName": "Empower Life & Annuity Insurance Company of New York",
+            "depositorCrdNo": "N/A",
+            "depositorLei": "0PLSTTA4SUBLGLKEJ576",
+            "depositorState": "NY",
+            "depositorCountry": "US",
+            "depositorUltimateParentName": "Power Corporation of Canada"
+          }
+        ],
+        "uitAdmins": [
+          {
+            "uitAdminName": "Empower Life & Annuity Insurance Company of New York",
+            "uitAdminLei": "0PLSTTA4SUBLGLKEJ576",
+            "uitAdminState": "NY",
+            "uitAdminCountry": "US",
+            "isUitAdminAffiliated": true,
+            "isUitAdminSubAdmin": false
+          }
+        ],
+        "isUitAdminHiredTerminated": false,
+        "registrantSeparateInsuranceAccount": {
+          "isRegistrantSeparateInsuranceAccount": true,
+          "separateAccountSeriesId": "S000050203"
+        },
+        "numOfContracts": 20,
+        "contractSecurities": [
+          {
+            "separateAccountSecurityName": "Empower SecureFoundation II Variable Annuity",
+            "separateAccountContractId": "C000158471",
+            "separateAccountTotalAsset": 1100626.28,
+            "numContractsSold": 0,
+            "grossPremiumReceived": 8.4,
+            "grossPremiumReceivedSection1035": 0,
+            "numContractsAffected": 0,
+            "contractValueRedeemed": 92145.22,
+            "contractValueRedeemedSection1035": 0,
+            "numContractsAffectedRedeemed": 0
+          },
+          {
+            "separateAccountSecurityName": "Empower SecureFoundation II Variable Annuity IRA",
+            "separateAccountContractId": "C000158472",
+            "separateAccountTotalAsset": 0,
+            "numContractsSold": 0,
+            "grossPremiumReceived": 0,
+            "grossPremiumReceivedSection1035": 0,
+            "numContractsAffected": 0,
+            "contractValueRedeemed": 0,
+            "contractValueRedeemedSection1035": 0,
+            "numContractsAffectedRedeemed": 0
+          }
+        ],
+        "isRule6C7Reliance": false,
+        "isRule11A2Reliance": false,
+        "isRule12D1Dash4Reliance": false,
+        "isRule12D1GReliance": false
+      },
+      "attachmentsTab": {
+        "isLegalProceedings": false,
+        "isProvisionFinancialSupport": false,
+        "isIPAReportInternalControl": false,
+        "isChangeAccPrinciples": false,
+        "isInfoRequiredEO": false,
+        "isOtherInfoRequired": false
+      },
+      "signature": {
+        "registrantSignedName": "Variable Annuity-8 Series Account (of Empower Life & Annuity Insurance Co of New York)",
+        "signedDate": "2026-03-16",
+        "signature": "/s/ Elaina Ditillo",
+        "title": "Counsel"
+      }
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "total": {
+    "value": 10000,
+    "relation": "gte"
+  },
+  "offerings": [
+    {
+      "schemaVersion": "X0708",
+      "submissionType": "D/A",
+      "testOrLive": "LIVE",
+      "primaryIssuer": {
+        "cik": "0001925002",
+        "entityName": "Fund I, a series of Material Ventures, LP",
+        "issuerAddress": {
+          "street1": "119 SOUTH MAIN STREET",
+          "street2": "SUITE 220",
+          "city": "SEATTLE",
+          "stateOrCountry": "WA",
+          "stateOrCountryDescription": "WASHINGTON",
+          "zipCode": "98104"
+        },
+        "issuerPhoneNumber": "3603409337",
+        "jurisdictionOfInc": "DELAWARE",
+        "issuerPreviousNameList": [
+          {
+            "previousName": [
+              "None"
+            ]
+          }
+        ],
+        "edgarPreviousNameList": [
+          {
+            "value": "None"
+          }
+        ],
+        "entityType": "Limited Partnership",
+        "yearOfInc": {
+          "withinFiveYears": true,
+          "value": "2021"
+        }
+      },
+      "relatedPersonsList": {
+        "relatedPersonInfo": [
+          {
+            "relatedPersonName": {
+              "firstName": "Ltd.",
+              "lastName": "Belltower Fund Group"
+            },
+            "relatedPersonAddress": {
+              "street1": "119 South Main Street",
+              "street2": "Suite 220",
+              "city": "Seattle",
+              "stateOrCountry": "WA",
+              "stateOrCountryDescription": "WASHINGTON",
+              "zipCode": "98104"
+            },
+            "relatedPersonRelationshipList": {
+              "relationship": [
+                "Director"
+              ]
+            },
+            "relationshipClarification": "Manager of the general partner of the Issuer"
+          },
+          {
+            "relatedPersonName": {
+              "firstName": "LLC",
+              "lastName": "Fund GP,"
+            },
+            "relatedPersonAddress": {
+              "street1": "119 South Main Street",
+              "street2": "Suite 220",
+              "city": "Seattle",
+              "stateOrCountry": "WA",
+              "stateOrCountryDescription": "WASHINGTON",
+              "zipCode": "98104"
+            },
+            "relatedPersonRelationshipList": {
+              "relationship": [
+                "Director"
+              ]
+            },
+            "relationshipClarification": "General partner of the Issuer"
+          }
+        ]
+      },
+      "offeringData": {
+        "industryGroup": {
+          "industryGroupType": "Pooled Investment Fund",
+          "investmentFundInfo": {
+            "investmentFundType": "Venture Capital Fund",
+            "is40Act": false
+          }
+        },
+        "issuerSize": {
+          "revenueRange": "Decline to Disclose"
+        },
+        "federalExemptionsExclusions": {
+          "item": [
+            "06b",
+            "3C",
+            "3C.1"
+          ]
+        },
+        "typeOfFiling": {
+          "newOrAmendment": {
+            "isAmendment": true,
+            "previousAccessionNumber": "0001976600-23-000006"
+          },
+          "dateOfFirstSale": {
+            "value": "2022-04-01"
+          }
+        },
+        "durationOfOffering": {
+          "moreThanOneYear": true
+        },
+        "typesOfSecuritiesOffered": {
+          "isPooledInvestmentFundType": true
+        },
+        "businessCombinationTransaction": {
+          "isBusinessCombinationTransaction": false
+        },
+        "minimumInvestmentAccepted": 25000,
+        "salesCompensationList": {},
+        "offeringSalesAmounts": {
+          "totalOfferingAmount": 10000000,
+          "totalAmountSold": 5254355,
+          "totalRemaining": 4745645
+        },
+        "investors": {
+          "hasNonAccreditedInvestors": false,
+          "totalNumberAlreadyInvested": 47
+        },
+        "salesCommissionsFindersFees": {
+          "salesCommissions": {
+            "dollarAmount": 0
+          },
+          "findersFees": {
+            "dollarAmount": 0
+          }
+        },
+        "useOfProceeds": {
+          "grossProceedsUsed": {
+            "dollarAmount": 0,
+            "isEstimate": true
+          },
+          "clarificationOfResponse": "The manager of the general partner of the Issuer will receive a portion of a management fee as specified in the Issuer's partnership agreement."
+        },
+        "signatureBlock": {
+          "authorizedRepresentative": false,
+          "signature": [
+            {
+              "issuerName": "Fund I, a series of Material Ventures, LP",
+              "signatureName": "/s/ Abraham Wilson",
+              "nameOfSigner": "Abraham Wilson",
+              "signatureTitle": "Authorized Person of the Agent of Issuer's GP",
+              "signatureDate": "2026-03-31"
+            }
+          ]
+        }
+      },
+      "accessionNo": "0001925002-26-000003",
+      "filedAt": "2026-03-31T20:56:04-04:00",
+      "id": "eafcfda4b7698259276857a92943d990"
+    }
+  ]
+}

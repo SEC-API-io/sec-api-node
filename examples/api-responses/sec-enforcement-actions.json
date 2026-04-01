@@ -1,0 +1,84 @@
+{
+  "total": {
+    "value": 137,
+    "relation": "eq"
+  },
+  "data": [
+    {
+      "id": "7efc54567587f7930a3e3c1919b5ed8e",
+      "releaseNo": "2024-212",
+      "releasedAt": "2024-12-20T17:25:11-05:00",
+      "url": "https://www.sec.gov/newsroom/press-releases/2024-212",
+      "title": "Tai Mo Shan to Pay $123 Million for Negligently Misleading Investors About Stability of Terra USD",
+      "resources": [
+        {
+          "label": "SEC Order",
+          "url": "https://www.sec.gov/files/litigation/admin/2024/33-11349.pdf"
+        }
+      ],
+      "summary": "The SEC charged Tai Mo Shan Limited with misleading investors about the stability of Terra USD and acting as a statutory underwriter for LUNA crypto assets, resulting in a $123 million settlement.",
+      "tags": [
+        "disclosure fraud",
+        "crypto",
+        "unregistered securities"
+      ],
+      "entities": [
+        {
+          "name": "Tai Mo Shan Limited",
+          "type": "company",
+          "role": "defendant"
+        },
+        {
+          "name": "Terraform Labs PTE Ltd.",
+          "type": "company",
+          "role": "other"
+        },
+        {
+          "name": "Do Kwon",
+          "type": "individual",
+          "role": "other"
+        }
+      ],
+      "complaints": [
+        "Tai Mo Shan misled investors about the stability of Terra USD.",
+        "Tai Mo Shan acted as a statutory underwriter in distributing LUNA crypto assets."
+      ],
+      "parallelActionsTakenBy": [],
+      "hasAgreedToSettlement": true,
+      "hasAgreedToPayPenalty": true,
+      "penaltyAmounts": [
+        {
+          "penaltyAmount": "73452756",
+          "penaltyAmountText": "$73,452,756",
+          "imposedOn": "Tai Mo Shan Limited"
+        },
+        {
+          "penaltyAmount": "12916153",
+          "penaltyAmountText": "$12,916,153",
+          "imposedOn": "Tai Mo Shan Limited"
+        },
+        {
+          "penaltyAmount": "36726378",
+          "penaltyAmountText": "$36,726,378",
+          "imposedOn": "Tai Mo Shan Limited"
+        }
+      ],
+      "requestedRelief": [
+        "disgorgement of profits",
+        "prejudgment interest",
+        "civil penalties",
+        "cease and desist from violations"
+      ],
+      "violatedSections": [
+        "registration and fraud provisions"
+      ],
+      "investigationConductedBy": [
+        "Liz Canizares",
+        "Derek Kleinmann",
+        "Daniel Sinnreich"
+      ],
+      "litigationLedBy": [],
+      "otherAgenciesInvolved": []
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "total": {
+    "value": 13,
+    "relation": "eq"
+  },
+  "data": [
+    {
+      "id": "1ef1c3fa0b53c72620f026f0ab47e7c6",
+      "accessionNo": "0001350694-26-000001",
+      "filedAt": "2026-02-13T16:03:50-05:00",
+      "formType": "13F-HR",
+      "cik": "1350694",
+      "crdNumber": "105129",
+      "secFileNumber": "801-35875",
+      "form13FFileNumber": "028-11794",
+      "periodOfReport": "2025-12-31",
+      "isAmendment": false,
+      "amendmentInfo": {},
+      "filingManager": {
+        "name": "Bridgewater Associates, LP",
+        "address": {
+          "street": "One Nyala Farms Road",
+          "city": "Westport",
+          "stateOrCountry": "CT",
+          "zipCode": 6880
+        }
+      },
+      "reportType": "13F HOLDINGS REPORT",
+      "otherManagersReportingForThisManager": [],
+      "provideInfoForInstruction5": false,
+      "signature": {
+        "name": "Michael Kitson",
+        "title": "Chief Compliance Officer and Counsel",
+        "phone": "203-226-3030",
+        "signature": "/s/Michael Kitson",
+        "city": "Westport",
+        "stateOrCountry": "CT",
+        "signatureDate": "02-13-2026"
+      },
+      "tableEntryTotal": 1040,
+      "tableEntryTotalAsReported": 1040,
+      "tableValueTotal": 27421613830,
+      "tableValueTotalAsReported": 27421613830,
+      "otherIncludedManagersCount": 0,
+      "otherIncludedManagers": []
+    }
+  ]
+}

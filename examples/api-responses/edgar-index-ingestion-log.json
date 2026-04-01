@@ -1,0 +1,14 @@
+{
+  "lastUpdatedAt": "2025-12-02T21:57:46-05:00",
+  "total": {
+    "value": 3041,
+    "relation": "eq"
+  },
+  "data": [
+    {
+      "accessionNo": "0001193125-25-305761",
+      "formType": "S-1MEF",
+      "filedAt": "2025-12-02T21:57:17-05:00"
+    }
+  ]
+}

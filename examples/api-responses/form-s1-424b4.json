@@ -1,0 +1,157 @@
+{
+  "total": {
+    "value": 5,
+    "relation": "eq"
+  },
+  "data": [
+    {
+      "id": "f838c5f9775441d7aa3b04e087e0e469",
+      "filedAt": "2021-11-12T17:00:47-05:00",
+      "accessionNo": "0001193125-21-328239",
+      "formType": "424B4",
+      "cik": "1874178",
+      "ticker": "RIVN",
+      "entityName": "Rivian Automotive, Inc. / DE",
+      "filingUrl": "https://www.sec.gov/Archives/edgar/data/1874178/000119312521328239/d157488d424b4.htm",
+      "tickers": [
+        {
+          "ticker": "RIVN",
+          "type": "Class A Common Stock",
+          "exchange": "Nasdaq"
+        }
+      ],
+      "securities": [
+        {
+          "name": "153,000,000 Shares Class A Common Stock"
+        },
+        {
+          "name": "Class B common stock"
+        }
+      ],
+      "publicOfferingPrice": {
+        "perShare": 78,
+        "perShareText": "$78.0000",
+        "total": 11934000000,
+        "totalText": "$11,934,000,000"
+      },
+      "underwritingDiscount": {
+        "perShare": 1.1098,
+        "perShareText": "$1.1098",
+        "total": 169799400,
+        "totalText": "$169,799,400"
+      },
+      "proceedsBeforeExpenses": {
+        "perShare": 76.8902,
+        "perShareText": "$76.8902",
+        "total": 11764200600,
+        "totalText": "$11,764,200,600"
+      },
+      "underwriters": [
+        {
+          "name": "Morgan Stanley & Co. LLC"
+        },
+        {
+          "name": "Goldman Sachs & Co. LLC"
+        },
+        {
+          "name": "J.P. Morgan Securities LLC"
+        },
+        {
+          "name": "Barclays Capital Inc."
+        },
+        {
+          "name": "Deutsche Bank Securities Inc."
+        },
+        {
+          "name": "Allen & Company LLC"
+        },
+        {
+          "name": "BofA Securities, Inc."
+        },
+        {
+          "name": "Mizuho Securities USA LLC"
+        },
+        {
+          "name": "Wells Fargo Securities, LLC"
+        },
+        {
+          "name": "Nomura Securities International, Inc."
+        },
+        {
+          "name": "Piper Sandler & Co."
+        },
+        {
+          "name": "RBC Capital Markets, LLC"
+        },
+        {
+          "name": "Robert W. Baird & Co. Incorporated"
+        },
+        {
+          "name": "Wedbush Securities Inc."
+        },
+        {
+          "name": "Academy Securities, Inc."
+        },
+        {
+          "name": "Blaylock Van, LLC"
+        },
+        {
+          "name": "Cabrera Capital Markets LLC"
+        },
+        {
+          "name": "C.L. King & Associates, Inc."
+        },
+        {
+          "name": "Loop Capital Markets LLC"
+        },
+        {
+          "name": "Samuel A. Ramirez & Company, Inc."
+        },
+        {
+          "name": "Siebert Williams Shank & Co., LLC"
+        },
+        {
+          "name": "Tigress Financial Partners, LLC"
+        }
+      ],
+      "lawFirms": [
+        {
+          "name": "Latham & Watkins LLP",
+          "location": ""
+        },
+        {
+          "name": "Skadden, Arps, Slate, Meagher & Flom LLP",
+          "location": ""
+        }
+      ],
+      "auditors": [
+        {
+          "name": "KPMG LLP"
+        }
+      ],
+      "management": [
+        {
+          "name": "Robert J. Scaringe",
+          "age": 38,
+          "position": "Founder and Chief Executive Officer, Chairman of the Board of Directors"
+        },
+        {
+          "name": "Claire McDonough",
+          "age": 40,
+          "position": "Chief Financial Officer"
+        },
+        {
+          "name": "Jiten Behl",
+          "age": 39,
+          "position": "Chief Growth Officer"
+        }
+      ],
+      "employees": {
+        "total": 9195,
+        "asOfDate": "2021-10-31",
+        "perDivision": [],
+        "perRegion": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "total": {
+    "value": 10000,
+    "relation": "gte"
+  },
+  "data": [
+    {
+      "id": "9589d3da16d0e3bd48e6ebb799dd9988",
+      "accessionNo": "0001193125-26-135660",
+      "formType": "8-K",
+      "filedAt": "2026-04-01T07:00:10-04:00",
+      "periodOfReport": "2026-04-01",
+      "cik": "1109354",
+      "ticker": "BRKR",
+      "companyName": "BRUKER CORP",
+      "items": [
+        "Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+        "Item 9.01: Financial Statements and Exhibits"
+      ],
+      "item5_02": {
+        "keyComponents": "Thierry L. Bernard was appointed as a new director to the Board of Bruker Corporation, expanding the Board to twelve directors. His appointment is effective April 1, 2026, and he will serve until the 2027 Annual Meeting of Stockholders.",
+        "personnelChanges": [
+          {
+            "type": "appointment",
+            "effectiveDate": "2026-04-01",
+            "positions": [
+              "Director"
+            ],
+            "person": {
+              "name": "Thierry L. Bernard",
+              "positionsAtOtherCompanies": [
+                "CEO and Managing Director of QIAGEN N.V.",
+                "Chair of the AdvaMedDx Board of Directors",
+                "Board Member at Neogen Corporation"
+              ],
+              "academicAffiliations": [
+                "Sciences Po",
+                "LSE",
+                "College of Europe",
+                "Harvard Business School",
+                "Centro de Comercio Exterior de Barcelona"
+              ],
+              "background": "Joined QIAGEN in February 2015, named CEO in March 2020, previously held roles at bioMérieux SA and other international companies.",
+              "previousPositions": [
+                "Corporate Vice President, Global Commercial Operations, Investor Relations and the Greater China Region at bioMérieux SA"
+              ]
+            },
+            "compensation": {
+              "noCompensation": false
+            },
+            "continuedConsultingRole": false,
+            "termExtended": false,
+            "termShortened": false,
+            "compensationIncreased": false,
+            "compensationDecreased": false,
+            "disagreements": false,
+            "interim": false
+          }
+        ],
+        "organizationChanges": {
+          "organ": "Board of Directors",
+          "details": "Expansion of the board",
+          "sizeIncrease": true,
+          "sizeDecrease": false,
+          "created": false,
+          "abolished": false,
+          "affectedPersonnel": [
+            "Thierry L. Bernard"
+          ]
+        },
+        "attachments": [
+          "Form 8-K",
+          "Company Press Release"
+        ]
+      }
+    }
+  ]
+}

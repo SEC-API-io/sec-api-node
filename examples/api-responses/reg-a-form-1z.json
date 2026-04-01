@@ -1,0 +1,68 @@
+{
+  "total": {
+    "value": 361,
+    "relation": "eq"
+  },
+  "data": [
+    {
+      "id": "9b9dfa9d1532fbe9150cea549881f0cc",
+      "accessionNo": "0001683168-26-002068",
+      "fileNo": "024-12157",
+      "formType": "1-Z/A",
+      "filedAt": "2026-03-23T06:02:42-04:00",
+      "cik": "1585380",
+      "ticker": "INKW",
+      "companyName": "Greene Concepts, Inc",
+      "item1": {
+        "issuerName": "Greene Concepts, Inc.",
+        "street1": "13195 U.S. Highway 221 N",
+        "city": "Marion",
+        "stateOrCountry": "NC",
+        "zipCode": "28752",
+        "phone": "844-889-2837",
+        "commissionFileNumber": [
+          "024-12157"
+        ]
+      },
+      "summaryInfoOffering": [
+        {
+          "offeringQualificationDate": "04-03-2023",
+          "offeringCommenceDate": "04-03-2023",
+          "offeringSecuritiesQualifiedSold": 4500000000,
+          "offeringSecuritiesSold": 3047136365,
+          "pricePerSecurity": 0.0006,
+          "portionSecuritiesSoldIssuer": 1972001,
+          "portionSecuritiesSoldSecurityholders": 0,
+          "legalSpName": [
+            "Donnell Suares/Newlan Law Firm, PLLC"
+          ],
+          "legalFees": 37500,
+          "blueSkySpName": [
+            "State Regulators"
+          ],
+          "blueSkyFees": 2500,
+          "issuerNetProceeds": 1932001
+        }
+      ],
+      "certificationSuspension": [
+        {
+          "securitiesClassTitle": "Common Stock",
+          "certificationFileNumber": [
+            "024-12157"
+          ],
+          "approxRecordHolders": 5050
+        }
+      ],
+      "signatureTab": [
+        {
+          "cik": "0001585380",
+          "regulationIssuerName1": "Greene Concepts, Inc.",
+          "regulationIssuerName2": "Greene Concepts, Inc.",
+          "signatureBy": "/s/ Leonard Greene",
+          "date": "03-23-2026",
+          "title": "Chief Executive Officer"
+        }
+      ]
+    }
+  ]
+}

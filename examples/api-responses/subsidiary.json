@@ -1,0 +1,94 @@
+{
+  "total": {
+    "value": 26,
+    "relation": "eq"
+  },
+  "data": [
+    {
+      "id": "53b6eca92223fed0008eae2e5e2ec8f1",
+      "accessionNo": "0000320193-25-000079",
+      "filedAt": "2025-10-31T06:01:26-04:00",
+      "cik": "320193",
+      "ticker": "AAPL",
+      "companyName": "Apple Inc.",
+      "subsidiaries": [
+        {
+          "name": "Apple Asia Limited",
+          "jurisdiction": "Hong Kong"
+        },
+        {
+          "name": "Apple Asia LLC",
+          "jurisdiction": "Delaware, U.S."
+        },
+        {
+          "name": "Apple Canada Inc.",
+          "jurisdiction": "Canada"
+        },
+        {
+          "name": "Apple Computer Trading (Shanghai) Co., Ltd.",
+          "jurisdiction": "China"
+        },
+        {
+          "name": "Apple Distribution International Limited",
+          "jurisdiction": "Ireland"
+        },
+        {
+          "name": "Apple India Private Limited",
+          "jurisdiction": "India"
+        },
+        {
+          "name": "Apple Insurance Company, Inc.",
+          "jurisdiction": "Arizona, U.S."
+        },
+        {
+          "name": "Apple Japan, Inc.",
+          "jurisdiction": "Japan"
+        },
+        {
+          "name": "Apple Korea Limited",
+          "jurisdiction": "South Korea"
+        },
+        {
+          "name": "Apple Operations International Limited",
+          "jurisdiction": "Ireland"
+        },
+        {
+          "name": "Apple Operations Limited",
+          "jurisdiction": "Ireland"
+        },
+        {
+          "name": "Apple Operations Mexico, S.A. de C.V.",
+          "jurisdiction": "Mexico"
+        },
+        {
+          "name": "Apple Pty Limited",
+          "jurisdiction": "Australia"
+        },
+        {
+          "name": "Apple Services Pte. Ltd.",
+          "jurisdiction": "Singapore"
+        },
+        {
+          "name": "Apple South Asia (Thailand) Limited",
+          "jurisdiction": "Thailand"
+        },
+        {
+          "name": "Apple South Asia Pte. Ltd.",
+          "jurisdiction": "Singapore"
+        },
+        {
+          "name": "Apple Vietnam Limited Liability Company",
+          "jurisdiction": "Vietnam"
+        },
+        {
+          "name": "Braeburn Capital, Inc.",
+          "jurisdiction": "Nevada, U.S."
+        },
+        {
+          "name": "iTunes K.K.",
+          "jurisdiction": "Japan"
+        }
+      ]
+    }
+  ]
+}

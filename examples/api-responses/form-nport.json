@@ -1,0 +1,314 @@
+{
+  "total": {
+    "value": 10000,
+    "relation": "gte"
+  },
+  "filings": [
+    {
+      "submissionType": "NPORT-P",
+      "filerInfo": {
+        "filer": {
+          "issuerCredentials": {
+            "cik": "0001552947",
+            "ccc": "XXXXXXXX"
+          }
+        },
+        "seriesClassInfo": {
+          "seriesId": "S000075330",
+          "classId": [
+            "C000234270",
+            "C000234271",
+            "C000234272"
+          ]
+        }
+      },
+      "genInfo": {
+        "regName": "Two Roads Shared Trust",
+        "regFileNumber": "811-22718",
+        "regCik": "0001552947",
+        "regLei": "549300REHU8QC2CK4V30",
+        "regStreet1": "225 PICTORIA DRIVE",
+        "regStreet2": "SUITE 450",
+        "regCity": "CINCINNATI",
+        "regStateConditional": {
+          "regCountry": "US",
+          "regState": "US-OH"
+        },
+        "regZipOrPostalCode": "45246",
+        "regPhone": "402-895-1600",
+        "seriesName": "Holbrook Structured Credit Income Fund",
+        "seriesId": "S000075330",
+        "seriesLei": "549300VN9LSTDZVMEG10",
+        "repPdEnd": "2026-04-30",
+        "repPdDate": "2026-01-31",
+        "isFinalFiling": "N"
+      },
+      "fundInfo": {
+        "totAssets": 589656494.57,
+        "totLiabs": 26303874.88,
+        "netAssets": 563352619.69,
+        "assetsAttrMiscSec": 0,
+        "assetsInvested": 0,
+        "amtPayOneYrBanksBorr": 0,
+        "amtPayOneYrCtrldComp": 0,
+        "amtPayOneYrOthAffil": 0,
+        "amtPayOneYrOther": 0,
+        "amtPayAftOneYrBanksBorr": 0,
+        "amtPayAftOneYrCtrldComp": 0,
+        "amtPayAftOneYrOthAffil": 0,
+        "amtPayAftOneYrOther": 0,
+        "delayDeliv": 0,
+        "standByCommit": 0,
+        "liquidPref": 0,
+        "cshNotRptdInCorD": 0,
+        "curMetrics": {
+          "curMetric": [
+            {
+              "curCd": "USD",
+              "intrstRtRiskdv01": {
+                "period10Yr": 16013.864121,
+                "period1Yr": 11247.59154,
+                "period30Yr": 4288.904006,
+                "period3Mon": 797.324692,
+                "period5Yr": 73979.610662
+              },
+              "intrstRtRiskdv100": {
+                "period10Yr": 1606509.028942,
+                "period1Yr": 1101438.779831,
+                "period30Yr": 435795.28333,
+                "period3Mon": 82265.418559,
+                "period5Yr": 7395155.726345
+              }
+            }
+          ]
+        },
+        "creditSprdRiskInvstGrade": {
+          "period10Yr": 19059.318464,
+          "period1Yr": 10289.915308,
+          "period30Yr": 4867.597881,
+          "period3Mon": 130.272532,
+          "period5Yr": 73099.636591
+        },
+        "creditSprdRiskNonInvstGrade": {
+          "period10Yr": 1101.107886,
+          "period1Yr": 11563.009059,
+          "period30Yr": 815.163831,
+          "period3Mon": 17920.825732,
+          "period5Yr": 6039.88695
+        },
+        "isNonCashCollateral": "N",
+        "returnInfo": {
+          "monthlyTotReturns": {
+            "monthlyTotReturn": [
+              {
+                "classId": "C000234270",
+                "rtn1": 0.47,
+                "rtn2": 0.51,
+                "rtn3": 0.55
+              },
+              {
+                "classId": "C000234271",
+                "rtn1": 0.49,
+                "rtn2": 0.64,
+                "rtn3": 0.47
+              },
+              {
+                "classId": "C000234272",
+                "rtn1": 0.51,
+                "rtn2": 0.66,
+                "rtn3": 0.49
+              }
+            ]
+          },
+          "othMon1": {
+            "netRealizedGain": 7903.87,
+            "netUnrealizedAppr": 41040.49
+          },
+          "othMon2": {
+            "netRealizedGain": 351039.84,
+            "netUnrealizedAppr": -303753.72
+          },
+          "othMon3": {
+            "netRealizedGain": 13348.82,
+            "netUnrealizedAppr": 370504.63
+          }
+        },
+        "mon1Flow": {
+          "redemption": 20566862.72,
+          "reinvestment": 2200048.38,
+          "sales": 29009934.75
+        },
+        "mon2Flow": {
+          "redemption": 28416519.67,
+          "reinvestment": 2121607.35,
+          "sales": 45362488.84
+        },
+        "mon3Flow": {
+          "redemption": 15947059.37,
+          "reinvestment": 2848443.49,
+          "sales": 35033302.63
+        }
+      },
+      "invstOrSecs": [
+        {
+          "name": "A&D MORTGAGE TRUST 2023-NQM2",
+          "lei": "N/A",
+          "title": "ADMT 2023-NQM2 A1",
+          "cusip": "00002DAA7",
+          "identifiers": {
+            "isin": {
+              "value": "US00002DAA72"
+            }
+          },
+          "balance": 1287717.11,
+          "units": "PA",
+          "curCd": "USD",
+          "valUSD": 1289380.97,
+          "pctVal": 0.228876360015,
+          "payoffProfile": "Long",
+          "assetCat": "ABS-O",
+          "issuerCat": "CORP",
+          "invCountry": "US",
+          "isRestrictedSec": "Y",
+          "fairValLevel": "2",
+          "debtSec": {
+            "maturityDt": "2068-05-25",
+            "couponKind": "Floating",
+            "annualizedRt": 6.131999,
+            "isDefault": "N",
+            "areIntrstPmntsInArrs": "N",
+            "isPaidKind": "N"
+          },
+          "securityLending": {
+            "isCashCollateral": "N",
+            "isNonCashCollateral": "N",
+            "isLoanByFund": "N"
+          }
+        },
+        {
+          "name": "A&D MORTGAGE TRUST 2025-NQM1",
+          "lei": "984500CE0D9FE0NM4277",
+          "title": "ADMT 2025-NQM5 A1",
+          "cusip": "00250AAC8",
+          "identifiers": {
+            "isin": {
+              "value": "US00250AAC80"
+            }
+          },
+          "balance": 795399.76,
+          "units": "PA",
+          "curCd": "USD",
+          "valUSD": 800085.86,
+          "pctVal": 0.142022213447,
+          "payoffProfile": "Long",
+          "assetCat": "ABS-O",
+          "issuerCat": "CORP",
+          "invCountry": "US",
+          "isRestrictedSec": "Y",
+          "fairValLevel": "2",
+          "debtSec": {
+            "maturityDt": "2070-12-25",
+            "couponKind": "Floating",
+            "annualizedRt": 5.119999,
+            "isDefault": "N",
+            "areIntrstPmntsInArrs": "N",
+            "isPaidKind": "N"
+          },
+          "securityLending": {
+            "isCashCollateral": "N",
+            "isNonCashCollateral": "N",
+            "isLoanByFund": "N"
+          }
+        },
+        {
+          "name": "Atlas Senior Loan Fund X Ltd/Llc",
+          "lei": "N/A",
+          "title": "ATCLO 2018-10A D",
+          "cusip": "04942JAJ0",
+          "identifiers": {
+            "isin": {
+              "value": "US04942JAJ07"
+            }
+          },
+          "balance": 9240000,
+          "units": "PA",
+          "curCd": "USD",
+          "valUSD": 9287382.72,
+          "pctVal": 1.648591378719,
+          "payoffProfile": "Long",
+          "assetCat": "ABS-CBDO",
+          "issuerCat": "CORP",
+          "invCountry": "KY",
+          "isRestrictedSec": "Y",
+          "fairValLevel": "2",
+          "debtSec": {
+            "maturityDt": "2031-01-15",
+            "couponKind": "Floating",
+            "annualizedRt": 6.6838,
+            "isDefault": "N",
+            "areIntrstPmntsInArrs": "N",
+            "isPaidKind": "N"
+          },
+          "securityLending": {
+            "isCashCollateral": "N",
+            "isNonCashCollateral": "N",
+            "isLoanByFund": "N"
+          }
+        },
+        {
+          "name": "Atlas Senior Loan Fund XII Ltd.",
+          "lei": "N/A",
+          "title": "ATCLO 2018-12A D",
+          "cusip": "04942UAL0",
+          "identifiers": {
+            "isin": {
+              "value": "US04942UAL08"
+            }
+          },
+          "balance": 5000000,
+          "units": "PA",
+          "curCd": "USD",
+          "valUSD": 5019555,
+          "pctVal": 0.891014761369,
+          "payoffProfile": "Long",
+          "assetCat": "ABS-CBDO",
+          "issuerCat": "CORP",
+          "invCountry": "KY",
+          "isRestrictedSec": "Y",
+          "fairValLevel": "2",
+          "debtSec": {
+            "maturityDt": "2031-10-24",
+            "couponKind": "Floating",
+            "annualizedRt": 6.999631,
+            "isDefault": "N",
+            "areIntrstPmntsInArrs": "N",
+            "isPaidKind": "N"
+          },
+          "securityLending": {
+            "isCashCollateral": "N",
+            "isNonCashCollateral": "N",
+            "isLoanByFund": "N"
+          }
+        }
+      ],
+      "explntrNotes": {
+        "explntrNote": [
+          {
+            "note": "Returns are reported without deducting sales loads and redemption fees, if any.",
+            "noteItem": "B.5.a"
+          }
+        ]
+      },
+      "signature": {
+        "dateSigned": "2026-02-27",
+        "nameOfApplicant": "Two Roads Shared Trust",
+        "signature": "Laura Szalyga",
+        "signerName": "Laura Szalyga",
+        "title": "Treasurer"
+      },
+      "accessionNo": "0000910472-26-005164",
+      "filedAt": "2026-03-31T18:33:58-04:00",
+      "id": "1c5bc84d9ba331b75060ca605cf257f2"
+    }
+  ]
+}

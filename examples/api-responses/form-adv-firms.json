@@ -1,0 +1,624 @@
+{
+  "total": {
+    "value": 1,
+    "relation": "eq"
+  },
+  "filings": [
+    {
+      "Info": {
+        "SECRgnCD": "NYRO",
+        "FirmCrdNb": 361,
+        "SECNb": "801-16048",
+        "BusNm": "GOLDMAN SACHS & CO. LLC",
+        "LegalNm": "GOLDMAN SACHS & CO. LLC",
+        "UmbrRgstn": "N"
+      },
+      "MainAddr": {
+        "Strt1": "200 WEST STREET",
+        "City": "NEW YORK",
+        "State": "NY",
+        "Cntry": "United States",
+        "PostlCd": "10282",
+        "PhNb": "212-902-1000"
+      },
+      "MailingAddr": {},
+      "Rgstn": [
+        {
+          "FirmType": "Registered",
+          "St": "APPROVED",
+          "Dt": "1981-05-13"
+        }
+      ],
+      "NoticeFiled": {
+        "States": [
+          {
+            "RgltrCd": "AL",
+            "St": "FILED",
+            "Dt": "1992-10-28"
+          },
+          {
+            "RgltrCd": "AK",
+            "St": "FILED",
+            "Dt": "1997-11-21"
+          },
+          {
+            "RgltrCd": "AZ",
+            "St": "FILED",
+            "Dt": "1997-11-26"
+          },
+          {
+            "RgltrCd": "AR",
+            "St": "FILED",
+            "Dt": "1988-10-19"
+          },
+          {
+            "RgltrCd": "CA",
+            "St": "FILED",
+            "Dt": "1997-07-08"
+          },
+          {
+            "RgltrCd": "CO",
+            "St": "FILED",
+            "Dt": "2001-04-30"
+          },
+          {
+            "RgltrCd": "DE",
+            "St": "FILED",
+            "Dt": "2011-01-24"
+          },
+          {
+            "RgltrCd": "DC",
+            "St": "FILED",
+            "Dt": "2001-04-30"
+          },
+          {
+            "RgltrCd": "GA",
+            "St": "FILED",
+            "Dt": "2003-02-27"
+          },
+          {
+            "RgltrCd": "ID",
+            "St": "FILED",
+            "Dt": "1997-11-14"
+          },
+          {
+            "RgltrCd": "IL",
+            "St": "FILED",
+            "Dt": "1988-12-12"
+          },
+          {
+            "RgltrCd": "IN",
+            "St": "FILED",
+            "Dt": "1988-09-06"
+          },
+          {
+            "RgltrCd": "IA",
+            "St": "FILED",
+            "Dt": "1999-01-01"
+          },
+          {
+            "RgltrCd": "KS",
+            "St": "FILED",
+            "Dt": "1997-11-18"
+          },
+          {
+            "RgltrCd": "KY",
+            "St": "FILED",
+            "Dt": "1997-11-24"
+          },
+          {
+            "RgltrCd": "LA",
+            "St": "FILED",
+            "Dt": "2001-10-08"
+          },
+          {
+            "RgltrCd": "ME",
+            "St": "FILED",
+            "Dt": "1989-01-20"
+          },
+          {
+            "RgltrCd": "MD",
+            "St": "FILED",
+            "Dt": "1992-01-01"
+          },
+          {
+            "RgltrCd": "MA",
+            "St": "FILED",
+            "Dt": "2001-04-30"
+          },
+          {
+            "RgltrCd": "MI",
+            "St": "FILED",
+            "Dt": "2001-04-30"
+          },
+          {
+            "RgltrCd": "MN",
+            "St": "FILED",
+            "Dt": "1998-01-02"
+          },
+          {
+            "RgltrCd": "MS",
+            "St": "FILED",
+            "Dt": "1997-11-17"
+          },
+          {
+            "RgltrCd": "MT",
+            "St": "FILED",
+            "Dt": "1997-11-26"
+          },
+          {
+            "RgltrCd": "NE",
+            "St": "FILED",
+            "Dt": "1999-11-24"
+          },
+          {
+            "RgltrCd": "NV",
+            "St": "FILED",
+            "Dt": "1991-01-02"
+          },
+          {
+            "RgltrCd": "NJ",
+            "St": "FILED",
+            "Dt": "1988-09-15"
+          },
+          {
+            "RgltrCd": "NM",
+            "St": "FILED",
+            "Dt": "1989-01-25"
+          },
+          {
+            "RgltrCd": "NY",
+            "St": "FILED",
+            "Dt": "1988-10-26"
+          },
+          {
+            "RgltrCd": "NC",
+            "St": "FILED",
+            "Dt": "2001-04-03"
+          },
+          {
+            "RgltrCd": "ND",
+            "St": "FILED",
+            "Dt": "1988-10-18"
+          },
+          {
+            "RgltrCd": "OH",
+            "St": "FILED",
+            "Dt": "1999-11-19"
+          },
+          {
+            "RgltrCd": "OK",
+            "St": "FILED",
+            "Dt": "1998-01-01"
+          },
+          {
+            "RgltrCd": "OR",
+            "St": "FILED",
+            "Dt": "1988-11-18"
+          },
+          {
+            "RgltrCd": "PA",
+            "St": "FILED",
+            "Dt": "1998-01-01"
+          },
+          {
+            "RgltrCd": "PR",
+            "St": "FILED",
+            "Dt": "1996-11-01"
+          },
+          {
+            "RgltrCd": "RI",
+            "St": "FILED",
+            "Dt": "1997-11-17"
+          },
+          {
+            "RgltrCd": "SC",
+            "St": "FILED",
+            "Dt": "1988-10-24"
+          },
+          {
+            "RgltrCd": "TN",
+            "St": "FILED",
+            "Dt": "1997-09-19"
+          },
+          {
+            "RgltrCd": "UT",
+            "St": "FILED",
+            "Dt": "1997-10-09"
+          },
+          {
+            "RgltrCd": "VT",
+            "St": "FILED",
+            "Dt": "1997-11-24"
+          },
+          {
+            "RgltrCd": "VA",
+            "St": "FILED",
+            "Dt": "1998-02-03"
+          },
+          {
+            "RgltrCd": "WV",
+            "St": "FILED",
+            "Dt": "1988-09-06"
+          },
+          {
+            "RgltrCd": "WI",
+            "St": "FILED",
+            "Dt": "1997-11-17"
+          },
+          {
+            "RgltrCd": "WY",
+            "St": "FILED",
+            "Dt": "2018-01-16"
+          },
+          {
+            "RgltrCd": "VI",
+            "St": "FILED",
+            "Dt": "2008-02-28"
+          },
+          {
+            "RgltrCd": "MO",
+            "St": "FILED",
+            "Dt": "1997-11-19"
+          },
+          {
+            "RgltrCd": "WA",
+            "St": "FILED",
+            "Dt": "1998-12-29"
+          },
+          {
+            "RgltrCd": "TX",
+            "St": "FILED",
+            "Dt": "2001-04-30"
+          },
+          {
+            "RgltrCd": "NH",
+            "St": "FILED",
+            "Dt": "1988-10-26"
+          },
+          {
+            "RgltrCd": "HI",
+            "St": "FILED",
+            "Dt": "1997-11-14"
+          },
+          {
+            "RgltrCd": "CT",
+            "St": "FILED",
+            "Dt": "1997-09-26"
+          },
+          {
+            "RgltrCd": "FL",
+            "St": "FILED",
+            "Dt": "1993-06-14"
+          },
+          {
+            "RgltrCd": "SD",
+            "St": "FILED",
+            "Dt": "1988-10-21"
+          }
+        ]
+      },
+      "Filing": [
+        {
+          "Dt": "2026-03-31",
+          "FormVrsn": "10/2021"
+        }
+      ],
+      "FormInfo": {
+        "Part1A": {
+          "Item1": {
+            "WebAddrs": {
+              "WebAddrs": [
+                "https://www.linkedin.com/showcase/goldman-sachs--private-wealth-management",
+                "https://privatewealth.goldmansachs.com/us/en/home",
+                "HTTP://X.COM/GOLDMANSACHS",
+                "https://www.instagram.com/goldmansachsprivatewealth/?hl=en",
+                "HTTP://WWW.GOLDMANSACHS.COM",
+                "HTTP://FACEBOOK.COM/GOLDMANSACHS",
+                "HTTPS://WWW.LINKEDIN.COM/COMPANY/GOLDMAN-SACHS",
+                "HTTP://WWW.GS.COM",
+                "https://www.instagram.com/goldmansachs/"
+              ],
+              "WebAddr": "https://www.instagram.com/goldmansachs/"
+            },
+            "Q1F5": 18,
+            "Q1I": "Y",
+            "Q1M": "Y",
+            "Q1N": "N",
+            "Q1O": "Y",
+            "Q1ODesc": "More than $50 billion",
+            "Q1P": "FOR8UP27PHTHYVLBNG30"
+          },
+          "Item2A": {
+            "Q2A1": "Y",
+            "Q2A2": "N",
+            "Q2A4": "N",
+            "Q2A5": "N",
+            "Q2A6": "N",
+            "Q2A7": "N",
+            "Q2A8": "N",
+            "Q2A9": "N",
+            "Q2A10": "N",
+            "Q2A11": "N",
+            "Q2A12": "N",
+            "Q2A13": "N"
+          },
+          "Item2B": {},
+          "Item3A": {
+            "OrgFormNm": "Limited Liability Company"
+          },
+          "Item3B": {
+            "Q3B": "DECEMBER"
+          },
+          "Item3C": {
+            "StateCD": "NY",
+            "CntryNm": "United States"
+          },
+          "Item5A": {
+            "TtlEmp": 2268
+          },
+          "Item5B": {
+            "Q5B1": 1765,
+            "Q5B2": 1698,
+            "Q5B3": 0,
+            "Q5B4": 0,
+            "Q5B5": 60,
+            "Q5B6": 1
+          },
+          "Item5C": {
+            "Q5C1": "2355",
+            "Q5C2": 2
+          },
+          "Item5D": {
+            "Q5DA1": 0,
+            "Q5DA3": 0,
+            "Q5DB1": 29104,
+            "Q5DB3": 50962159253,
+            "Q5DC1": 0,
+            "Q5DC3": 0,
+            "Q5DD1": 0,
+            "Q5DD3": 0,
+            "Q5DE1": 0,
+            "Q5DE3": 0,
+            "Q5DF1": 0,
+            "Q5DF3": 0,
+            "Q5DG1": 9,
+            "Q5DG3": 4729043,
+            "Q5DH1": 1040,
+            "Q5DH3": 17527757435,
+            "Q5DI1": 1,
+            "Q5DI2": "Fewer than 5 clients",
+            "Q5DI3": 5787207,
+            "Q5DJ1": 0,
+            "Q5DJ3": 0,
+            "Q5DK1": 28,
+            "Q5DK3": 288850139,
+            "Q5DL1": 0,
+            "Q5DL3": 0,
+            "Q5DM1": 506,
+            "Q5DM3": 16937232904,
+            "Q5DN1": 15580,
+            "Q5DN3": 47917712945,
+            "Q5DN3Oth": "GS TRUST COMPANY, INDIAN TRIBES"
+          },
+          "Item5E": {
+            "Q5E1": "Y",
+            "Q5E2": "N",
+            "Q5E3": "N",
+            "Q5E4": "Y",
+            "Q5E5": "Y",
+            "Q5E6": "Y",
+            "Q5E7": "Y",
+            "Q5E7Oth": "EXECUTION CHARGES, CUSTODY, MANAGEMENT FEE"
+          },
+          "Item5F": {
+            "Q5F1": "Y",
+            "Q5F2A": 133354336653,
+            "Q5F2B": 289892273,
+            "Q5F2C": 133644228926,
+            "Q5F2D": 46265,
+            "Q5F2E": 4,
+            "Q5F2F": 46269,
+            "Q5F3": 9078887461
+          },
+          "Item5G": {
+            "Q5G1": "Y",
+            "Q5G2": "Y",
+            "Q5G3": "N",
+            "Q5G4": "Y",
+            "Q5G5": "Y",
+            "Q5G6": "N",
+            "Q5G7": "Y",
+            "Q5G8": "Y",
+            "Q5G9": "N",
+            "Q5G10": "N",
+            "Q5G11": "Y",
+            "Q5G12": "N"
+          },
+          "Item5H": {
+            "Q5H": "1-10"
+          },
+          "Item5I": {
+            "Q5I1": "Y",
+            "Q5I2A": 0,
+            "Q5I2B": 0,
+            "Q5I2C": 0
+          },
+          "Item5J": {
+            "Q5J1": "Y",
+            "Q5J2": "Y"
+          },
+          "Item5K": {
+            "Q5K1": "Y",
+            "Q5K2": "Y",
+            "Q5K3": "Y",
+            "Q5K4": "Y"
+          },
+          "Item5L": {
+            "Q5L1A": "Y",
+            "Q5L1B": "Y",
+            "Q5L1C": "Y",
+            "Q5L1D": "N",
+            "Q5L1E": "Y",
+            "Q5L2": "Y",
+            "Q5L3": "Y",
+            "Q5L4": "N"
+          },
+          "Item6A": {
+            "Q6A1": "Y",
+            "Q6A2": "N",
+            "Q6A3": "Y",
+            "Q6A4": "Y",
+            "Q6A5": "N",
+            "Q6A6": "N",
+            "Q6A7": "N",
+            "Q6A8": "N",
+            "Q6A9": "Y",
+            "Q6A10": "Y",
+            "Q6A11": "N",
+            "Q6A12": "N",
+            "Q6A13": "N",
+            "Q6A14": "N"
+          },
+          "Item6B": {
+            "Q6B1": "Y",
+            "Q6B2": "N",
+            "Q6B3": "Y"
+          },
+          "Item7A": {
+            "Q7A1": "Y",
+            "Q7A2": "Y",
+            "Q7A3": "N",
+            "Q7A4": "Y",
+            "Q7A5": "N",
+            "Q7A6": "Y",
+            "Q7A7": "Y",
+            "Q7A8": "Y",
+            "Q7A9": "Y",
+            "Q7A10": "N",
+            "Q7A11": "N",
+            "Q7A12": "Y",
+            "Q7A13": "Y",
+            "Q7A14": "N",
+            "Q7A15": "N",
+            "Q7A16": "Y"
+          },
+          "Item7B": {
+            "Q7B": "N"
+          },
+          "Item8A": {
+            "Q8A1": "Y",
+            "Q8A2": "Y",
+            "Q8A3": "Y"
+          },
+          "Item8B": {
+            "Q8B1": "Y",
+            "Q8B2": "Y",
+            "Q8B3": "Y"
+          },
+          "Item8C": {
+            "Q8C1": "Y",
+            "Q8C2": "Y",
+            "Q8C3": "Y",
+            "Q8C4": "Y"
+          },
+          "Item8D": {
+            "Q8D": "Y"
+          },
+          "Item8E": {
+            "Q8E": "Y"
+          },
+          "Item8F": {
+            "Q8F": "Y"
+          },
+          "Item8G": {
+            "Q8G1": "Y",
+            "Q8G2": "Y"
+          },
+          "Item8H": {
+            "Q8H1": "Y",
+            "Q8H2": "Y"
+          },
+          "Item8I": {
+            "Q8I": "N"
+          },
+          "Item9A": {
+            "Q9A1A": "Y",
+            "Q9A1B": "Y",
+            "Q9A2A": 132356397074,
+            "Q9A2B": 46194
+          },
+          "Item9B": {
+            "Q9B1A": "N",
+            "Q9B1B": "N",
+            "Q9B2A": 0,
+            "Q9B2B": 0
+          },
+          "Item9C": {
+            "Q9C1": "Y",
+            "Q9C2": "Y",
+            "Q9C3": "Y",
+            "Q9C4": "Y"
+          },
+          "Item9D": {
+            "Q9D1": "Y",
+            "Q9D2": "Y"
+          },
+          "Item9E": {
+            "Q9E": "2025-07"
+          },
+          "Item9F": {
+            "Q9F": 91
+          },
+          "Item10A": {
+            "Q10A": "N"
+          },
+          "Item11": {
+            "Q11": "Y"
+          },
+          "Item11A": {
+            "Q11A1": "N",
+            "Q11A2": "Y"
+          },
+          "Item11B": {
+            "Q11B1": "Y",
+            "Q11B2": "Y"
+          },
+          "Item11C": {
+            "Q11C1": "Y",
+            "Q11C2": "Y",
+            "Q11C3": "N",
+            "Q11C4": "Y",
+            "Q11C5": "Y"
+          },
+          "Item11D": {
+            "Q11D1": "Y",
+            "Q11D2": "Y",
+            "Q11D3": "N",
+            "Q11D4": "Y",
+            "Q11D5": "Y"
+          },
+          "Item11E": {
+            "Q11E1": "Y",
+            "Q11E2": "Y",
+            "Q11E3": "N",
+            "Q11E4": "N"
+          },
+          "Item11F": {
+            "Q11F": "Y"
+          },
+          "Item11G": {
+            "Q11G": "Y"
+          },
+          "Item11H": {
+            "Q11H1A": "Y",
+            "Q11H1B": "Y",
+            "Q11H1C": "Y",
+            "Q11H2": "Y"
+          }
+        }
+      },
+      "id": 361
+    }
+  ]
+}

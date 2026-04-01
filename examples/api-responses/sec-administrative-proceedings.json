@@ -1,0 +1,78 @@
+{
+  "total": {
+    "value": 711,
+    "relation": "eq"
+  },
+  "data": [
+    {
+      "id": "0ab80b58b2fcf40e7497aa0000759a37",
+      "releasedAt": "2024-12-31T12:19:45-05:00",
+      "releaseNo": [
+        "34-102060",
+        "AAER-4554"
+      ],
+      "fileNumbers": [
+        "3-22386"
+      ],
+      "respondents": [
+        {
+          "name": "Accell Audit & Compliance, PA",
+          "type": "company",
+          "role": "respondent"
+        }
+      ],
+      "respondentsText": "Accell Audit & Compliance, PA",
+      "resources": [
+        {
+          "label": "primary",
+          "url": "https://www.sec.gov/files/litigation/admin/2024/34-102060.pdf"
+        }
+      ],
+      "title": "ORDER INSTITUTING PUBLIC ADMINISTRATIVE PROCEEDINGS PURSUANT TO RULE 102(e) OF THE COMMISSION’S RULES OF PRACTICE, MAKING FINDINGS, AND IMPOSING REMEDIAL SANCTIONS",
+      "summary": "The SEC has instituted public administrative proceedings against Accell Audit & Compliance, PA, resulting in its suspension from appearing or practicing before the Commission due to its involvement in fraudulent financial reporting with Ignite International Brands, Ltd.",
+      "tags": [
+        "fraudulent financial reporting",
+        "accounting misconduct"
+      ],
+      "entities": [
+        {
+          "name": "Accell Audit & Compliance, PA",
+          "type": "company",
+          "role": "respondent"
+        },
+        {
+          "name": "Ignite International Brands, Ltd.",
+          "type": "company",
+          "role": "related party"
+        }
+      ],
+      "complaints": [
+        "Accell failed to exercise due professional care or skepticism, or to otherwise obtain sufficient appropriate audit evidence for a significant, unusual sale to an Ignite-related party that purportedly took place on the last day of the 2020 fiscal year, but in fact did not occur during the reporting period.",
+        "Accell staff knew about, but failed to address, inconsistencies and contradictory evidence, and misrepresented the timing and facts of the supposed sale to its Engagement Quality Control Reviewer.",
+        "Accell issued an unqualified audit opinion on Ignite’s 2020 financial statements, falsely stating its opinion that the statements 'present fairly, in all material respects, the financial position of the company' as of December 31, 2020.",
+        "Accell’s actions aided and abetted Ignite’s fraudulent financial reporting."
+      ],
+      "parallelActionsTakenBy": [],
+      "hasAgreedToSettlement": true,
+      "hasAgreedToPayPenalty": true,
+      "penaltyAmounts": [
+        {
+          "penaltyAmount": "75000",
+          "penaltyAmountText": "$75,000",
+          "imposedOn": "Accell Audit & Compliance, PA"
+        }
+      ],
+      "requestedRelief": [],
+      "violatedSections": [
+        "Section 10(b) of the Exchange Act",
+        "Rule 10b-5"
+      ],
+      "orders": [
+        "Accell is suspended from appearing or practicing before the Commission as an accountant."
+      ],
+      "investigationConductedBy": [],
+      "litigationLedBy": [],
+      "otherAgenciesInvolved": []
+    }
+  ]
+}

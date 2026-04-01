@@ -1,0 +1,53 @@
+{
+  "total": {
+    "value": 10000,
+    "relation": "gte"
+  },
+  "transactions": [
+    {
+      "id": "9ec6b4513d930d643aa7bd45821be7ab",
+      "accessionNo": "0001975035-26-000012",
+      "filedAt": "2026-04-01T08:46:43-04:00",
+      "schemaVersion": "X0607",
+      "documentType": "3",
+      "periodOfReport": "2026-03-31",
+      "notSubjectToSection16": false,
+      "issuer": {
+        "cik": "1653242",
+        "name": "Bank of N.T. Butterfield & Son Ltd",
+        "tradingSymbol": "NTB"
+      },
+      "reportingOwner": {
+        "cik": "2120720",
+        "name": "Henton Andrew Michael",
+        "address": {
+          "street1": "59 FRONT STREET",
+          "city": "HAMILTON",
+          "zipCode": "HM 12"
+        },
+        "relationship": {
+          "isDirector": true,
+          "isOfficer": false,
+          "isTenPercentOwner": false,
+          "isOther": false
+        }
+      },
+      "nonDerivativeTable": {
+        "holdings": [
+          {
+            "securityTitle": "Bank of N.T. Butterfield & Son Ltd",
+            "coding": {},
+            "postTransactionAmounts": {
+              "sharesOwnedFollowingTransaction": 667
+            },
+            "ownershipNature": {
+              "directOrIndirectOwnership": "D"
+            }
+          }
+        ]
+      },
+      "ownerSignatureName": "Tara Hidalgo, by power of attorney for Andr",
+      "ownerSignatureNameDate": "2026-04-01"
+    }
+  ]
+}

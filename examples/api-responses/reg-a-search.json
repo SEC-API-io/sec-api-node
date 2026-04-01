@@ -1,0 +1,90 @@
+{
+  "total": {
+    "value": 1419,
+    "relation": "eq"
+  },
+  "data": [
+    {
+      "id": "af09549e0cb0775585c3481d61f8e471",
+      "accessionNo": "0001829126-24-008673",
+      "fileNo": "24R-00889",
+      "formType": "1-Z",
+      "filedAt": "2024-12-31T17:27:40-05:00",
+      "cik": "1973742",
+      "ticker": "",
+      "companyName": "Worldwide Stages, Inc.",
+      "item1": {
+        "issuerName": "Worldwide Stages, Inc.",
+        "street1": "5000 Northfield Lane",
+        "city": "Spring Hill",
+        "stateOrCountry": "TN",
+        "zipCode": "37174",
+        "phone": "615-341-5900",
+        "commissionFileNumber": [
+          "024-12301"
+        ]
+      },
+      "summaryInfoOffering": [
+        {
+          "offeringQualificationDate": "08-10-2023",
+          "offeringCommenceDate": "08-10-2023",
+          "offeringSecuritiesQualifiedSold": 7500000,
+          "offeringSecuritiesSold": 3870,
+          "pricePerSecurity": 10,
+          "portionSecuritiesSoldIssuer": 30960,
+          "portionSecuritiesSoldSecurityholders": 7740,
+          "underwrittenSpName": [
+            "-"
+          ],
+          "underwriterFees": 0,
+          "salesCommissionsSpName": [
+            "Dalmore Group, LLC"
+          ],
+          "salesCommissionsFee": 387,
+          "findersSpName": [
+            "-"
+          ],
+          "findersFees": 0,
+          "auditorSpName": [
+            "Fruci & Associates II, PLLC"
+          ],
+          "auditorFees": 40000,
+          "legalSpName": [
+            "Nelson Mullins Riley & Scarborough"
+          ],
+          "legalFees": 132500,
+          "promoterSpName": [
+            "-"
+          ],
+          "promotersFees": 0,
+          "blueSkySpName": [
+            "Guarrd, Inc."
+          ],
+          "blueSkyFees": 4750,
+          "crdNumberBrokerDealer": "000154559",
+          "issuerNetProceeds": 25900.4,
+          "clarificationResponses": "Net proceeds represents amount received by issuer ($30,960) after subtracting its share of commissions ($309.60) and blue sky compliance costs ($4,750)."
+        }
+      ],
+      "certificationSuspension": [
+        {
+          "securitiesClassTitle": "Class B Common Stock",
+          "certificationFileNumber": [
+            "024-12301"
+          ],
+          "approxRecordHolders": 15
+        }
+      ],
+      "signatureTab": [
+        {
+          "cik": "0001973742",
+          "regulationIssuerName1": "Worldwide Stages, Inc.",
+          "regulationIssuerName2": "Worldwide Stages, Inc.",
+          "signatureBy": "/s/ Kelly Frey, Sr.",
+          "date": "12-31-2024",
+          "title": "Chief Executive Officer"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "total": {
+    "value": 10000,
+    "relation": "gte"
+  },
+  "filings": [
+    {
+      "id": "a5d7c15340884b72fd2e95a5afde92e9",
+      "accessionNo": "0001493152-26-014470",
+      "formType": "SC 13D/A",
+      "filedAt": "2026-04-01T06:20:43-04:00",
+      "filers": [
+        {
+          "cik": "1983324",
+          "name": "Real Messenger Corp (Subject)"
+        },
+        {
+          "cik": "2099450",
+          "name": "Ma Kwai Hoi (Filed by)"
+        }
+      ],
+      "nameOfIssuer": "Real Messenger Corporation",
+      "titleOfSecurities": "Ordinary Shares",
+      "cusip": [],
+      "eventDate": "2026-03-25",
+      "amendmentNo": "1",
+      "schedule13GFiledPreviously": false,
+      "owners": [
+        {
+          "name": [
+            "Kwai Hoi MA"
+          ],
+          "memberOfGroup": {
+            "a": false,
+            "b": false
+          },
+          "sourceOfFunds": "OO",
+          "legalProceedingsDisclosureRequired": false,
+          "place": "X0",
+          "soleVotingPower": 7217555,
+          "sharedVotingPower": 0,
+          "soleDispositivePower": 7217555,
+          "sharedDispositivePower": 0,
+          "aggregateAmountOwned": 7217555,
+          "isAggregateExcludeShares": false,
+          "amountAsPercent": 65.86,
+          "typeOfReportingPerson": [
+            "IN"
+          ]
+        },
+        {
+          "name": [
+            "Bloomington DH Holdings Limited"
+          ],
+          "memberOfGroup": {
+            "a": false,
+            "b": false
+          },
+          "sourceOfFunds": "OO",
+          "legalProceedingsDisclosureRequired": false,
+          "place": "D8",
+          "soleVotingPower": 5937555,
+          "sharedVotingPower": 0,
+          "soleDispositivePower": 5937555,
+          "sharedDispositivePower": 0,
+          "aggregateAmountOwned": 5937555,
+          "isAggregateExcludeShares": false,
+          "amountAsPercent": 54.18,
+          "typeOfReportingPerson": [
+            "CO"
+          ]
+        }
+      ],
+      "item1": {
+        "securityTitle": "Ordinary Shares",
+        "issuerName": "Real Messenger Corporation",
+        "issuerPrincipalAddress": {
+          "street1": "695 Town Center Drive, Suite 1200",
+          "street2": "",
+          "city": "Costa Mesa",
+          "stateOrCountry": "CA",
+          "zipCode": "92626"
+        },
+        "commentText": "The following constitutes Amendment No. 1 (\"Amendment No. 1\") to the Schedule 13D filed with the Securities and Exchange Commission (\"SEC\") by Kwai Hoi MA and Bloomington DH Holdings Limited on December 19, 2025. This Amendment No. 1 amends and supplements the Schedule 13D as specifically set forth herein."
+      },
+      "item2": {
+        "filingPersonName": "",
+        "principalBusinessAddress": "",
+        "principalJob": "",
+        "hasBeenConvicted": "",
+        "convictionDescription": "",
+        "citizenship": ""
+      },
+      "item3": {
+        "fundsSource": "Item 3 of the Schedule 13D is supplemented and superseded, as the case may be, as follows:\n\nOn July 17, 2025, the Reporting Persons received a transfer of 1,129,875 Class A Ordinary Shares of the Issuer from Nova Pulsar Holdings Limited, which consists of the shares in conversion of outstanding Notes owed to the Reporting Persons.\n\nOn March 25, 2026, Bloomington DH Holdings Limited entered into a Subscription Agreement with the Issuer, where the Issuer agreed to issue to Bloomington DH Holdings Limited 1,837,680 Class B Ordinary Shares of the Issuer at a price of US$0.5912 per Share, for a total purchase price of US$1,086,438.46. The total purchase price was funded by Kwai Hoi MA in the form of shareholder loans to the Issuer."
+      },
+      "item4": {
+        "transactionPurpose": "Item 4 of the Schedule 13D is supplemented and superseded, as the case may be, as follows:\n\nOn March 25, 2026, Bloomington DH Holdings Limited entered into a Subscription Agreement with the Issuer, where the Issuer agreed to issue to Bloomington DH Holdings Limited 1,837,680 Class B Ordinary Shares of the Issuer at a price of US$0.5912 per Share, for a total purchase price of US$1,086,438.46."
+      },
+      "item5": {
+        "percentageOfClassSecurities": "Item 5(a) of the Schedule 13D is supplemented and superseded, as the case may be, as follows:\n\nThe responses of each of the Reporting Persons with respect to Rows 11 and 13 on the cover pages of this Amendment No. 1 that relate to the aggregate number and percentage of Ordinary Shares are incorporated herein by reference. The percentage is calculated based on after giving effect to the transactions contemplated hereby.",
+        "numberOfShares": "Item 5(b) of the Schedule 13D is supplemented and superseded, as the case may be, as follows:\n\nThe responses of each of the Reporting Persons with respect to Rows 7, 8, 9, and 10 of the cover pages of this Amendment No. 1 that relate to the number of Ordinary Shares as to which each of the Reporting Persons referenced in Item 2 above has sole or shared power to vote or to direct the vote of and sole or shared power to dispose of or to direct the disposition of are incorporated herein by reference.",
+        "transactionDescription": "Item 5(c) of the Schedule 13D is supplemented and superseded, as the case may be, as follows:\n\nThe information set forth in Item 4 of this Amendment No. 1 is incorporated by reference.",
+        "listOfShareholders": "Item 5(d) of the Schedule 13D is supplemented and superseded, as the case may be, as follows:\n\nExcept as described in Item 3 of this Amendment No. 1, no person other than the Reporting Persons is known to have the right to receive or the power to direct the receipt of dividends from, or the proceeds from the sale of, the shares of the Issuer's Ordinary Shares beneficially owned by the Reporting Person as reported in this Amendment No. 1.",
+        "date5PercentOwnership": "Not applicable"
+      },
+      "item6": {
+        "contractDescription": ""
+      },
+      "item7": {
+        "filedExhibits": "Subscription Agreement dated March 25, 2026 between the Company and the Purchaser (filed as Exhibit 10.1 to the Company's Current Report on Form 6-K filed on March 26, 2026 and incorporated by reference herein)"
+      }
+    }
+  ]
+}

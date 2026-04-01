@@ -1,0 +1,73 @@
+{
+  "total": {
+    "value": 4,
+    "relation": "eq"
+  },
+  "data": [
+    {
+      "id": "9e7259d5bfcc20d7bdf19c7037ab1186",
+      "accessionNo": "0001493152-25-009865",
+      "fileNo": "24R-00472",
+      "formType": "1-K",
+      "filedAt": "2025-03-11T16:38:05-04:00",
+      "periodOfReport": "2024-12-31",
+      "cik": "1786471",
+      "ticker": "",
+      "companyName": "Aptera Motors Corp",
+      "item1": {
+        "formIndication": "Annual Report",
+        "fiscalYearEnd": "12-31-2024",
+        "street1": "5818 El Camino Real",
+        "city": "Carlsbad",
+        "stateOrCountry": "CA",
+        "zipCode": "92008",
+        "phoneNumber": "858-371-3151",
+        "issuedSecuritiesTitle": [
+          "Class B Common Stock"
+        ]
+      },
+      "item1Info": [
+        {
+          "issuerName": "Aptera Motors Corp.",
+          "cik": "0001786471",
+          "jurisdictionOrganization": "DE",
+          "irsNum": "83-4079594"
+        }
+      ],
+      "item2": {
+        "regArule257": false
+      },
+      "summaryInfo": [
+        {
+          "commissionFileNumber": "024-11479",
+          "offeringQualificationDate": "05-19-2021",
+          "offeringCommenceDate": "05-19-2021",
+          "qualifiedSecuritiesSold": 14000000,
+          "offeringSecuritiesSold": 12630689,
+          "pricePerSecurity": 8.02,
+          "aggregrateOfferingPrice": 101297126,
+          "aggregrateOfferingPriceHolders": 0,
+          "underwrittenSpName": [
+            "Dalmore Group, LLC / OpenDeal Broker LLC"
+          ],
+          "underwriterFees": 1012971,
+          "auditorSpName": [
+            "dbbMcKennon"
+          ],
+          "auditorFees": 150000,
+          "legalSpName": [
+            "CrowdCheck Law LLP/ Sheppard Mullin"
+          ],
+          "legalFees": 90000,
+          "blueSkySpName": [
+            "Various State Fees"
+          ],
+          "blueSkyFees": 80000,
+          "crdNumberBrokerDealer": "000136352",
+          "issuerNetProceeds": 99964154,
+          "clarificationResponses": "The offering was open for three years. The amounts in this form reflect all three years. Price per security is the avg price over the period."
+        }
+      ]
+    }
+  ]
+}

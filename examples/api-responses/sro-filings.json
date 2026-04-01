@@ -1,0 +1,31 @@
+{
+  "total": {
+    "value": 7963,
+    "relation": "eq"
+  },
+  "data": [
+    {
+      "id": "dea4e1fa1371b4b91e08c7c3f5f42eae",
+      "releaseNumber": "34-105132",
+      "issueDate": "2026-03-31",
+      "fileNumber": "SR-NYSEAMER-2026-25",
+      "sro": "NYSE American LLC (NYSEAMER)",
+      "details": "Notice of Filing and Immediate Effectiveness of a Proposed Rule Change to Modify the NYSE American Options Fee Schedule to Eliminate Certain Incentive Programs and Increase the Limit on the Maximum Combined Floor Broker Credits Paid on QCC Trades and...",
+      "commentsDue": "21 days after publication in the Federal Register.",
+      "urls": [
+        {
+          "type": "34-105132",
+          "url": "https://www.sec.gov/files/rules/sro/nyseamer/2026/34-105132.pdf"
+        },
+        {
+          "type": "Exhibit 5",
+          "url": "https://www.sec.gov/files/rules/sro/nyseamer/2026/34-105132-ex5.pdf"
+        },
+        {
+          "type": "Submit a Comment on SR-NYSEAMER-2026-25",
+          "url": "https://www.sec.gov/comments/sr-nyseamer-2026-25/notice-filing-immediate-effectiveness-proposed-rule-change-modify-nyse-american-options-fee-schedule"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "total": {
+    "value": 10000,
+    "relation": "gte"
+  },
+  "data": [
+    {
+      "id": "a522dfd61d00caa01da0b4f4b38607c5",
+      "accessionNo": "0001717547-26-000026",
+      "formType": "DEF 14A",
+      "filedAt": "2026-04-01T08:33:43-04:00",
+      "periodOfReport": "2026-05-13",
+      "entities": [
+        {
+          "cik": "1717547",
+          "ticker": "BRSP",
+          "companyName": "BrightSpire Capital, Inc. (Filer)",
+          "irsNo": "384046290",
+          "fiscalYearEnd": "1231",
+          "stateOfIncorporation": "MD",
+          "sic": "6798 Real Estate Investment Trusts",
+          "act": "34",
+          "fileNo": "001-38377",
+          "filmNo": "26824836"
+        }
+      ],
+      "records": [
+        {
+          "year": 2025,
+          "auditFees": 1251363,
+          "auditRelatedFees": null,
+          "taxFees": null,
+          "allOtherFees": null,
+          "totalFees": 1251363,
+          "auditor": "Deloitte & Touche LLP"
+        },
+        {
+          "year": 2024,
+          "auditFees": 1487239,
+          "auditRelatedFees": null,
+          "taxFees": 714695,
+          "allOtherFees": null,
+          "totalFees": 2201934,
+          "auditor": "Ernst & Young"
+        }
+      ]
+    }
+  ]
+}

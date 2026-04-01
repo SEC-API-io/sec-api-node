@@ -1,0 +1,41 @@
+{
+  "total": {
+    "value": 3,
+    "relation": "eq"
+  },
+  "filings": [
+    {
+      "accessionNo": "0001104659-21-080527",
+      "cik": "1535955",
+      "companyNameLong": "Lipocine Inc. (LPCN) (CIK 0001535955)",
+      "ticker": "LPCN",
+      "description": "EXHIBIT 99.1",
+      "formType": "8-K",
+      "type": "EX-99.1",
+      "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535955/000110465921080527/tm2119438d1_ex99-1.htm",
+      "filedAt": "2021-06-14"
+    },
+    {
+      "accessionNo": "0001104659-21-080525",
+      "cik": "1535955",
+      "companyNameLong": "Lipocine Inc. (LPCN) (CIK 0001535955)",
+      "ticker": "LPCN",
+      "description": "EXHIBIT 99.1",
+      "formType": "8-K",
+      "type": "EX-99.1",
+      "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535955/000110465921080525/tm2119156d1_ex99-1.htm",
+      "filedAt": "2021-06-14"
+    },
+    {
+      "accessionNo": "0001104659-21-080527",
+      "cik": "1535955",
+      "companyNameLong": "Lipocine Inc. (LPCN) (CIK 0001535955)",
+      "ticker": "LPCN",
+      "description": "FORM 8-K",
+      "formType": "8-K",
+      "type": "8-K",
+      "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535955/000110465921080527/tm2119438d1_8k.htm",
+      "filedAt": "2021-06-14"
+    }
+  ]
+}

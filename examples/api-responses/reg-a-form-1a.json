@@ -1,0 +1,130 @@
+{
+  "total": {
+    "value": 1954,
+    "relation": "eq"
+  },
+  "data": [
+    {
+      "id": "3049ff20a7a655422f33f02c192c75bf",
+      "accessionNo": "0001493152-26-012984",
+      "fileNo": "024-12729",
+      "formType": "1-A",
+      "filedAt": "2026-03-26T17:11:42-04:00",
+      "cik": "1587603",
+      "ticker": "",
+      "companyName": "WINNERS, INC.",
+      "employeesInfo": [
+        {
+          "issuerName": "Winners, Inc.",
+          "jurisdictionOrganization": "NV",
+          "yearIncorporation": "2007",
+          "cik": "0001587603",
+          "sicCode": 7990,
+          "irsNum": "26-0764832",
+          "fullTimeEmployees": 0,
+          "partTimeEmployees": 2
+        }
+      ],
+      "issuerInfo": {
+        "street1": "401 RYLAND STREET",
+        "street2": "SUITE 200-A",
+        "city": "RENO",
+        "stateOrCountry": "NV",
+        "zipCode": "89502",
+        "phoneNumber": "917-767-0075",
+        "connectionName": "Jim Byrd",
+        "industryGroup": "Other",
+        "cashEquivalents": 537,
+        "investmentSecurities": 0,
+        "accountsReceivable": 200000,
+        "propertyPlantEquipment": 0,
+        "totalAssets": 475537,
+        "accountsPayable": 483052,
+        "longTermDebt": 355718,
+        "totalLiabilities": 838770,
+        "totalStockholderEquity": -363233,
+        "totalLiabilitiesAndEquity": 475537,
+        "totalRevenues": 495,
+        "costAndExpensesApplToRevenues": 0,
+        "depreciationAndAmortization": 0,
+        "netIncome": -978989,
+        "earningsPerShareBasic": 0,
+        "earningsPerShareDiluted": 0
+      },
+      "commonEquity": [
+        {
+          "commonEquityClassName": "Common",
+          "outstandingCommonEquity": 53115625,
+          "commonCusipEquity": "97478A304",
+          "publiclyTradedCommonEquity": "OTCID"
+        }
+      ],
+      "preferredEquity": [
+        {
+          "preferredEquityClassName": "Series A Preferred",
+          "outstandingPreferredEquity": 0,
+          "preferredCusipEquity": "000000000",
+          "publiclyTradedPreferredEquity": "NA"
+        }
+      ],
+      "debtSecurities": [
+        {
+          "debtSecuritiesClassName": "NA",
+          "outstandingDebtSecurities": 0,
+          "cusipDebtSecurities": "000000000",
+          "publiclyTradedDebtSecurities": "NA"
+        }
+      ],
+      "issuerEligibility": {
+        "certifyIfTrue": true
+      },
+      "applicationRule262": {
+        "certifyIfNotDisqualified": true
+      },
+      "summaryInfo": {
+        "indicateTier1Tier2Offering": "Tier1",
+        "financialStatementAuditStatus": "Unaudited",
+        "securitiesOfferedTypes": [
+          "Equity (common or preferred stock)"
+        ],
+        "offerDelayedContinuousFlag": true,
+        "offeringYearFlag": false,
+        "offeringAfterQualifFlag": false,
+        "offeringBestEffortsFlag": true,
+        "solicitationProposedOfferingFlag": false,
+        "resaleSecuritiesAffiliatesFlag": false,
+        "securitiesOffered": 10000000,
+        "outstandingSecurities": 53115625,
+        "pricePerSecurity": 0.5,
+        "issuerAggregateOffering": 5000000,
+        "securityHolderAggegate": 0,
+        "qualificationOfferingAggregate": 0,
+        "concurrentOfferingAggregate": 0,
+        "totalAggregateOffering": 5000000,
+        "legalServiceProviderName": "James S. Byrd, P.A.",
+        "legalFees": 115000,
+        "estimatedNetAmount": 4885000,
+        "clarificationResponses": "In payment for legal fees related to this Offering, the Company will issue 200,000 shares of stock to James S. Byrd, P.A., at the price of $.50 per share, under this Regulation A Offering once qualified."
+      },
+      "juridictionSecuritiesOffered": {
+        "jurisdictionsOfSecOfferedNone": true,
+        "issueJuridicationSecuritiesOffering": [
+          "FL",
+          "NY"
+        ]
+      },
+      "securitiesIssued": [
+        {
+          "securitiesIssuerName": "Winners, Inc.",
+          "securitiesIssuerTitle": "Series A Convertible Preferred Stock",
+          "securitiesIssuedTotalAmount": 149346690,
+          "securitiesPrincipalHolderAmount": 0,
+          "securitiesIssuedAggregateAmount": "$1,345,935 valued at $0.10 per share for settlement of monies owed; 12,490,000 Shares of MoneyLine Sports, Inc. plus $200,000.00 as part of September 30, 2025 Reorganization and Stock Purchase Agreement."
+        }
+      ],
+      "unregisteredSecuritiesAct": {
+        "securitiesActExcemption": "15 U.S.C. s. 77d(a)(2); Regulation D 506(b)"
+      }
+    }
+  ]
+}

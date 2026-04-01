@@ -1,0 +1,1280 @@
+{
+  "total": {
+    "value": 59,
+    "relation": "eq"
+  },
+  "data": [
+    {
+      "id": "2ff3110e1d6a331323fc8171584b6802",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2026-01-16",
+            "shareClass": "",
+            "value": 14681140000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2026-01-30T06:01:32-05:00",
+      "periodOfReport": "2025-12-27",
+      "sourceFilingAccessionNo": "0000320193-26-000006"
+    },
+    {
+      "id": "736081ee32d8abd105e3d9cf4fadc5fb",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2025-10-17",
+            "shareClass": "",
+            "value": 14776353000
+          }
+        ],
+        "publicFloat": [
+          {
+            "period": "2025-03-28",
+            "shareClass": "",
+            "value": 3253431000000
+          }
+        ]
+      },
+      "reportedAt": "2025-10-31T06:01:26-04:00",
+      "periodOfReport": "2025-09-27",
+      "sourceFilingAccessionNo": "0000320193-25-000079"
+    },
+    {
+      "id": "7db9401c1ccd605c7929e0535175e167",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2025-07-18",
+            "shareClass": "",
+            "value": 14840390000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2025-08-01T06:00:42-04:00",
+      "periodOfReport": "2025-06-28",
+      "sourceFilingAccessionNo": "0000320193-25-000073"
+    },
+    {
+      "id": "fb524a709ba47793e3633846b4f3ebfe",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2025-04-18",
+            "shareClass": "",
+            "value": 14935826000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2025-05-02T06:00:46-04:00",
+      "periodOfReport": "2025-03-29",
+      "sourceFilingAccessionNo": "0000320193-25-000057"
+    },
+    {
+      "id": "ee47c3024a1da1c0ff5786fbfdf826d7",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2025-01-17",
+            "shareClass": "",
+            "value": 15022073000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2025-01-31T06:01:27-05:00",
+      "periodOfReport": "2024-12-28",
+      "sourceFilingAccessionNo": "0000320193-25-000008"
+    },
+    {
+      "id": "cfd9f6bac914441c82fbfbd979272a3c",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2024-10-18",
+            "shareClass": "",
+            "value": 15115823000
+          }
+        ],
+        "publicFloat": [
+          {
+            "period": "2024-03-29",
+            "shareClass": "",
+            "value": 2628553000000
+          }
+        ]
+      },
+      "reportedAt": "2024-11-01T06:01:36-04:00",
+      "periodOfReport": "2024-09-28",
+      "sourceFilingAccessionNo": "0000320193-24-000123"
+    },
+    {
+      "id": "55b4a80fc189b93a7cbc6fabfb9f89fc",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2024-07-19",
+            "shareClass": "",
+            "value": 15204137000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2024-08-01T18:03:34-04:00",
+      "periodOfReport": "2024-06-29",
+      "sourceFilingAccessionNo": "0000320193-24-000081"
+    },
+    {
+      "id": "c54b09042148c67bc5cc010c21363d88",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2024-04-19",
+            "shareClass": "",
+            "value": 15334082000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2024-05-02T18:04:25-04:00",
+      "periodOfReport": "2024-03-30",
+      "sourceFilingAccessionNo": "0000320193-24-000069"
+    },
+    {
+      "id": "69ffb97145e8de6f0071f284b7083e38",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2024-01-19",
+            "shareClass": "",
+            "value": 15441881000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2024-02-01T18:03:38-05:00",
+      "periodOfReport": "2023-12-30",
+      "sourceFilingAccessionNo": "0000320193-24-000006"
+    },
+    {
+      "id": "62f45d7b580777724365b801f20ee26b",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2023-10-20",
+            "shareClass": "",
+            "value": 15552752000
+          }
+        ],
+        "publicFloat": [
+          {
+            "period": "2023-03-31",
+            "shareClass": "",
+            "value": 2591165000000
+          }
+        ]
+      },
+      "reportedAt": "2023-11-02T18:08:27-04:00",
+      "periodOfReport": "2023-09-30",
+      "sourceFilingAccessionNo": "0000320193-23-000106"
+    },
+    {
+      "id": "d025be2beca17174aab206ce8dd4d35e",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2023-07-21",
+            "shareClass": "",
+            "value": 15634232000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2023-08-03T18:04:43-04:00",
+      "periodOfReport": "2023-07-01",
+      "sourceFilingAccessionNo": "0000320193-23-000077"
+    },
+    {
+      "id": "72d860fb69108b6a5b6099b5e7804c4c",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2023-04-21",
+            "shareClass": "",
+            "value": 15728702000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2023-05-04T18:03:52-04:00",
+      "periodOfReport": "2023-04-01",
+      "sourceFilingAccessionNo": "0000320193-23-000064"
+    },
+    {
+      "id": "27e78a07a4d3eb327e86243eb127665e",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2023-01-20",
+            "shareClass": "",
+            "value": 15821946000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2023-02-02T18:01:30-05:00",
+      "periodOfReport": "2022-12-31",
+      "sourceFilingAccessionNo": "0000320193-23-000006"
+    },
+    {
+      "id": "de0199316b5aa205e0c9930e02a41da0",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2022-10-14",
+            "shareClass": "",
+            "value": 15908118000
+          }
+        ],
+        "publicFloat": [
+          {
+            "period": "2022-03-25",
+            "shareClass": "",
+            "value": 2830067000000
+          }
+        ]
+      },
+      "reportedAt": "2022-10-27T18:01:14-04:00",
+      "periodOfReport": "2022-09-24",
+      "sourceFilingAccessionNo": "0000320193-22-000108"
+    },
+    {
+      "id": "66e517cee30511af673ee5ebcf01177d",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2022-07-15",
+            "shareClass": "",
+            "value": 16070752000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2022-07-28T18:06:56-04:00",
+      "periodOfReport": "2022-06-25",
+      "sourceFilingAccessionNo": "0000320193-22-000070"
+    },
+    {
+      "id": "002d1be7acef580149342ad3fd10a863",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2022-04-15",
+            "shareClass": "",
+            "value": 16185181000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2022-04-28T18:03:58-04:00",
+      "periodOfReport": "2022-03-26",
+      "sourceFilingAccessionNo": "0000320193-22-000059"
+    },
+    {
+      "id": "eedd52b901ee61ded1e08666f86f9c33",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2022-01-14",
+            "shareClass": "",
+            "value": 16319441000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2022-01-27T18:00:58-05:00",
+      "periodOfReport": "2021-12-25",
+      "sourceFilingAccessionNo": "0000320193-22-000007"
+    },
+    {
+      "id": "6f2f78e191d3e503075d88b8b0b6507f",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2021-10-15",
+            "shareClass": "",
+            "value": 16406397000
+          }
+        ],
+        "publicFloat": [
+          {
+            "period": "2021-03-26",
+            "shareClass": "",
+            "value": 2021360000000
+          }
+        ]
+      },
+      "reportedAt": "2021-10-28T18:04:28-04:00",
+      "periodOfReport": "2021-09-25",
+      "sourceFilingAccessionNo": "0000320193-21-000105"
+    },
+    {
+      "id": "ffb6730a5b341d6b0e6c823359c1e707",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2021-07-16",
+            "shareClass": "",
+            "value": 16530166000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2021-07-27T18:03:42-04:00",
+      "periodOfReport": "2021-06-26",
+      "sourceFilingAccessionNo": "0000320193-21-000065"
+    },
+    {
+      "id": "4abf6b817a3f45d0fbef9224970109a5",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2021-04-16",
+            "shareClass": "",
+            "value": 16687631000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2021-04-28T18:02:54-04:00",
+      "periodOfReport": "2021-03-27",
+      "sourceFilingAccessionNo": "0000320193-21-000056"
+    },
+    {
+      "id": "85af3a8aea02a9e5583e32de2006d80f",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2021-01-15",
+            "shareClass": "",
+            "value": 16788096000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2021-01-27T18:03:06-05:00",
+      "periodOfReport": "2020-12-26",
+      "sourceFilingAccessionNo": "0000320193-21-000010"
+    },
+    {
+      "id": "732c2ef9a454f80e178173967dbc5ef0",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2020-10-16",
+            "shareClass": "",
+            "value": 17001802000
+          }
+        ],
+        "publicFloat": [
+          {
+            "period": "2020-03-27",
+            "shareClass": "",
+            "value": 1070633000000
+          }
+        ]
+      },
+      "reportedAt": "2020-10-29T18:06:25-04:00",
+      "periodOfReport": "2020-09-26",
+      "sourceFilingAccessionNo": "0000320193-20-000096"
+    },
+    {
+      "id": "7e95cf3872f6364d01e914669c969b6e",
+      "tickers": [
+        "AAPL",
+        ""
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2020-07-17",
+            "shareClass": "",
+            "value": 4275634000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2020-07-30T19:29:09-04:00",
+      "periodOfReport": "2020-06-27",
+      "sourceFilingAccessionNo": "0000320193-20-000062"
+    },
+    {
+      "id": "90f6c7a0fd36106d902ef694b3296f82",
+      "tickers": [
+        "AAPL",
+        ""
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2020-04-17",
+            "shareClass": "",
+            "value": 4334335000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2020-04-30T18:03:10-04:00",
+      "periodOfReport": "2020-03-28",
+      "sourceFilingAccessionNo": "0000320193-20-000052"
+    },
+    {
+      "id": "36853a06f7c0191d1b8c324ca6464ce3",
+      "tickers": [
+        "AAPL",
+        ""
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2020-01-17",
+            "shareClass": "",
+            "value": 4375480000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2020-01-28T18:02:44-05:00",
+      "periodOfReport": "2019-12-28",
+      "sourceFilingAccessionNo": "0000320193-20-000010"
+    },
+    {
+      "id": "471953e7a4931c0414584011ad720e77",
+      "tickers": [
+        "AAPL",
+        ""
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2019-10-18",
+            "shareClass": "",
+            "value": 4443265000
+          }
+        ],
+        "publicFloat": [
+          {
+            "period": "2019-03-29",
+            "shareClass": "",
+            "value": 874698000000
+          }
+        ]
+      },
+      "reportedAt": "2019-10-30T18:12:36-04:00",
+      "periodOfReport": "2019-09-28",
+      "sourceFilingAccessionNo": "0000320193-19-000119"
+    },
+    {
+      "id": "8daeed32ac6f7c216c0dd3eb234ebf81",
+      "tickers": [
+        "AAPL",
+        ""
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2019-07-19",
+            "shareClass": "",
+            "value": 4519180000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2019-07-31T16:31:53-04:00",
+      "periodOfReport": "2019-06-29",
+      "sourceFilingAccessionNo": "0000320193-19-000076"
+    },
+    {
+      "id": "4e5b799e1c59f6badf336f97c5724a3f",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2019-04-22",
+            "shareClass": "",
+            "value": 4601075000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2019-05-01T16:32:00-04:00",
+      "periodOfReport": "2019-03-30",
+      "sourceFilingAccessionNo": "0000320193-19-000066"
+    },
+    {
+      "id": "ca479ed42de7176815f4c4347a53967d",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2019-01-18",
+            "shareClass": "",
+            "value": 4715280000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2019-01-30T16:31:37-05:00",
+      "periodOfReport": "2018-12-29",
+      "sourceFilingAccessionNo": "0000320193-19-000010"
+    },
+    {
+      "id": "5d2041723203d95646e7978ebd00fced",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2018-10-26",
+            "shareClass": "",
+            "value": 4745398000
+          }
+        ],
+        "publicFloat": [
+          {
+            "period": "2018-03-30",
+            "shareClass": "",
+            "value": 828880000000
+          }
+        ]
+      },
+      "reportedAt": "2018-11-05T08:01:40-05:00",
+      "periodOfReport": "2018-09-29",
+      "sourceFilingAccessionNo": "0000320193-18-000145"
+    },
+    {
+      "id": "f024ec5edb45d24687106101e2ae8460",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2018-07-20",
+            "shareClass": "",
+            "value": 4829926000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2018-08-01T16:31:48-04:00",
+      "periodOfReport": "2018-06-30",
+      "sourceFilingAccessionNo": "0000320193-18-000100"
+    },
+    {
+      "id": "0651aa0fe1d64ec831b69643dd3c8314",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2018-04-20",
+            "shareClass": "",
+            "value": 4915138000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2018-05-02T16:32:12-04:00",
+      "periodOfReport": "2018-03-31",
+      "sourceFilingAccessionNo": "0000320193-18-000070"
+    },
+    {
+      "id": "f76b0e745685a6409a7830d5dfa68d12",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2018-01-19",
+            "shareClass": "",
+            "value": 5074013000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2018-02-02T08:01:26-05:00",
+      "periodOfReport": "2017-12-30",
+      "sourceFilingAccessionNo": "0000320193-18-000007"
+    },
+    {
+      "id": "db91e8bb1cc79b9acd902f4fc3c51a03",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2017-10-20",
+            "shareClass": "",
+            "value": 5134312000
+          }
+        ],
+        "publicFloat": [
+          {
+            "period": "2017-03-31",
+            "shareClass": "",
+            "value": 747509000000
+          }
+        ]
+      },
+      "reportedAt": "2017-11-03T08:01:37-04:00",
+      "periodOfReport": "2017-09-30",
+      "sourceFilingAccessionNo": "0000320193-17-000070"
+    },
+    {
+      "id": "617db7400399b79f571040dc9d41f797",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2017-07-21",
+            "shareClass": "",
+            "value": 5165228000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2017-08-02T16:31:28-04:00",
+      "periodOfReport": "2017-07-01",
+      "sourceFilingAccessionNo": "0000320193-17-000009"
+    },
+    {
+      "id": "a71b32ac00f47aa21a51e66b006b07d0",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2017-04-21",
+            "shareClass": "",
+            "value": 5213840000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2017-05-03T16:32:23-04:00",
+      "periodOfReport": "2017-04-01",
+      "sourceFilingAccessionNo": "0001628280-17-004790"
+    },
+    {
+      "id": "00d1c05f0461f23f29010b1c15ab46a2",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2017-01-20",
+            "shareClass": "",
+            "value": 5246540000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2017-02-01T16:33:29-05:00",
+      "periodOfReport": "2016-12-31",
+      "sourceFilingAccessionNo": "0001628280-17-000717"
+    },
+    {
+      "id": "9dc7c3b02a6925c76134049e85bf2571",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2016-10-14",
+            "shareClass": "",
+            "value": 5332313000
+          }
+        ],
+        "publicFloat": [
+          {
+            "period": "2016-03-25",
+            "shareClass": "",
+            "value": 578807000000
+          }
+        ]
+      },
+      "reportedAt": "2016-10-26T16:42:16-04:00",
+      "periodOfReport": "2016-09-24",
+      "sourceFilingAccessionNo": "0001628280-16-020309"
+    },
+    {
+      "id": "956eacd519a843bb0474a8f5bbe966a4",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2016-07-15",
+            "shareClass": "",
+            "value": 5388443000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2016-07-27T16:32:36-04:00",
+      "periodOfReport": "2016-06-25",
+      "sourceFilingAccessionNo": "0001628280-16-017809"
+    },
+    {
+      "id": "ddc88714e5dacc363eb446b549446934",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2016-04-08",
+            "shareClass": "",
+            "value": 5477425000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2016-04-27T16:32:53-04:00",
+      "periodOfReport": "2016-03-26",
+      "sourceFilingAccessionNo": "0001193125-16-559625"
+    },
+    {
+      "id": "540f42a8d3028ca73f0df3b9de6c1df6",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2016-01-08",
+            "shareClass": "",
+            "value": 5544583000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2016-01-27T16:32:03-05:00",
+      "periodOfReport": "2015-12-26",
+      "sourceFilingAccessionNo": "0001193125-16-439878"
+    },
+    {
+      "id": "e36cda7339828fd4545d49348005d490",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2015-10-09",
+            "shareClass": "",
+            "value": 5575331000
+          }
+        ],
+        "publicFloat": [
+          {
+            "period": "2015-03-27",
+            "shareClass": "",
+            "value": 709923000000
+          }
+        ]
+      },
+      "reportedAt": "2015-10-28T16:31:09-04:00",
+      "periodOfReport": "2015-09-26",
+      "sourceFilingAccessionNo": "0001193125-15-356351"
+    },
+    {
+      "id": "f599ff4c28a949d52a3e2382b807b9db",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2015-07-10",
+            "shareClass": "",
+            "value": 5702722000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2015-07-22T17:01:17-04:00",
+      "periodOfReport": "2015-06-27",
+      "sourceFilingAccessionNo": "0001193125-15-259935"
+    },
+    {
+      "id": "81ed6e6cae87003bef71ec752c8cbd8b",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2015-04-10",
+            "shareClass": "",
+            "value": 5761030000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2015-04-28T17:01:16-04:00",
+      "periodOfReport": "2015-03-28",
+      "sourceFilingAccessionNo": "0001193125-15-153166"
+    },
+    {
+      "id": "9adf04dc33b72a17b7ba2629ba811c82",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2015-01-09",
+            "shareClass": "",
+            "value": 5824748000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2015-01-28T16:39:32-05:00",
+      "periodOfReport": "2014-12-27",
+      "sourceFilingAccessionNo": "0001193125-15-023697"
+    },
+    {
+      "id": "67f5430e8a72c6380a44dba48b4dc273",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2014-10-10",
+            "shareClass": "",
+            "value": 5864840000
+          }
+        ],
+        "publicFloat": [
+          {
+            "period": "2014-03-28",
+            "shareClass": "",
+            "value": 462522000000
+          }
+        ]
+      },
+      "reportedAt": "2014-10-27T17:11:55-04:00",
+      "periodOfReport": "2014-09-27",
+      "sourceFilingAccessionNo": "0001193125-14-383437"
+    },
+    {
+      "id": "3d3a44bc5a791f1152812450c86536d3",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2014-07-11",
+            "shareClass": "",
+            "value": 5987867000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2014-07-23T16:32:48-04:00",
+      "periodOfReport": "2014-06-28",
+      "sourceFilingAccessionNo": "0001193125-14-277160"
+    },
+    {
+      "id": "d2a0c187245a6b025e4e6ad851460a4e",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2014-04-11",
+            "shareClass": "",
+            "value": 861381000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2014-04-24T17:02:12-04:00",
+      "periodOfReport": "2014-03-29",
+      "sourceFilingAccessionNo": "0001193125-14-157311"
+    },
+    {
+      "id": "f84bf5d467acd8b2fbb797d567646f72",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2014-01-10",
+            "shareClass": "",
+            "value": 891989000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2014-01-28T17:07:27-05:00",
+      "periodOfReport": "2013-12-28",
+      "sourceFilingAccessionNo": "0001193125-14-024487"
+    },
+    {
+      "id": "17742bfc89177286caf6fb3d7689eebe",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2013-10-18",
+            "shareClass": "",
+            "value": 899738000
+          }
+        ],
+        "publicFloat": [
+          {
+            "period": "2013-03-29",
+            "shareClass": "",
+            "value": 416005000000
+          }
+        ]
+      },
+      "reportedAt": "2013-10-29T20:38:28-04:00",
+      "periodOfReport": "2013-09-28",
+      "sourceFilingAccessionNo": "0001193125-13-416534"
+    },
+    {
+      "id": "79dc147988ff496afb3947738b04da10",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2013-07-12",
+            "shareClass": "",
+            "value": 908497000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2013-07-24T17:02:02-04:00",
+      "periodOfReport": "2013-06-29",
+      "sourceFilingAccessionNo": "0001193125-13-300670"
+    },
+    {
+      "id": "e2db2bfe9f6d6373dcde52f043ed63aa",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2013-04-12",
+            "shareClass": "",
+            "value": 938649000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2013-04-23T21:29:23-04:00",
+      "periodOfReport": "2013-03-30",
+      "sourceFilingAccessionNo": "0001193125-13-168288"
+    },
+    {
+      "id": "895d48ae8ff4484ae89c536b207c238d",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2013-01-11",
+            "shareClass": "",
+            "value": 939058000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2013-01-24T17:01:37-05:00",
+      "periodOfReport": "2012-12-29",
+      "sourceFilingAccessionNo": "0001193125-13-022339"
+    },
+    {
+      "id": "7cfb4fedeef9b2d6b64fdcb30642c1af",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2012-10-19",
+            "shareClass": "",
+            "value": 940692000
+          }
+        ],
+        "publicFloat": [
+          {
+            "period": "2012-03-30",
+            "shareClass": "",
+            "value": 560356000000
+          }
+        ]
+      },
+      "reportedAt": "2012-10-31T17:07:19-04:00",
+      "sourceFilingAccessionNo": "0001193125-12-444068"
+    },
+    {
+      "id": "3dea1b6de3ad2b9d47555e9b4544e577",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2012-07-13",
+            "shareClass": "",
+            "value": 937406000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2012-07-25T16:39:39-04:00",
+      "periodOfReport": "2012-06-30",
+      "sourceFilingAccessionNo": "0001193125-12-314552"
+    },
+    {
+      "id": "8d0e0e2b70f0adde8604603b5f058a1c",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2012-04-13",
+            "shareClass": "",
+            "value": 935062000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2012-04-25T17:01:16-04:00",
+      "periodOfReport": "2012-03-31",
+      "sourceFilingAccessionNo": "0001193125-12-182321"
+    },
+    {
+      "id": "a86b1d0866c0193a1b40ca978315c46e",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2012-01-13",
+            "shareClass": "",
+            "value": 932370000
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2012-01-25T16:42:11-05:00",
+      "periodOfReport": "2011-12-31",
+      "sourceFilingAccessionNo": "0001193125-12-023398"
+    },
+    {
+      "id": "9b26d18820b836f87035f2804be9789a",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2011-10-14",
+            "shareClass": "",
+            "value": 929409000
+          }
+        ],
+        "publicFloat": [
+          {
+            "period": "2011-03-25",
+            "shareClass": "",
+            "value": 322921000000
+          }
+        ]
+      },
+      "reportedAt": "2011-10-26T16:35:25-04:00",
+      "sourceFilingAccessionNo": "0001193125-11-282113"
+    },
+    {
+      "id": "4119a04082a67c002a2c7e4f9d5aaa2f",
+      "tickers": [
+        "AAPL"
+      ],
+      "cik": "320193",
+      "float": {
+        "outstandingShares": [
+          {
+            "period": "2011-07-08",
+            "shareClass": "",
+            "value": 927090886
+          }
+        ],
+        "publicFloat": []
+      },
+      "reportedAt": "2011-07-20T16:32:13-04:00",
+      "sourceFilingAccessionNo": "0001193125-11-192493"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "total": {
+    "value": 10000,
+    "relation": "gte"
+  },
+  "data": [
+    {
+      "id": "7ed33db091e32b437ff9c4571531869d",
+      "accessionNo": "0001388658-26-000022",
+      "formType": "8-K",
+      "filedAt": "2026-03-31T19:49:16-04:00",
+      "periodOfReport": "2026-03-30",
+      "cik": "1388658",
+      "ticker": "IRTC",
+      "companyName": "iRhythm Holdings, Inc.",
+      "items": [
+        "Item 4.01: Changes in Registrant's Certifying Accountant",
+        "Item 9.01: Financial Statements and Exhibits"
+      ],
+      "item4_01": {
+        "keyComponents": "iRhythm Holdings, Inc. dismissed PricewaterhouseCoopers LLP as its independent auditor on March 30, 2026, and subsequently engaged KPMG LLP as the new auditor for the fiscal year ending December 31, 2026. There were no disagreements or reportable events with PwC.",
+        "newAccountantDate": "2026-03-30",
+        "engagedNewAccountant": true,
+        "formerAccountantDate": "2026-03-30",
+        "engagementEndReason": "dismissal",
+        "formerAccountantName": "PricewaterhouseCoopers LLP",
+        "newAccountantName": "KPMG LLP",
+        "consultedNewAccountant": false,
+        "reportedDisagreements": false,
+        "reportableEventsExist": false,
+        "attachments": [
+          "Exhibit 16.1"
+        ],
+        "reportedIcfrWeakness": false,
+        "opinionType": "unqualified",
+        "auditDisclaimer": false,
+        "approvedChange": true
+      }
+    }
+  ]
+}

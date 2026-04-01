@@ -1,0 +1,231 @@
+{
+  "total": {
+    "value": 20,
+    "relation": "eq"
+  },
+  "data": [
+    {
+      "id": "42fe18db08211769589dc61fbd461443",
+      "filedAt": "2026-01-08T16:31:36-05:00",
+      "accessionNo": "0001308179-26-000008",
+      "cik": "320193",
+      "ticker": "AAPL",
+      "entityName": "Apple Inc.",
+      "directors": [
+        {
+          "name": "Alex Gorsky",
+          "position": "Former Chair and CEO, Johnson & Johnson; Director",
+          "age": "65",
+          "directorClass": "II",
+          "dateFirstElected": "2021",
+          "isIndependent": false,
+          "committeeMemberships": [
+            "Nominating Committee",
+            "People and Compensation Committee"
+          ],
+          "qualificationsAndExperience": [
+            "executive leadership experience",
+            "brand marketing expertise",
+            "experience in health and technology"
+          ]
+        },
+        {
+          "name": "Andrea Jung",
+          "position": "President and CEO, Grameen America; Director",
+          "age": "67",
+          "directorClass": "I",
+          "dateFirstElected": "2008",
+          "isIndependent": null,
+          "committeeMemberships": [
+            "Nominating Committee",
+            "People and Compensation Committee (Chair)"
+          ],
+          "qualificationsAndExperience": [
+            "executive leadership experience",
+            "global business perspective",
+            "extensive brand marketing and consumer products experience",
+            "service as a chair and chief executive officer of a large international public company"
+          ]
+        },
+        {
+          "name": "Art Levinson",
+          "position": "Board Chair; Chair of the Board",
+          "age": "75",
+          "directorClass": "",
+          "dateFirstElected": "2000",
+          "isIndependent": null,
+          "committeeMemberships": [
+            "Audit Committee",
+            "People and Compensation Committee"
+          ],
+          "qualificationsAndExperience": [
+            "Founder and CEO, Calico",
+            "executive leadership experience",
+            "financial expertise",
+            "brand marketing experience",
+            "expertise in the health sector",
+            "technology and innovation"
+          ]
+        },
+        {
+          "name": "Deirdre O’Brien",
+          "position": "Senior Vice President, Retail + People",
+          "age": "59",
+          "directorClass": "",
+          "dateFirstElected": "",
+          "isIndependent": null,
+          "committeeMemberships": [],
+          "qualificationsAndExperience": [
+            "Oversees Apple’s retail stores and online teams",
+            "Leads Apple’s People team",
+            "Joined Apple in July 1988",
+            "Served in various roles including Vice President, People and Operations"
+          ]
+        },
+        {
+          "name": "Kate Adams",
+          "position": "Senior Vice President, General Counsel and Secretary",
+          "age": "61",
+          "directorClass": "",
+          "dateFirstElected": "November 2017",
+          "isIndependent": null,
+          "committeeMemberships": [],
+          "qualificationsAndExperience": [
+            "Oversees all of Apple’s legal matters",
+            "Experience in corporate governance",
+            "Experience in intellectual property",
+            "Experience in litigation",
+            "Experience in compliance",
+            "Experience in global security",
+            "Experience in privacy",
+            "Former General Counsel of Honeywell International Inc.",
+            "Partner at the law firm of Sidley Austin LLP"
+          ]
+        },
+        {
+          "name": "Kevan Parekh",
+          "position": "Senior Vice President, Chief Financial Officer",
+          "age": "54",
+          "directorClass": "",
+          "dateFirstElected": "",
+          "isIndependent": null,
+          "committeeMemberships": [],
+          "qualificationsAndExperience": [
+            "oversees Apple’s accounting, business support, financial planning and analysis, treasury, investor relations, internal audit, and tax functions",
+            "joined Apple in June 2013",
+            "previous positions include Vice President, Financial Planning and Analysis and Vice President, Worldwide Finance for Sales, Marketing, and Retail",
+            "held various senior leadership roles at Thomson Reuters and General Motors"
+          ]
+        },
+        {
+          "name": "Monica Lozano",
+          "position": "Former President and CEO, College Futures Foundation; Director",
+          "age": "69",
+          "directorClass": "I",
+          "dateFirstElected": "2021",
+          "isIndependent": null,
+          "committeeMemberships": [
+            "Audit Committee"
+          ],
+          "qualificationsAndExperience": [
+            "executive leadership experience",
+            "experience in operations and strategic planning",
+            "media and marketing experience",
+            "retired President and Chief Executive Officer of the College Futures Foundation",
+            "co-founded The Aspen Institute Latinos and Society Program"
+          ]
+        },
+        {
+          "name": "Ron Sugar",
+          "position": "Former Chair and CEO, Northrop Grumman Corporation; Director",
+          "age": "77",
+          "directorClass": "I",
+          "dateFirstElected": "2010",
+          "isIndependent": null,
+          "committeeMemberships": [
+            "Audit Committee"
+          ],
+          "qualificationsAndExperience": [
+            "executive leadership experience as a chairman and chief executive officer of a large international public company",
+            "financial expertise as a former chief financial officer",
+            "experience in worldwide operations",
+            "understanding of advanced technology",
+            "experience with government relations and public policy",
+            "global business perspective from tenure at global companies and service on other boards"
+          ]
+        },
+        {
+          "name": "Sabih Khan",
+          "position": "Chief Operating Officer",
+          "age": "59",
+          "directorClass": "",
+          "dateFirstElected": "",
+          "isIndependent": null,
+          "committeeMemberships": [],
+          "qualificationsAndExperience": [
+            "oversaw Apple’s worldwide operations",
+            "led global supply chain team",
+            "managed environmental and social initiatives",
+            "supervised AppleCare customer service and support",
+            "held positions of Senior Vice President, Operations and Vice President, Product Operations",
+            "worked at GE Plastics"
+          ]
+        },
+        {
+          "name": "Sue Wagner",
+          "position": "Co-founder and Director, BlackRock; Chair",
+          "age": "64",
+          "directorClass": "I",
+          "dateFirstElected": "2014",
+          "isIndependent": null,
+          "committeeMemberships": [
+            "People and Compensation Committee",
+            "Nominating Committee",
+            "Audit Committee"
+          ],
+          "qualificationsAndExperience": [
+            "operational experience and a global business perspective",
+            "service as chief operating officer of a large multinational public company",
+            "extensive financial expertise",
+            "experience in the highly regulated financial services industry",
+            "co-founder of BlackRock, Inc.",
+            "served as BlackRock’s Vice Chair",
+            "member of BlackRock’s Global Executive Committee and Global Operating Committee",
+            "led the alternative investments and international client businesses"
+          ]
+        },
+        {
+          "name": "Tim Cook",
+          "position": "CEO; Chief Executive Officer",
+          "age": "65",
+          "directorClass": "",
+          "dateFirstElected": "2011",
+          "isIndependent": null,
+          "committeeMemberships": [],
+          "qualificationsAndExperience": [
+            "extensive executive leadership experience in the technology industry",
+            "management of worldwide operations",
+            "sales, service, and support"
+          ]
+        },
+        {
+          "name": "Wanda Austin",
+          "position": "Former President and CEO, The Aerospace Corporation; Director",
+          "age": "71",
+          "directorClass": "I",
+          "dateFirstElected": "2024",
+          "isIndependent": true,
+          "committeeMemberships": [
+            "Audit Committee"
+          ],
+          "qualificationsAndExperience": [
+            "executive leadership experience",
+            "expertise in advanced technology and innovation",
+            "experience with environment, cybersecurity, and public policy",
+            "global business perspective"
+          ]
+        }
+      ]
+    }
+  ]
+}

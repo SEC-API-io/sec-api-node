@@ -1,0 +1,410 @@
+[
+  {
+    "1a-nameOfFund": "EI FUND II LLC",
+    "1b-fundIdentificationNumber": "805-4502496130",
+    "2-lawOrganizedUnder": {
+      "state": "Missouri",
+      "country": "United States"
+    },
+    "3a-namesOfGeneralPartnerManagerTrusteeDirector": [
+      "STIFEL NICOLAUS & COMPANY, INC."
+    ],
+    "3b-filingAdvisers": "No Information Filed",
+    "4-1-exclusionUnder3c1": false,
+    "4-2-exclusionUnder3c7": true,
+    "5-nameCountryOfForeignFinancialRegAuthority": [],
+    "6a-isMasterFundInMasterFeederArrangement": false,
+    "6b-nameIdOfFeederFunds": [],
+    "6c-isFeederFundInMasterFeederAgreement": true,
+    "6d-nameIdOfMasterFund": "EI FUND V, LP",
+    "7a-f-feederFundDetails": [],
+    "8a-isFundOfFunds": true,
+    "8b-investsInFundsManagedByYouRelatedPerson": false,
+    "9-investsInSecuritiesAccordingTo6e": false,
+    "10-typeOfFund": {
+      "selectedTypes": [
+        "other private fund"
+      ],
+      "otherFundType": "FEEDER INTO PRIVATE EQUITY FUND"
+    },
+    "11-grossAssetValue": 2027469,
+    "12-minInvestmentCommitment": 100000,
+    "13-numberOfBeneficialOwners": 25,
+    "14-percentageOwnedByYou": 0,
+    "15a-percentageOwnedByFundsOfFunds": 0,
+    "15b-salesAreLimited": false,
+    "16-percentageOwnedByNonUnitedStatesPersons": 0,
+    "17a-isSubadviser": false,
+    "17b-nameAndSecFileNumber": "No Information Filed",
+    "18a-investmentAdvisersAdviseFund": false,
+    "18b-otherAdvisers": [],
+    "19-clientsAreSolicited": true,
+    "20-percentageClientsInvestedInFund": 0,
+    "21-fundReliedOnExemption": true,
+    "22-formDFileNumbers": [
+      "021-151919"
+    ],
+    "23a-1-financialStatementsAreSubjectToAnnualAudit": true,
+    "23a-2-financialStatementsPreparedWithUsGaap": true,
+    "23b-f-auditors": [
+      {
+        "23b-name": "KATZ SAPPER MILLER",
+        "23c-location": {
+          "city": "INDIANAPOLIS",
+          "state": "Indiana",
+          "country": "United States"
+        },
+        "23d-isIndependentPublicAccountant": true,
+        "23e-isRegistered": true,
+        "23e-boardAssignedNumber": "2804",
+        "23f-isSubjectToInspection": true
+      }
+    ],
+    "23g-financialStatementsDistributedToInvestors": true,
+    "23h-reportsIncludeUnqualifiedOpinions": "yes",
+    "24a-fundUsesPrimeBrokers": false,
+    "24b-e-primeBrokers": [],
+    "25a-fundUsesCustodians": true,
+    "25b-g-custodians": [
+      {
+        "25b-legalName": "STIFEL, NICOLAUS & COMPANY, INCORPORATED",
+        "25c-businessName": "STIFEL, NICOLAUS & COMPANY, INCORPORATED",
+        "25d-location": {
+          "city": "ST. LOUIS",
+          "state": "Missouri",
+          "country": "United States"
+        },
+        "25e-isRelatedPerson": true,
+        "25f-1-secRegistrationNumber": "8 - 1447",
+        "25f-2-crdNumber": "793",
+        "25g-legalEntityIdentifier": ""
+      }
+    ],
+    "26a-fundUsesAdministrators": true,
+    "26b-f-administrators": [
+      {
+        "26b-name": "HALL KISTLER & COMPANY",
+        "26c-location": {
+          "city": "CANTON",
+          "state": "Ohio",
+          "country": "United States"
+        },
+        "26d-isRelatedPerson": false,
+        "26e-statementsProvidedTo": "no investors",
+        "26f-statementsSentBy": "ADMINISTRATOR PREPARES INVESTOR ACCOUNT STATEMENTS, AND STIFEL NICOLAUS SENDS THE STATEMENTS TO INVESTORS."
+      }
+    ],
+    "27-percentageOfAssetsValuedNotByRelatedPerson": 100,
+    "28a-fundUsesMarketers": false,
+    "28b-g-marketers": []
+  },
+  {
+    "1a-nameOfFund": "INTERNATIONAL SELECT INVESTMENTS LLC",
+    "1b-fundIdentificationNumber": "805-3139813148",
+    "2-lawOrganizedUnder": {
+      "state": "Indiana",
+      "country": "United States"
+    },
+    "3a-namesOfGeneralPartnerManagerTrusteeDirector": [
+      "STIFEL NICOLAUS & COMPANY, INC."
+    ],
+    "3b-filingAdvisers": "No Information Filed",
+    "4-1-exclusionUnder3c1": false,
+    "4-2-exclusionUnder3c7": true,
+    "5-nameCountryOfForeignFinancialRegAuthority": [],
+    "6a-isMasterFundInMasterFeederArrangement": false,
+    "6b-nameIdOfFeederFunds": [],
+    "6c-isFeederFundInMasterFeederAgreement": false,
+    "6d-nameIdOfMasterFund": "",
+    "7a-f-feederFundDetails": [],
+    "8a-isFundOfFunds": true,
+    "8b-investsInFundsManagedByYouRelatedPerson": false,
+    "9-investsInSecuritiesAccordingTo6e": true,
+    "10-typeOfFund": {
+      "selectedTypes": [
+        "other private fund"
+      ],
+      "otherFundType": "FUND OF HEDGE FUNDS"
+    },
+    "11-grossAssetValue": 0,
+    "12-minInvestmentCommitment": 200000,
+    "13-numberOfBeneficialOwners": 0,
+    "14-percentageOwnedByYou": 0,
+    "15a-percentageOwnedByFundsOfFunds": 0,
+    "15b-salesAreLimited": false,
+    "16-percentageOwnedByNonUnitedStatesPersons": 0,
+    "17a-isSubadviser": false,
+    "17b-nameAndSecFileNumber": "No Information Filed",
+    "18a-investmentAdvisersAdviseFund": false,
+    "18b-otherAdvisers": [],
+    "19-clientsAreSolicited": true,
+    "20-percentageClientsInvestedInFund": 0,
+    "21-fundReliedOnExemption": true,
+    "22-formDFileNumbers": [
+      "021-87139"
+    ],
+    "23a-1-financialStatementsAreSubjectToAnnualAudit": true,
+    "23a-2-financialStatementsPreparedWithUsGaap": true,
+    "23b-f-auditors": [
+      {
+        "23b-name": "KATZ SAPPER MILLER",
+        "23c-location": {
+          "city": "INDIANAPOLIS",
+          "state": "Indiana",
+          "country": "United States"
+        },
+        "23d-isIndependentPublicAccountant": true,
+        "23e-isRegistered": true,
+        "23e-boardAssignedNumber": "2804",
+        "23f-isSubjectToInspection": true
+      }
+    ],
+    "23g-financialStatementsDistributedToInvestors": true,
+    "23h-reportsIncludeUnqualifiedOpinions": "yes",
+    "24a-fundUsesPrimeBrokers": true,
+    "24b-e-primeBrokers": [
+      {
+        "24b-name": "STIFEL, NICOLAUS & COMPANY, INCORPORATED",
+        "24c-1-secRegistrationNumber": "8 - 1447",
+        "24c-2-crdNumber": "793",
+        "24d-location": {
+          "city": "ST. LOUIS",
+          "state": "Missouri",
+          "country": "United States"
+        },
+        "24e-actsAsCustodian": true
+      }
+    ],
+    "25a-fundUsesCustodians": true,
+    "25b-g-custodians": [
+      {
+        "25b-legalName": "STIFEL, NICOLAUS & COMPANY, INCORPORATED",
+        "25c-businessName": "STIFEL, NICOLAUS & COMPANY, INCORPORATED",
+        "25d-location": {
+          "city": "ST. LOUIS",
+          "state": "Missouri",
+          "country": "United States"
+        },
+        "25e-isRelatedPerson": true,
+        "25f-1-secRegistrationNumber": "8 - 1447",
+        "25f-2-crdNumber": "793",
+        "25g-legalEntityIdentifier": ""
+      }
+    ],
+    "26a-fundUsesAdministrators": true,
+    "26b-f-administrators": [
+      {
+        "26b-name": "SEI ARCHWAY TECHNOLOGY PARTNERS, LLC",
+        "26c-location": {
+          "city": "INDIANAPOLIS",
+          "state": "Indiana",
+          "country": "United States"
+        },
+        "26d-isRelatedPerson": false,
+        "26e-statementsProvidedTo": "all investors",
+        "26f-statementsSentBy": "SEI ARCHWAY TECHNOLOGY PARTNERS PREPARES THE STATEMENTS, BUT STIFEL NICOLAUS MAILS THE STATEMENTS"
+      }
+    ],
+    "27-percentageOfAssetsValuedNotByRelatedPerson": 100,
+    "28a-fundUsesMarketers": false,
+    "28b-g-marketers": []
+  },
+  {
+    "1a-nameOfFund": "KCP ACCESS FUND LP",
+    "1b-fundIdentificationNumber": "805-2148796559",
+    "2-lawOrganizedUnder": {
+      "state": "Delaware",
+      "country": "United States"
+    },
+    "3a-namesOfGeneralPartnerManagerTrusteeDirector": [
+      "KCP FUND GENERAL PARTNER LLC"
+    ],
+    "3b-filingAdvisers": "No Information Filed",
+    "4-1-exclusionUnder3c1": false,
+    "4-2-exclusionUnder3c7": true,
+    "5-nameCountryOfForeignFinancialRegAuthority": [],
+    "6a-isMasterFundInMasterFeederArrangement": false,
+    "6b-nameIdOfFeederFunds": [],
+    "6c-isFeederFundInMasterFeederAgreement": true,
+    "6d-nameIdOfMasterFund": "ACCESS HOLDINGS FUND I LLP",
+    "7a-f-feederFundDetails": [],
+    "8a-isFundOfFunds": true,
+    "8b-investsInFundsManagedByYouRelatedPerson": false,
+    "9-investsInSecuritiesAccordingTo6e": false,
+    "10-typeOfFund": {
+      "selectedTypes": [
+        "other private fund"
+      ],
+      "otherFundType": "FEEDER INTO PRIVATE EQUITY FUND"
+    },
+    "11-grossAssetValue": 6416699,
+    "12-minInvestmentCommitment": 100000,
+    "13-numberOfBeneficialOwners": 11,
+    "14-percentageOwnedByYou": 0,
+    "15a-percentageOwnedByFundsOfFunds": 0,
+    "15b-salesAreLimited": false,
+    "16-percentageOwnedByNonUnitedStatesPersons": 0,
+    "17a-isSubadviser": false,
+    "17b-nameAndSecFileNumber": "No Information Filed",
+    "18a-investmentAdvisersAdviseFund": false,
+    "18b-otherAdvisers": [],
+    "19-clientsAreSolicited": true,
+    "20-percentageClientsInvestedInFund": 0,
+    "21-fundReliedOnExemption": true,
+    "22-formDFileNumbers": [
+      "021-390314"
+    ],
+    "23a-1-financialStatementsAreSubjectToAnnualAudit": true,
+    "23a-2-financialStatementsPreparedWithUsGaap": true,
+    "23b-f-auditors": [
+      {
+        "23b-name": "KATZ SAPPER MILLER",
+        "23c-location": {
+          "city": "INDIANAPOLIS",
+          "state": "Indiana",
+          "country": "United States"
+        },
+        "23d-isIndependentPublicAccountant": true,
+        "23e-isRegistered": true,
+        "23e-boardAssignedNumber": "2804",
+        "23f-isSubjectToInspection": true
+      }
+    ],
+    "23g-financialStatementsDistributedToInvestors": true,
+    "23h-reportsIncludeUnqualifiedOpinions": "yes",
+    "24a-fundUsesPrimeBrokers": false,
+    "24b-e-primeBrokers": [],
+    "25a-fundUsesCustodians": true,
+    "25b-g-custodians": [
+      {
+        "25b-legalName": "STIFEL, NICOLAUS & COMPANY, INCORPORATED",
+        "25c-businessName": "STIFEL, NICOLAUS & COMPANY, INCORPORATED",
+        "25d-location": {
+          "city": "ST. LOUIS",
+          "state": "Missouri",
+          "country": "United States"
+        },
+        "25e-isRelatedPerson": true,
+        "25f-1-secRegistrationNumber": "8 - 1447",
+        "25f-2-crdNumber": "793",
+        "25g-legalEntityIdentifier": ""
+      }
+    ],
+    "26a-fundUsesAdministrators": true,
+    "26b-f-administrators": [
+      {
+        "26b-name": "HALL KISTLER & COMPANY",
+        "26c-location": {
+          "city": "CANTON",
+          "state": "Ohio",
+          "country": "United States"
+        },
+        "26d-isRelatedPerson": false,
+        "26e-statementsProvidedTo": "no investors",
+        "26f-statementsSentBy": "ADMINISTRATOR PREPARES INVESTOR ACCOUNT STATEMENTS, AND STIFEL NICOLAUS SENDS THE STATEMENTS TO INVESTORS."
+      }
+    ],
+    "27-percentageOfAssetsValuedNotByRelatedPerson": 100,
+    "28a-fundUsesMarketers": false,
+    "28b-g-marketers": []
+  },
+  {
+    "1a-nameOfFund": "KCP ACCOLADE FUND LP",
+    "1b-fundIdentificationNumber": "805-6829455057",
+    "2-lawOrganizedUnder": {
+      "state": "Delaware",
+      "country": "United States"
+    },
+    "3a-namesOfGeneralPartnerManagerTrusteeDirector": [
+      "KCP FUND GENERAL PARTNER LLC"
+    ],
+    "3b-filingAdvisers": "No Information Filed",
+    "4-1-exclusionUnder3c1": false,
+    "4-2-exclusionUnder3c7": true,
+    "5-nameCountryOfForeignFinancialRegAuthority": [],
+    "6a-isMasterFundInMasterFeederArrangement": false,
+    "6b-nameIdOfFeederFunds": [],
+    "6c-isFeederFundInMasterFeederAgreement": false,
+    "6d-nameIdOfMasterFund": "",
+    "7a-f-feederFundDetails": [],
+    "8a-isFundOfFunds": true,
+    "8b-investsInFundsManagedByYouRelatedPerson": false,
+    "9-investsInSecuritiesAccordingTo6e": false,
+    "10-typeOfFund": {
+      "selectedTypes": [
+        "other private fund"
+      ],
+      "otherFundType": "FEEDER INTO PRIVATE EQUITY FUND"
+    },
+    "11-grossAssetValue": 16582496,
+    "12-minInvestmentCommitment": 100000,
+    "13-numberOfBeneficialOwners": 27,
+    "14-percentageOwnedByYou": 0,
+    "15a-percentageOwnedByFundsOfFunds": 0,
+    "15b-salesAreLimited": false,
+    "16-percentageOwnedByNonUnitedStatesPersons": 0,
+    "17a-isSubadviser": false,
+    "17b-nameAndSecFileNumber": "No Information Filed",
+    "18a-investmentAdvisersAdviseFund": false,
+    "18b-otherAdvisers": [],
+    "19-clientsAreSolicited": true,
+    "20-percentageClientsInvestedInFund": 0,
+    "21-fundReliedOnExemption": true,
+    "22-formDFileNumbers": [
+      "021-417548"
+    ],
+    "23a-1-financialStatementsAreSubjectToAnnualAudit": true,
+    "23a-2-financialStatementsPreparedWithUsGaap": true,
+    "23b-f-auditors": [
+      {
+        "23b-name": "KATZ SAPPER MILLER",
+        "23c-location": {
+          "city": "INDIANAPOLIS",
+          "state": "Indiana",
+          "country": "United States"
+        },
+        "23d-isIndependentPublicAccountant": true,
+        "23e-isRegistered": true,
+        "23e-boardAssignedNumber": "2804",
+        "23f-isSubjectToInspection": true
+      }
+    ],
+    "23g-financialStatementsDistributedToInvestors": true,
+    "23h-reportsIncludeUnqualifiedOpinions": "yes",
+    "24a-fundUsesPrimeBrokers": false,
+    "24b-e-primeBrokers": [],
+    "25a-fundUsesCustodians": true,
+    "25b-g-custodians": [
+      {
+        "25b-legalName": "STIFEL, NICOLAUS & COMPANY, INCORPORATED",
+        "25c-businessName": "STIFEL, NICOLAUS & COMPANY, INCORPORATED",
+        "25d-location": {
+          "city": "ST. LOUIS",
+          "state": "Missouri",
+          "country": "United States"
+        },
+        "25e-isRelatedPerson": true,
+        "25f-1-secRegistrationNumber": "8 - 1447",
+        "25f-2-crdNumber": "793",
+        "25g-legalEntityIdentifier": ""
+      }
+    ],
+    "26a-fundUsesAdministrators": true,
+    "26b-f-administrators": [
+      {
+        "26b-name": "HALL KISTLER & COMPANY",
+        "26c-location": {
+          "city": "CANTON",
+          "state": "Ohio",
+          "country": "United States"
+        },
+        "26d-isRelatedPerson": false,
+        "26e-statementsProvidedTo": "no investors",
+        "26f-statementsSentBy": "ADMINISTRATOR PREPARES INVESTOR ACCOUNT STATEMENTS, & STIFEL NICOLAUS SENDS THE STATEMENT TO INVESTORS."
+      }
+    ],
+    "27-percentageOfAssetsValuedNotByRelatedPerson": 100,
+    "28a-fundUsesMarketers": false,
+    "28b-g-marketers": []
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "name": "ZEMLYAK, JAMES MARK",
+    "ownerType": "I",
+    "titleStatus": "EXECUTIVE VICE PRESIDENT & DIRECTOR",
+    "dateTitleStatusAcquired": "2002-08",
+    "ownershipCode": "NA",
+    "isControlPerson": true,
+    "isPublicReporting": false,
+    "crd": "1586132"
+  },
+  {
+    "name": "STIFEL FINANCIAL CORP.",
+    "ownerType": "DE",
+    "titleStatus": "SHAREHOLDER",
+    "dateTitleStatusAcquired": "1982-02",
+    "ownershipCode": "E",
+    "isControlPerson": true,
+    "isPublicReporting": true,
+    "crd": ""
+  },
+  {
+    "name": "NOLL, DOUGLAS WAYNE",
+    "ownerType": "I",
+    "titleStatus": "PRINCIPAL OPERATIONS OFFICER",
+    "dateTitleStatusAcquired": "1995-06",
+    "ownershipCode": "NA",
+    "isControlPerson": false,
+    "isPublicReporting": false,
+    "crd": "1614129"
+  },
+  {
+    "name": "KRUSZEWSKI, RONALD JAMES",
+    "ownerType": "I",
+    "titleStatus": "PRESIDENT, CHIEF EXECUTIVE OFFICE & CHAIRMAN OF THE BOARD",
+    "dateTitleStatusAcquired": "2002-08",
+    "ownershipCode": "NA",
+    "isControlPerson": true,
+    "isPublicReporting": false,
+    "crd": "1434827"
+  },
+  {
+    "name": "FISHER, MARK PHILIP",
+    "ownerType": "I",
+    "titleStatus": "GENERAL COUNSEL, SECRETARY",
+    "dateTitleStatusAcquired": "2014-06",
+    "ownershipCode": "NA",
+    "isControlPerson": false,
+    "isPublicReporting": false,
+    "crd": "4970942"
+  },
+  {
+    "name": "AYD, PAUL JOSEPH",
+    "ownerType": "I",
+    "titleStatus": "CHIEF COMPLIANCE OFFICER - CAPITAL MARKETS",
+    "dateTitleStatusAcquired": "2015-05",
+    "ownershipCode": "NA",
+    "isControlPerson": false,
+    "isPublicReporting": false,
+    "crd": "2963853"
+  },
+  {
+    "name": "HYDE, GINA ELIZABETH",
+    "ownerType": "I",
+    "titleStatus": "CHIEF COMPLIANCE OFFICER - CAPITAL MARKETS",
+    "dateTitleStatusAcquired": "2016-08",
+    "ownershipCode": "NA",
+    "isControlPerson": false,
+    "isPublicReporting": false,
+    "crd": "2812751"
+  },
+  {
+    "name": "SCHRICK, FREDERICK RICHARD",
+    "ownerType": "I",
+    "titleStatus": "PRINCIPAL FINANCIAL OFFICER",
+    "dateTitleStatusAcquired": "2017-08",
+    "ownershipCode": "NA",
+    "isControlPerson": true,
+    "isPublicReporting": false,
+    "crd": "5636488"
+  },
+  {
+    "name": "BROOKS, PATRICK RODGERS",
+    "ownerType": "I",
+    "titleStatus": "ROSFP - CAPITAL MARKETS",
+    "dateTitleStatusAcquired": "2009-05",
+    "ownershipCode": "NA",
+    "isControlPerson": false,
+    "isPublicReporting": false,
+    "crd": "2223412"
+  },
+  {
+    "name": "MELINGER, ADAM SCOTT",
+    "ownerType": "I",
+    "titleStatus": "ROSFP - PCG",
+    "dateTitleStatusAcquired": "2019-08",
+    "ownershipCode": "NA",
+    "isControlPerson": false,
+    "isPublicReporting": false,
+    "crd": "2373020"
+  },
+  {
+    "name": "DODSON, CHARLES EDWARD",
+    "ownerType": "I",
+    "titleStatus": "CCO ADVISORY SERVICES",
+    "dateTitleStatusAcquired": "2022-01",
+    "ownershipCode": "NA",
+    "isControlPerson": false,
+    "isPublicReporting": false,
+    "crd": "1744430"
+  },
+  {
+    "name": "SLINEY, DAVID DEAN",
+    "ownerType": "I",
+    "titleStatus": "SENIOR VICE PRESIDENT & DIRECTOR",
+    "dateTitleStatusAcquired": "2020-07",
+    "ownershipCode": "NA",
+    "isControlPerson": true,
+    "isPublicReporting": false,
+    "crd": "2276514"
+  },
+  {
+    "name": "BRIGHT, GEOFFREY CLYDE JR",
+    "ownerType": "I",
+    "titleStatus": "CHIEF COMPLIANCE OFFICER - PRIVATE CLIENT GROUP",
+    "dateTitleStatusAcquired": "2024-02",
+    "ownershipCode": "NA",
+    "isControlPerson": false,
+    "isPublicReporting": false,
+    "crd": "4696103"
+  },
+  {
+    "name": "RAYMOND, CHARLES BRADFORD GREEN",
+    "ownerType": "I",
+    "titleStatus": "CO-HEAD GLOBAL INSTITUTIONAL EQUITIES & ADVISORY",
+    "dateTitleStatusAcquired": "2025-07",
+    "ownershipCode": "NA",
+    "isControlPerson": false,
+    "isPublicReporting": false,
+    "crd": "2796106"
+  }
+]

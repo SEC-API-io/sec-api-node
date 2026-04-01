@@ -1,0 +1,21 @@
+[
+  {
+    "name": "TESLA INC",
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "cusip": "88160R101",
+    "exchange": "NASDAQ",
+    "isDelisted": false,
+    "category": "Domestic Common Stock",
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Manufacturers",
+    "sic": "3711",
+    "sicSector": "Manufacturing",
+    "sicIndustry": "Motor Vehicles & Passenger Car Bodies",
+    "famaSector": "",
+    "famaIndustry": "Automobiles and Trucks",
+    "currency": "USD",
+    "location": "California; U.S.A",
+    "id": "eaeafc4ffc04a49da153adebf1f6960a"
+  }
+]

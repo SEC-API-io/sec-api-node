@@ -1,0 +1,145 @@
+{
+  "total": {
+    "value": 10000,
+    "relation": "gte"
+  },
+  "data": [
+    {
+      "id": "5ed83df80bfdb0dd611508c07e138867",
+      "accessionNo": "0002103209-26-000005",
+      "fileNo": "020-36757",
+      "formType": "C/A",
+      "filedAt": "2026-03-31T18:45:06-04:00",
+      "cik": "2103209",
+      "ticker": "",
+      "companyName": "GigaWatt, Inc",
+      "issuerInformation": {
+        "isAmendment": false,
+        "natureOfAmendment": "Campaign Page Updates",
+        "issuerInfo": {
+          "nameOfIssuer": "GigaWatt, Inc.",
+          "legalStatus": {
+            "legalStatusForm": "Corporation",
+            "jurisdictionOrganization": "CA",
+            "dateIncorporation": "09-17-2025"
+          },
+          "issuerAddress": {
+            "street1": "2386 E Walnut Ave",
+            "city": "Fullerton",
+            "stateOrCountry": "CA",
+            "zipCode": "92831"
+          },
+          "issuerWebsite": "https://www.gigawattinc.com/"
+        },
+        "isCoIssuer": false,
+        "companyName": "StartEngine Primary, LLC",
+        "commissionCik": "0001725012",
+        "commissionFileNumber": "008-70060"
+      },
+      "offeringInformation": {
+        "compensationAmount": "7 - 13 percent",
+        "financialInterest": "One percent (1%) of securities of the total amount of investments raised in the offering, along the same terms as investors.",
+        "securityOfferedType": "Other",
+        "securityOfferedOtherDesc": "Class B Common Stock",
+        "noOfSecurityOffered": 10000,
+        "price": 2,
+        "priceDeterminationMethod": "N/A",
+        "offeringAmount": 20000,
+        "overSubscriptionAccepted": true,
+        "overSubscriptionAllocationType": "Other",
+        "descOverSubscription": "At issuer's discretion, with priority given to StartEngine Owners",
+        "maximumOfferingAmount": 1235000,
+        "deadlineDate": "04-23-2026"
+      },
+      "annualReportDisclosureRequirements": {
+        "currentEmployees": 21,
+        "totalAssetMostRecentFiscalYear": 2559852,
+        "totalAssetPriorFiscalYear": 2169710,
+        "cashEquiMostRecentFiscalYear": 521671,
+        "cashEquiPriorFiscalYear": 575133,
+        "actReceivedMostRecentFiscalYear": 11126,
+        "actReceivedPriorFiscalYear": 2779,
+        "shortTermDebtMostRecentFiscalYear": 2659535,
+        "shortTermDebtPriorFiscalYear": 2311008,
+        "longTermDebtMostRecentFiscalYear": 707533,
+        "longTermDebtPriorFiscalYear": 748955,
+        "revenueMostRecentFiscalYear": 7485272,
+        "revenuePriorFiscalYear": 9788210,
+        "costGoodsSoldMostRecentFiscalYear": 5091719,
+        "costGoodsSoldPriorFiscalYear": 6836396,
+        "taxPaidMostRecentFiscalYear": 537,
+        "taxPaidPriorFiscalYear": 4631,
+        "netIncomeMostRecentFiscalYear": 83037,
+        "netIncomePriorFiscalYear": 45926,
+        "issueJurisdictionSecuritiesOffering": [
+          "AL",
+          "AK",
+          "AZ",
+          "AR",
+          "CA",
+          "CO",
+          "CT",
+          "DC",
+          "DE",
+          "FL",
+          "GA",
+          "HI",
+          "ID",
+          "IL",
+          "IN",
+          "IA",
+          "KS",
+          "KY",
+          "LA",
+          "ME",
+          "MD",
+          "MA",
+          "MI",
+          "MN",
+          "MS",
+          "MO",
+          "MT",
+          "NE",
+          "NV",
+          "NH",
+          "NJ",
+          "NM",
+          "NY",
+          "NC",
+          "ND",
+          "OH",
+          "OK",
+          "OR",
+          "PA",
+          "PR",
+          "RI",
+          "SC",
+          "SD",
+          "TN",
+          "TX",
+          "UT",
+          "VT",
+          "VA",
+          "WA",
+          "WV",
+          "WI",
+          "WY"
+        ]
+      },
+      "signatureInfo": {
+        "issuerSignature": {
+          "issuer": "GigaWatt, Inc.",
+          "issuerSignature": "Deep G. Patel",
+          "issuerTitle": "Founder, CEO, Board Member, Principal Accounting Officer"
+        },
+        "signaturePersons": [
+          {
+            "personSignature": "Deep G. Patel",
+            "personTitle": "Founder, CEO, Board Member, Principal Accounting Officer",
+            "signatureDate": "03-31-2026"
+          }
+        ]
+      }
+    }
+  ]
+}

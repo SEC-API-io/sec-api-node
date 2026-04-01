@@ -1,0 +1,155 @@
+{
+  "total": {
+    "value": 209,
+    "relation": "eq"
+  },
+  "data": [
+    {
+      "id": "289428b455d4eb55f298d84f544d3d61",
+      "accessionNo": "0001193125-26-054580",
+      "cik": "1067983",
+      "ticker": "BRK.B",
+      "companyName": "BERKSHIRE HATHAWAY INC",
+      "companyNameLong": "BERKSHIRE HATHAWAY INC (Filer)",
+      "formType": "13F-HR",
+      "description": "Form 13F-HR - Quarterly report filed by institutional managers, Holdings",
+      "filedAt": "2026-02-17T16:05:04-05:00",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526054580/0001193125-26-054580.txt",
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526054580/0001193125-26-054580-index.htm",
+      "linkToXbrl": "",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526054580/xslForm13F_X02/primary_doc.xml",
+      "entities": [
+        {
+          "companyName": "BERKSHIRE HATHAWAY INC (Filer)",
+          "cik": "1067983",
+          "irsNo": "470813844",
+          "stateOfIncorporation": "DE",
+          "fiscalYearEnd": "1231",
+          "type": "13F-HR",
+          "act": "34",
+          "fileNo": "028-04545",
+          "filmNo": "26640865",
+          "sic": "6331 Fire, Marine &amp; Casualty Insurance",
+          "undefined": "02 Finance)"
+        }
+      ],
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526054580/xslForm13F_X02/primary_doc.xml",
+          "type": "13F-HR",
+          "size": " "
+        },
+        {
+          "sequence": "1",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526054580/primary_doc.xml",
+          "type": "13F-HR",
+          "size": "5556"
+        },
+        {
+          "sequence": "2",
+          "description": "INFORMATION TABLE FOR FORM 13F",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526054580/xslForm13F_X02/50240.xml",
+          "type": "INFORMATION TABLE",
+          "size": " "
+        },
+        {
+          "sequence": "2",
+          "description": "INFORMATION TABLE FOR FORM 13F",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526054580/50240.xml",
+          "type": "INFORMATION TABLE",
+          "size": "55376"
+        },
+        {
+          "sequence": " ",
+          "description": "Complete submission text file",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526054580/0001193125-26-054580.txt",
+          "type": " ",
+          "size": "62306"
+        }
+      ],
+      "dataFiles": [],
+      "seriesAndClassesContractsInformation": [],
+      "periodOfReport": "2025-12-31",
+      "effectivenessDate": "2026-02-17",
+      "holdings": [
+        {
+          "nameOfIssuer": "ALLY FINL INC",
+          "cusip": "02005N100",
+          "titleOfClass": "COM",
+          "value": 576074081,
+          "shrsOrPrnAmt": {
+            "sshPrnamt": 12719675,
+            "sshPrnamtType": "SH"
+          },
+          "investmentDiscretion": "DFND",
+          "votingAuthority": {
+            "Sole": 12719675,
+            "Shared": 0,
+            "None": 0
+          },
+          "otherManager": "4",
+          "ticker": "ALLY",
+          "cik": "40729"
+        },
+        {
+          "nameOfIssuer": "ALLY FINL INC",
+          "cusip": "02005N100",
+          "titleOfClass": "COM",
+          "value": 126987499,
+          "shrsOrPrnAmt": {
+            "sshPrnamt": 2803875,
+            "sshPrnamtType": "SH"
+          },
+          "investmentDiscretion": "DFND",
+          "votingAuthority": {
+            "Sole": 2803875,
+            "Shared": 0,
+            "None": 0
+          },
+          "otherManager": "2,4,11",
+          "ticker": "ALLY",
+          "cik": "40729"
+        },
+        {
+          "nameOfIssuer": "ALLY FINL INC",
+          "cusip": "02005N100",
+          "titleOfClass": "COM",
+          "value": 191495178,
+          "shrsOrPrnAmt": {
+            "sshPrnamt": 4228200,
+            "sshPrnamtType": "SH"
+          },
+          "investmentDiscretion": "DFND",
+          "votingAuthority": {
+            "Sole": 4228200,
+            "Shared": 0,
+            "None": 0
+          },
+          "otherManager": "4,5",
+          "ticker": "ALLY",
+          "cik": "40729"
+        },
+        {
+          "nameOfIssuer": "ALLY FINL INC",
+          "cusip": "02005N100",
+          "titleOfClass": "COM",
+          "value": 142074730,
+          "shrsOrPrnAmt": {
+            "sshPrnamt": 3137000,
+            "sshPrnamtType": "SH"
+          },
+          "investmentDiscretion": "DFND",
+          "votingAuthority": {
+            "Sole": 3137000,
+            "Shared": 0,
+            "None": 0
+          },
+          "otherManager": "4,8,11",
+          "ticker": "ALLY",
+          "cik": "40729"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "total": {
+    "value": 10000,
+    "relation": "gte"
+  },
+  "transactions": [
+    {
+      "id": "00101d987e5fd4e6d2bdcd1d9c17b170",
+      "accessionNo": "0001213900-26-031111",
+      "filedAt": "2026-03-18T18:49:54-04:00",
+      "schemaVersion": "X0609",
+      "documentType": "5",
+      "periodOfReport": "2025-12-28",
+      "notSubjectToSection16": false,
+      "issuer": {
+        "cik": "1838987",
+        "name": "SunPower Inc.",
+        "tradingSymbol": "SPWR"
+      },
+      "reportingOwner": {
+        "cik": "1253573",
+        "name": "MAIER LOTHAR",
+        "address": {
+          "street1": "C/O SUNPOWER INC.",
+          "street2": "45600 NORTHPORT LOOP EAST",
+          "city": "FREMONT",
+          "state": "CA",
+          "zipCode": "94538"
+        },
+        "relationship": {
+          "isDirector": true,
+          "isOfficer": false,
+          "isTenPercentOwner": false,
+          "isOther": false
+        }
+      },
+      "nonDerivativeTable": {
+        "transactions": [
+          {
+            "securityTitle": "Common Stock",
+            "transactionDate": "2025-05-23",
+            "coding": {
+              "formType": "4",
+              "code": "A",
+              "equitySwapInvolved": false
+            },
+            "timeliness": "L",
+            "amounts": {
+              "shares": 243169,
+              "pricePerShare": 0,
+              "pricePerShareFootnoteId": [
+                "F1"
+              ],
+              "acquiredDisposedCode": "A"
+            },
+            "postTransactionAmounts": {
+              "sharesOwnedFollowingTransaction": 243169
+            },
+            "ownershipNature": {
+              "directOrIndirectOwnership": "D"
+            }
+          }
+        ]
+      },
+      "footnotes": [
+        {
+          "id": "F1",
+          "text": "On May 23, 2025, the Company granted the Reporting Person 243,169 restricted stock units pursuant to the Company's 2023 Equity Incentive Plan, as amended (the \"Plan\"), each of which fully vested into one share of common stock on the grant date, subject to the terms and conditions of the Plan."
+        }
+      ],
+      "ownerSignatureName": "/s/ Lothar Maier",
+      "ownerSignatureNameDate": "2026-03-17"
+    }
+  ]
+}

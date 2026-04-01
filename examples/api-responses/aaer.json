@@ -1,0 +1,70 @@
+{
+  "total": {
+    "value": 427,
+    "relation": "eq"
+  },
+  "data": [
+    {
+      "id": "b2dfd65355cdf4c4a629103a211882ce",
+      "dateTime": "2024-12-31T12:19:45-05:00",
+      "aaerNo": "AAER-4554",
+      "releaseNo": [
+        "34-102060"
+      ],
+      "respondents": [
+        {
+          "name": "Accell Audit & Compliance, PA",
+          "type": "company"
+        }
+      ],
+      "respondentsText": "Accell Audit & Compliance, PA",
+      "urls": [
+        {
+          "type": "primary",
+          "url": "https://www.sec.gov/files/litigation/admin/2024/34-102060.pdf"
+        }
+      ],
+      "summary": "The SEC has instituted public administrative proceedings against Accell Audit & Compliance, PA, resulting in a suspension and a $75,000 penalty for failing to exercise due professional care in auditing Ignite International Brands, Ltd.'s financial statements.",
+      "tags": [
+        "auditing misconduct",
+        "fraudulent financial reporting"
+      ],
+      "entities": [
+        {
+          "name": "Accell Audit & Compliance, PA",
+          "type": "company",
+          "role": "respondent"
+        },
+        {
+          "name": "Ignite International Brands, Ltd.",
+          "type": "company",
+          "role": "entity audited"
+        }
+      ],
+      "complaints": [
+        "Accell failed to exercise due professional care or skepticism, or to obtain sufficient appropriate audit evidence for a significant, unusual sale to an Ignite-related party that did not occur during the reporting period.",
+        "Accell staff knew about, but failed to address, inconsistencies and contradictory evidence, and misrepresented the timing and facts of the supposed sale.",
+        "Accell issued an unqualified audit opinion on Ignite’s 2020 financial statements, falsely stating its opinion that the statements 'present fairly, in all material respects, the financial position of the company'.",
+        "Accell’s actions aided and abetted Ignite’s fraudulent financial reporting."
+      ],
+      "parallelActionsTakenBy": [],
+      "hasAgreedToSettlement": true,
+      "hasAgreedToPayPenalty": true,
+      "penaltyAmounts": [
+        {
+          "penaltyAmount": "75000",
+          "penaltyAmountText": "$75,000",
+          "imposedOn": "Accell Audit & Compliance, PA"
+        }
+      ],
+      "requestedRelief": [
+        "suspension from appearing or practicing before the Commission"
+      ],
+      "violatedSections": [
+        "Section 10(b) of the Exchange Act",
+        "Rule 10b-5"
+      ],
+      "otherAgenciesInvolved": []
+    }
+  ]
+}

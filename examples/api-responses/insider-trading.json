@@ -1,0 +1,168 @@
+{
+  "total": {
+    "value": 837,
+    "relation": "eq"
+  },
+  "transactions": [
+    {
+      "id": "b5e3ff9eca7a16f1b7fef6aef6767fbc",
+      "accessionNo": "0001104659-26-025379",
+      "filedAt": "2026-03-09T19:00:14-04:00",
+      "schemaVersion": "X0508",
+      "documentType": "4",
+      "periodOfReport": "2026-03-05",
+      "notSubjectToSection16": false,
+      "issuer": {
+        "cik": "1318605",
+        "name": "Tesla, Inc.",
+        "tradingSymbol": "TSLA"
+      },
+      "reportingOwner": {
+        "cik": "1771340",
+        "name": "Taneja Vaibhav",
+        "address": {
+          "street1": "C/O TESLA, INC.",
+          "street2": "1 TESLA ROAD",
+          "city": "AUSTIN",
+          "state": "TX",
+          "zipCode": "78725"
+        },
+        "relationship": {
+          "isDirector": false,
+          "isOfficer": true,
+          "officerTitle": "Chief Financial Officer",
+          "isTenPercentOwner": false,
+          "isOther": false
+        }
+      },
+      "nonDerivativeTable": {
+        "transactions": [
+          {
+            "securityTitle": "Common Stock",
+            "transactionDate": "2026-03-05",
+            "coding": {
+              "formType": "4",
+              "code": "M",
+              "equitySwapInvolved": false,
+              "footnoteId": [
+                "F1"
+              ]
+            },
+            "amounts": {
+              "shares": 6538,
+              "pricePerShare": 0,
+              "acquiredDisposedCode": "A"
+            },
+            "postTransactionAmounts": {
+              "sharesOwnedFollowingTransaction": 20371,
+              "sharesOwnedFollowingTransactionFootnoteId": [
+                "F2"
+              ]
+            },
+            "ownershipNature": {
+              "directOrIndirectOwnership": "D"
+            }
+          },
+          {
+            "securityTitle": "Common Stock",
+            "transactionDate": "2026-03-06",
+            "coding": {
+              "formType": "4",
+              "code": "S",
+              "equitySwapInvolved": false,
+              "footnoteId": [
+                "F3"
+              ]
+            },
+            "amounts": {
+              "shares": 2264.5,
+              "pricePerShare": 397.031,
+              "acquiredDisposedCode": "D"
+            },
+            "postTransactionAmounts": {
+              "sharesOwnedFollowingTransaction": 18106.5
+            },
+            "ownershipNature": {
+              "directOrIndirectOwnership": "D"
+            }
+          }
+        ],
+        "holdings": [
+          {
+            "securityTitle": "Common Stock",
+            "coding": {},
+            "postTransactionAmounts": {
+              "sharesOwnedFollowingTransaction": 111000
+            },
+            "ownershipNature": {
+              "directOrIndirectOwnership": "I",
+              "natureOfOwnership": "See Footnote",
+              "natureOfOwnershipFootnoteId": [
+                "F4"
+              ]
+            }
+          }
+        ]
+      },
+      "derivativeTable": {
+        "transactions": [
+          {
+            "securityTitle": "Restricted Stock Unit",
+            "conversionOrExercisePrice": 0,
+            "transactionDate": "2026-03-05",
+            "coding": {
+              "formType": "4",
+              "code": "M",
+              "equitySwapInvolved": false
+            },
+            "exerciseDateFootnoteId": [
+              "F5"
+            ],
+            "expirationDateFootnoteId": [
+              "F5"
+            ],
+            "underlyingSecurity": {
+              "title": "Common Stock",
+              "shares": 6538
+            },
+            "amounts": {
+              "shares": 6538,
+              "pricePerShare": 0,
+              "acquiredDisposedCode": "D"
+            },
+            "postTransactionAmounts": {
+              "sharesOwnedFollowingTransaction": 65382
+            },
+            "ownershipNature": {
+              "directOrIndirectOwnership": "D"
+            }
+          }
+        ]
+      },
+      "footnotes": [
+        {
+          "id": "F1",
+          "text": "Shares of the Issuer's common stock were issued to the reporting person upon the vesting of restricted stock units on March 5, 2026."
+        },
+        {
+          "id": "F2",
+          "text": "The amount of securities beneficially owned includes 76 shares acquired on February 27, 2026, under the Tesla, Inc. Employee Stock Purchase Plan."
+        },
+        {
+          "id": "F3",
+          "text": "PURSUANT TO THE ISSUER'S EQUITY PLAN AND POLICIES, THESE SHARES OF COMMON STOCK WERE AUTOMATICALLY WITHHELD AND SOLD BY THE ISSUER TO SATISFY THE REPORTING PERSON'S TAX WITHHOLDING OBLIGATIONS RELATED TO THE VESTING OF RESTRICTED STOCK UNITS REPORTED HEREIN."
+        },
+        {
+          "id": "F4",
+          "text": "55,500 shares are held directly by the reporting person in GRATs, for which the reporting person is a trustee, and 55,500 shares are held directly by the spouse of the reporting person in GRATs, for which the spouse of the reporting person is a trustee."
+        },
+        {
+          "id": "F5",
+          "text": "1/16 of the total restricted stock units initially subject to this award vested on December 5, 2024 and 1/16th of the total units initially subject to this award vest every quarter thereafter, so that all such shares subject to this award will be fully vested on September 5, 2028."
+        }
+      ],
+      "ownerSignatureName": "By: Aaron Beckman, Power of Attorney For: Vaibhav Taneja",
+      "ownerSignatureNameDate": "2026-03-09"
+    }
+  ]
+}

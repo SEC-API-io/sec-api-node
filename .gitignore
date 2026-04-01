@@ -3,3 +3,5 @@
 node_modules
 deploy.sh
 .npmrc
+.claude
+tmp

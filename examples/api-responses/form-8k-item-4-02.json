@@ -1,0 +1,50 @@
+{
+  "total": {
+    "value": 8546,
+    "relation": "eq"
+  },
+  "data": [
+    {
+      "id": "1153464e0d82cd42a5773bede05220a8",
+      "accessionNo": "0001765048-26-000002",
+      "formType": "8-K",
+      "filedAt": "2026-03-26T09:53:26-04:00",
+      "periodOfReport": "2026-03-26",
+      "cik": "1765048",
+      "ticker": "GCGJ",
+      "companyName": "GUOCHUN INTERNATIONAL INC.",
+      "items": [
+        "Item 4.02: Non-Reliance on Previously Issued Financial Statements or a Related Audit Report or Completed Interim Review"
+      ],
+      "item4_02": {
+        "keyComponents": "The Company determined that action should be taken to preclude reliance on previously issued unaudited condensed financial statements for the period ended September 30, 2025, due to an erroneously recorded amount in other general and administrative expenses. The financial statements have been restated to correct this error.",
+        "identifiedIssues": [
+          "Erroneously recorded amount in other general and administrative expenses"
+        ],
+        "affectedReportingPeriods": [
+          "Q3 2025"
+        ],
+        "identifiedBy": [
+          "Company"
+        ],
+        "restatementIsNecessary": true,
+        "reasonsForRestatement": [
+          "Erroneous recording of other general and administrative expenses"
+        ],
+        "impactYetToBeDetermined": true,
+        "impactOfError": "Decrease in other general and administrative expenses of $8,250, with a corresponding increase in prepayments of $8,250.",
+        "impactIsMaterial": false,
+        "materialWeaknessIdentified": false,
+        "affectedLineItems": [
+          "Other General and Administrative Expenses",
+          "Prepayments"
+        ],
+        "netIncomeDecreased": false,
+        "netIncomeIncreased": false,
+        "revenueDecreased": false,
+        "revenueIncreased": false,
+        "eventClassification": "Financial Restatement Due to Erroneous Recording in General and Administrative Expenses"
+      }
+    }
+  ]
+}

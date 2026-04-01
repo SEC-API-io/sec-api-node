@@ -1,0 +1,118 @@
+{
+  "total": {
+    "value": 288,
+    "relation": "eq"
+  },
+  "data": [
+    {
+      "id": "d459bd679554a02194c7c5f272f138fa",
+      "releaseNo": "LR-26206",
+      "releasedAt": "2024-12-31T01:53:13-05:00",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26206",
+      "title": "Dale B. Chappell, et al.",
+      "subTitle": "SEC Charges Humanigen’s CEO and Chief Scientific Officer with Insider Trading",
+      "caseCitations": [
+        "Securities and Exchange Commission v. Dale B. Chappell, et al., No. 23-civ-03769 (D.N.J. second amended complaint filed May 20, 2024)"
+      ],
+      "resources": [
+        {
+          "label": "SEC Complaint",
+          "url": "https://www.sec.gov/files/litigation/complaints/2024/comp26206.pdf"
+        }
+      ],
+      "summary": "The SEC has charged Humanigen's CEO Cameron Durrant and Chief Scientific Officer Dale B. Chappell with insider trading for selling company stock based on nonpublic information about the FDA's likely rejection of their COVID-19 drug, resulting in significant avoided losses.",
+      "tags": [
+        "insider trading",
+        "biopharmaceutical",
+        "antifraud"
+      ],
+      "entities": [
+        {
+          "name": "Cameron Durrant",
+          "type": "individual",
+          "role": "defendant"
+        },
+        {
+          "name": "Dale B. Chappell",
+          "type": "individual",
+          "role": "defendant"
+        },
+        {
+          "name": "Humanigen, Inc.",
+          "type": "company",
+          "role": "other",
+          "cik": "1293310",
+          "ticker": "HGENQ"
+        },
+        {
+          "name": "Black Horse Capital LP",
+          "type": "fund",
+          "role": "defendant"
+        },
+        {
+          "name": "Black Horse Capital Master Fund Ltd.",
+          "type": "fund",
+          "role": "defendant"
+        },
+        {
+          "name": "Cheval Holdings, Ltd.",
+          "type": "fund",
+          "role": "defendant"
+        }
+      ],
+      "complaints": [
+        "Chappell and Durrant sold Humanigen stock while in possession of material nonpublic information that the FDA was unlikely to approve Emergency Use Authorization for lenzilumab.",
+        "Chappell and three investment vehicles under his control sold more than 3.8 million shares of Humanigen for more than $68 million.",
+        "Durrant sold more than 80,000 shares for more than $1.68 million.",
+        "Chappell avoided losses of more than $38 million while Durrant avoided losses of more than $1 million."
+      ],
+      "parallelActionsTakenBy": [
+        "Department of Justice’s Fraud Section",
+        "U.S. Attorney’s Office for the District of New Jersey"
+      ],
+      "hasAgreedToSettlement": false,
+      "hasAgreedToPayPenalty": false,
+      "penaltyAmounts": [],
+      "requestedRelief": [
+        "permanent injunctions",
+        "disgorgement of ill-gotten gains with prejudgment interest",
+        "civil penalties",
+        "officer and director bars"
+      ],
+      "violatedSections": [
+        "Section 17(a) of the Securities Act of 1933",
+        "Section 10(b) of the Securities Exchange Act of 1934",
+        "Rule 10b-5"
+      ],
+      "investigationConductedBy": [
+        "W. Bradley Ney",
+        "Daniel Ball",
+        "George B. Parizek",
+        "Kevin Wu",
+        "Zachary Scrima",
+        "Melissa Robertson",
+        "Pei Y. Chung"
+      ],
+      "litigationLedBy": [
+        "Anna Area",
+        "Daniel Lloyd",
+        "Daniel Ball",
+        "David Nasse"
+      ],
+      "otherAgenciesInvolved": [
+        {
+          "name": "Criminal Fraud Section of the U.S. Department of Justice",
+          "country": "United States"
+        },
+        {
+          "name": "United States Attorney’s Office for the District of New Jersey",
+          "country": "United States"
+        },
+        {
+          "name": "Federal Bureau of Investigation",
+          "country": "United States"
+        }
+      ]
+    }
+  ]
+}

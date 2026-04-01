@@ -1,0 +1,114 @@
+{
+  "total": {
+    "value": 10000,
+    "relation": "gte"
+  },
+  "filings": [
+    {
+      "Info": {
+        "lastNm": "Nebot",
+        "firstNm": "Roman",
+        "indvlPK": 8213636,
+        "actvAGReg": "Y",
+        "link": "https://adviserinfo.sec.gov/individual/summary/8213636"
+      },
+      "OthrNms": {
+        "OthrNm": [
+          {
+            "lastNm": "Nebot creus",
+            "firstNm": "Roman",
+            "midNm": "D"
+          }
+        ]
+      },
+      "CrntEmps": {
+        "CrntEmp": [
+          {
+            "CrntRgstns": {
+              "CrntRgstn": [
+                {
+                  "regAuth": "FL",
+                  "regCat": "RA",
+                  "st": "APPROVED",
+                  "stDt": "2026-02-02"
+                },
+                {
+                  "regAuth": "TX",
+                  "regCat": "RA",
+                  "st": "APPROVED",
+                  "stDt": "2026-02-06"
+                }
+              ]
+            },
+            "BrnchOfLocs": {
+              "BrnchOfLoc": [
+                {
+                  "str1": "200 South Biscayne Boulevard",
+                  "str2": "Suite 1100",
+                  "city": "Miami",
+                  "state": "FL",
+                  "cntry": "United States",
+                  "postlCd": "33131"
+                }
+              ]
+            },
+            "orgNm": "MORGAN STANLEY",
+            "orgPK": 149777,
+            "str1": "2000 WESTCHESTER AVENUE",
+            "city": "PURCHASE",
+            "state": "NY",
+            "cntry": "United States",
+            "postlCd": "10577-2530"
+          }
+        ]
+      },
+      "Exms": {
+        "Exm": [
+          {
+            "exmCd": "S66",
+            "exmNm": "Uniform Combined State Law Examination",
+            "exmDt": "2025-12-08"
+          }
+        ]
+      },
+      "Dsgntns": {},
+      "PrevRgstns": {},
+      "EmpHss": {
+        "EmpHs": [
+          {
+            "fromDt": "02/2019",
+            "toDt": "01/2026",
+            "orgNm": "Santander Internacional S.A.",
+            "city": "Miami",
+            "state": "FL"
+          },
+          {
+            "fromDt": "09/1997",
+            "toDt": "02/2019",
+            "orgNm": "Santander Espa�a S.A.",
+            "city": "Barcelona"
+          },
+          {
+            "fromDt": "01/2026",
+            "orgNm": "Morgan Stanley Smith Barney LLC",
+            "city": "Miami",
+            "state": "FL"
+          },
+          {
+            "fromDt": "02/2026",
+            "orgNm": "Morgan Stanley Private Bank, N.A",
+            "city": "New York",
+            "state": "NY"
+          }
+        ]
+      },
+      "OthrBuss": {
+        "OthrBus": {
+          "desc": "*680514- own house; Investment related: Yes; Spain; Rental Property; Sole Proprietor/Owner (proprietor, partner, officer, director, employee, trustee, agent); 09/2014; During business hours: 0; After business hours: 0; propietor  *682268- inmobiliaria mocrebo sl; Investment related: Yes; Spain; Real Estate, passive inherited minority ownership in a familiy land-holding entity (underveloped agricultural land, non-income producing); Officer (proprietor, partner, officer, director, employee, trustee, agent); 07/1999; During business hours: 0; After business hours: 0; Administrative  *682359- roman david nebot creus and my wife monica arnan colome; Investment related: Yes; Spain; Rental Property; Sole Proprietor/Owner  (proprietor, partner, officer, director, employee, trustee, agent); 07/2021; During business hours: 0; After business hours: 0.1; occasional administrative tasks limited to maintenance coordination and communication with local property manager and tennat. No active busiiness operations, no employees, no marketing activity, and no financial advisory services provided"
+        }
+      },
+      "DRPs": {},
+      "id": 8213636
+    }
+  ]
+}

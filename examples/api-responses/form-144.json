@@ -1,0 +1,117 @@
+{
+  "total": {
+    "value": 72,
+    "relation": "eq"
+  },
+  "data": [
+    {
+      "id": "3196e422cd21d5a12a3acf756bb3e0a1",
+      "accessionNo": "0001950047-26-003078",
+      "fileNo": "001-34756",
+      "formType": "144",
+      "filedAt": "2026-03-30T17:31:46-04:00",
+      "entities": [
+        {
+          "cik": "1318605",
+          "ticker": "TSLA",
+          "companyName": "Tesla, Inc. (Subject)",
+          "irsNo": "912197729",
+          "fiscalYearEnd": "1231",
+          "stateOfIncorporation": "TX",
+          "sic": "3711 Motor Vehicles &amp; Passenger Car Bodies",
+          "type": "144",
+          "act": "33",
+          "fileNo": "001-34756",
+          "filmNo": "26813321"
+        },
+        {
+          "cik": "1331680",
+          "companyName": "Wilson-Thompson Kathleen (Reporting)",
+          "type": "144"
+        }
+      ],
+      "issuerInfo": {
+        "issuerCik": "1318605",
+        "issuerTicker": "TSLA",
+        "issuerName": "Tesla, Inc.",
+        "secFileNumber": "001-34756",
+        "issuerAddress": {
+          "street1": "1 Tesla Road",
+          "city": "Austin",
+          "stateOrCountry": "TX",
+          "zipCode": "78725"
+        },
+        "issuerContactPhone": "5125168177",
+        "nameOfPersonForWhoseAccountTheSecuritiesAreToBeSold": "KATHLEEN WILSON-THOMPSON",
+        "relationshipsToIssuer": "Director"
+      },
+      "securitiesInformation": [
+        {
+          "securitiesClassTitle": "Common",
+          "brokerOrMarketMakerDetails": {
+            "name": "Morgan Stanley Smith Barney LLC Executive Financial Services",
+            "address": {
+              "street1": "1 New York Plaza",
+              "street2": "8th Floor",
+              "city": "New York",
+              "stateOrCountry": "NY",
+              "zipCode": "10004"
+            }
+          },
+          "numberOfUnitsToBeSold": 25809,
+          "aggregateMarketValue": 9338470.47,
+          "noOfUnitsOutstanding": 3752431984,
+          "approxSaleDate": "2026-03-30",
+          "securitiesExchangeName": "NASDAQ"
+        }
+      ],
+      "securitiesToBeSold": [
+        {
+          "securitiesClassTitle": "Common",
+          "acquiredDate": "2026-03-30",
+          "natureOfAcquisitionTransaction": "Exercise of Stock Options",
+          "nameOfPersonFromWhomAcquired": "Issuer",
+          "isGiftTransaction": false,
+          "amountOfSecuritiesAcquired": 1648,
+          "paymentDate": "2026-03-30",
+          "natureOfPayment": "Cash"
+        },
+        {
+          "securitiesClassTitle": "Common",
+          "acquiredDate": "2026-03-30",
+          "natureOfAcquisitionTransaction": "Previously Exercised Stock Options",
+          "nameOfPersonFromWhomAcquired": "Issuer",
+          "isGiftTransaction": false,
+          "amountOfSecuritiesAcquired": 24161,
+          "paymentDate": "2026-03-30",
+          "natureOfPayment": "Cash"
+        }
+      ],
+      "nothingToReportFlagOnSecuritiesSoldInPast3Months": false,
+      "securitiesSoldInPast3Months": [
+        {
+          "sellerDetails": {
+            "name": "10b5-1 Sales for KATHLEEN WILSON-THOMPSON",
+            "address": {
+              "street1": "1 Tesla Road",
+              "city": "Austin",
+              "stateOrCountry": "TX",
+              "zipCode": "78725"
+            }
+          },
+          "securitiesClassTitle": "Common",
+          "saleDate": "2026-02-25",
+          "amountOfSecuritiesSold": 25731,
+          "grossProceeds": 10692813.68
+        }
+      ],
+      "noticeSignature": {
+        "noticeDate": "2026-03-30",
+        "planAdoptionDates": [
+          "2025-11-26"
+        ],
+        "signature": "/s/ Kathleen Wilson-Thompson"
+      }
+    }
+  ]
+}
