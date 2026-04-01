@@ -826,7 +826,7 @@ const firms = await formAdvApi.getFirms({
 ```
 
 <details>
-  <summary>Example Response</summary>
+  <summary>Example Response (shortened)</summary>
 
 ```json
 {
@@ -851,230 +851,18 @@ const firms = await formAdvApi.getFirms({
       },
       "MailingAddr": {},
       "Rgstn": [
-        {
-          "FirmType": "Registered",
-          "St": "APPROVED",
-          "Dt": "1981-05-13"
-        }
+        { "FirmType": "Registered", "St": "APPROVED", "Dt": "1981-05-13" }
       ],
       "NoticeFiled": {
-        "States": [
-          { "RgltrCd": "AL", "St": "FILED", "Dt": "1992-10-28" },
-          { "RgltrCd": "AK", "St": "FILED", "Dt": "1997-11-21" }
-          // ... more items
-        ]
+        "States": [{ "RgltrCd": "AL", "St": "FILED", "Dt": "1992-10-28" }]
       },
       "Filing": [{ "Dt": "2026-03-31", "FormVrsn": "10/2021" }],
       "FormInfo": {
         "Part1A": {
-          "Item1": {
-            "WebAddrs": {
-              "WebAddrs": [
-                "https://www.linkedin.com/showcase/goldman-sachs--private-wealth-management",
-                "https://privatewealth.goldmansachs.com/us/en/home"
-                // ... more items
-              ],
-              "WebAddr": "https://www.instagram.com/goldmansachs/"
-            },
-            "Q1F5": 18,
-            "Q1I": "Y",
-            "Q1M": "Y",
-            "Q1N": "N",
-            "Q1O": "Y",
-            "Q1ODesc": "More than $50 billion",
-            "Q1P": "FOR8UP27PHTHYVLBNG30"
-          },
-          "Item2A": {
-            "Q2A1": "Y",
-            "Q2A2": "N",
-            "Q2A4": "N",
-            "Q2A5": "N",
-            "Q2A6": "N",
-            "Q2A7": "N",
-            "Q2A8": "N",
-            "Q2A9": "N",
-            "Q2A10": "N",
-            "Q2A11": "N",
-            "Q2A12": "N",
-            "Q2A13": "N"
-          },
-          "Item2B": {},
-          "Item3A": { "OrgFormNm": "Limited Liability Company" },
-          "Item3B": { "Q3B": "DECEMBER" },
-          "Item3C": { "StateCD": "NY", "CntryNm": "United States" },
+          "Item1": { "Q1F5": 18, "Q1ODesc": "More than $50 billion" },
           "Item5A": { "TtlEmp": 2268 },
-          "Item5B": {
-            "Q5B1": 1765,
-            "Q5B2": 1698,
-            "Q5B3": 0,
-            "Q5B4": 0,
-            "Q5B5": 60,
-            "Q5B6": 1
-          },
-          "Item5C": { "Q5C1": "2355", "Q5C2": 2 },
-          "Item5D": {
-            "Q5DA1": 0,
-            "Q5DA3": 0,
-            "Q5DB1": 29104,
-            "Q5DB3": 50962159253,
-            "Q5DC1": 0,
-            "Q5DC3": 0,
-            "Q5DD1": 0,
-            "Q5DD3": 0,
-            "Q5DE1": 0,
-            "Q5DE3": 0,
-            "Q5DF1": 0,
-            "Q5DF3": 0,
-            "Q5DG1": 9,
-            "Q5DG3": 4729043,
-            "Q5DH1": 1040,
-            "Q5DH3": 17527757435,
-            "Q5DI1": 1,
-            "Q5DI2": "Fewer than 5 clients",
-            "Q5DI3": 5787207,
-            "Q5DJ1": 0,
-            "Q5DJ3": 0,
-            "Q5DK1": 28,
-            "Q5DK3": 288850139,
-            "Q5DL1": 0,
-            "Q5DL3": 0,
-            "Q5DM1": 506,
-            "Q5DM3": 16937232904,
-            "Q5DN1": 15580,
-            "Q5DN3": 47917712945,
-            "Q5DN3Oth": "GS TRUST COMPANY, INDIAN TRIBES"
-          },
-          "Item5E": {
-            "Q5E1": "Y",
-            "Q5E2": "N",
-            "Q5E3": "N",
-            "Q5E4": "Y",
-            "Q5E5": "Y",
-            "Q5E6": "Y",
-            "Q5E7": "Y",
-            "Q5E7Oth": "EXECUTION CHARGES, CUSTODY, MANAGEMENT FEE"
-          },
-          "Item5F": {
-            "Q5F1": "Y",
-            "Q5F2A": 133354336653,
-            "Q5F2B": 289892273,
-            "Q5F2C": 133644228926,
-            "Q5F2D": 46265,
-            "Q5F2E": 4,
-            "Q5F2F": 46269,
-            "Q5F3": 9078887461
-          },
-          "Item5G": {
-            "Q5G1": "Y",
-            "Q5G2": "Y",
-            "Q5G3": "N",
-            "Q5G4": "Y",
-            "Q5G5": "Y",
-            "Q5G6": "N",
-            "Q5G7": "Y",
-            "Q5G8": "Y",
-            "Q5G9": "N",
-            "Q5G10": "N",
-            "Q5G11": "Y",
-            "Q5G12": "N"
-          },
-          "Item5H": { "Q5H": "1-10" },
-          "Item5I": { "Q5I1": "Y", "Q5I2A": 0, "Q5I2B": 0, "Q5I2C": 0 },
-          "Item5J": { "Q5J1": "Y", "Q5J2": "Y" },
-          "Item5K": { "Q5K1": "Y", "Q5K2": "Y", "Q5K3": "Y", "Q5K4": "Y" },
-          "Item5L": {
-            "Q5L1A": "Y",
-            "Q5L1B": "Y",
-            "Q5L1C": "Y",
-            "Q5L1D": "N",
-            "Q5L1E": "Y",
-            "Q5L2": "Y",
-            "Q5L3": "Y",
-            "Q5L4": "N"
-          },
-          "Item6A": {
-            "Q6A1": "Y",
-            "Q6A2": "N",
-            "Q6A3": "Y",
-            "Q6A4": "Y",
-            "Q6A5": "N",
-            "Q6A6": "N",
-            "Q6A7": "N",
-            "Q6A8": "N",
-            "Q6A9": "Y",
-            "Q6A10": "Y",
-            "Q6A11": "N",
-            "Q6A12": "N",
-            "Q6A13": "N",
-            "Q6A14": "N"
-          },
-          "Item6B": { "Q6B1": "Y", "Q6B2": "N", "Q6B3": "Y" },
-          "Item7A": {
-            "Q7A1": "Y",
-            "Q7A2": "Y",
-            "Q7A3": "N",
-            "Q7A4": "Y",
-            "Q7A5": "N",
-            "Q7A6": "Y",
-            "Q7A7": "Y",
-            "Q7A8": "Y",
-            "Q7A9": "Y",
-            "Q7A10": "N",
-            "Q7A11": "N",
-            "Q7A12": "Y",
-            "Q7A13": "Y",
-            "Q7A14": "N",
-            "Q7A15": "N",
-            "Q7A16": "Y"
-          },
-          "Item7B": { "Q7B": "N" },
-          "Item8A": { "Q8A1": "Y", "Q8A2": "Y", "Q8A3": "Y" },
-          "Item8B": { "Q8B1": "Y", "Q8B2": "Y", "Q8B3": "Y" },
-          "Item8C": { "Q8C1": "Y", "Q8C2": "Y", "Q8C3": "Y", "Q8C4": "Y" },
-          "Item8D": { "Q8D": "Y" },
-          "Item8E": { "Q8E": "Y" },
-          "Item8F": { "Q8F": "Y" },
-          "Item8G": { "Q8G1": "Y", "Q8G2": "Y" },
-          "Item8H": { "Q8H1": "Y", "Q8H2": "Y" },
-          "Item8I": { "Q8I": "N" },
-          "Item9A": {
-            "Q9A1A": "Y",
-            "Q9A1B": "Y",
-            "Q9A2A": 132356397074,
-            "Q9A2B": 46194
-          },
-          "Item9B": { "Q9B1A": "N", "Q9B1B": "N", "Q9B2A": 0, "Q9B2B": 0 },
-          "Item9C": { "Q9C1": "Y", "Q9C2": "Y", "Q9C3": "Y", "Q9C4": "Y" },
-          "Item9D": { "Q9D1": "Y", "Q9D2": "Y" },
-          "Item9E": { "Q9E": "2025-07" },
-          "Item9F": { "Q9F": 91 },
-          "Item10A": { "Q10A": "N" },
-          "Item11": { "Q11": "Y" },
-          "Item11A": { "Q11A1": "N", "Q11A2": "Y" },
-          "Item11B": { "Q11B1": "Y", "Q11B2": "Y" },
-          "Item11C": {
-            "Q11C1": "Y",
-            "Q11C2": "Y",
-            "Q11C3": "N",
-            "Q11C4": "Y",
-            "Q11C5": "Y"
-          },
-          "Item11D": {
-            "Q11D1": "Y",
-            "Q11D2": "Y",
-            "Q11D3": "N",
-            "Q11D4": "Y",
-            "Q11D5": "Y"
-          },
-          "Item11E": { "Q11E1": "Y", "Q11E2": "Y", "Q11E3": "N", "Q11E4": "N" },
-          "Item11F": { "Q11F": "Y" },
-          "Item11G": { "Q11G": "Y" },
-          "Item11H": {
-            "Q11H1A": "Y",
-            "Q11H1B": "Y",
-            "Q11H1C": "Y",
-            "Q11H2": "Y"
-          }
+          "Item5F": { "Q5F2C": 133644228926, "Q5F2F": 46269 }
+          // ... Items 2A-11H included in full response
         }
       },
       "id": 361
@@ -1084,6 +872,8 @@ const firms = await formAdvApi.getFirms({
 ```
 
 </details>
+
+[Full example response](https://github.com/janlukasschroeder/sec-api/blob/master/examples/api-responses/form-adv-firms.json)
 
 ### Search Individual Advisors
 
@@ -1098,7 +888,7 @@ const individuals = await formAdvApi.getIndividuals({
 ```
 
 <details>
-  <summary>Example Response</summary>
+  <summary>Example Response (shortened)</summary>
 
 ```json
 {
@@ -1127,34 +917,11 @@ const individuals = await formAdvApi.getIndividuals({
                   "regCat": "RA",
                   "st": "APPROVED",
                   "stDt": "2026-02-02"
-                },
-                {
-                  "regAuth": "TX",
-                  "regCat": "RA",
-                  "st": "APPROVED",
-                  "stDt": "2026-02-06"
-                }
-              ]
-            },
-            "BrnchOfLocs": {
-              "BrnchOfLoc": [
-                {
-                  "str1": "200 South Biscayne Boulevard",
-                  "str2": "Suite 1100",
-                  "city": "Miami",
-                  "state": "FL",
-                  "cntry": "United States",
-                  "postlCd": "33131"
                 }
               ]
             },
             "orgNm": "MORGAN STANLEY",
-            "orgPK": 149777,
-            "str1": "2000 WESTCHESTER AVENUE",
-            "city": "PURCHASE",
-            "state": "NY",
-            "cntry": "United States",
-            "postlCd": "10577-2530"
+            "orgPK": 149777
           }
         ]
       },
@@ -1167,8 +934,6 @@ const individuals = await formAdvApi.getIndividuals({
           }
         ]
       },
-      "Dsgntns": {},
-      "PrevRgstns": {},
       "EmpHss": {
         "EmpHs": [
           {
@@ -1178,22 +943,19 @@ const individuals = await formAdvApi.getIndividuals({
             "city": "Miami",
             "state": "FL"
           }
-          // ... more items
         ]
-      },
-      "OthrBuss": {
-        "OthrBus": {
-          "desc": "..."
-        }
       },
       "DRPs": {},
       "id": 8213636
+      // ... also includes: Dsgntns, PrevRgstns, OthrBuss, BrnchOfLocs
     }
   ]
 }
 ```
 
 </details>
+
+[Full example response](https://github.com/janlukasschroeder/sec-api/blob/master/examples/api-responses/form-adv-individuals.json)
 
 ### Get Direct Owners (Schedule A)
 
@@ -1232,6 +994,8 @@ const directOwners = await formAdvApi.getDirectOwners('793');
 ```
 
 </details>
+
+[Full example response](https://github.com/janlukasschroeder/sec-api/blob/master/examples/api-responses/form-adv-direct-owners.json)
 
 ### Get Indirect Owners (Schedule B)
 
@@ -1273,6 +1037,8 @@ const indirectOwners = await formAdvApi.getIndirectOwners('326262');
 
 </details>
 
+[Full example response](https://github.com/janlukasschroeder/sec-api/blob/master/examples/api-responses/form-adv-indirect-owners.json)
+
 ### Get Other Business Names (Schedule D, Section 1.B)
 
 ```js
@@ -1281,23 +1047,47 @@ const otherBusinessNames = await formAdvApi.getOtherBusinessNames('149777');
 ```
 
 <details>
-  <summary>Example Response</summary>
+  <summary>Example Response (shortened)</summary>
 
 ```json
 [
   {
     "name": "MORGAN STANLEY SMITH BARNEY",
-    "jurisdictions": ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "DC", "FL", "GA", "GU", "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "PR", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VI", "VA", "WA", "WV", "WI", "WY"]
+    "jurisdictions": [
+      "AL",
+      "AK",
+      "AZ",
+      "AR",
+      "CA",
+      "CO",
+      "CT",
+      "DE",
+      "DC",
+      "FL"
+    ]
   },
   {
     "name": "MORGAN STANLEY WEALTH MANAGEMENT",
-    "jurisdictions": ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "DC", "FL", "GA", "GU", "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "PR", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VI", "VA", "WA", "WV", "WI", "WY"]
+    "jurisdictions": [
+      "AL",
+      "AK",
+      "AZ",
+      "AR",
+      "CA",
+      "CO",
+      "CT",
+      "DE",
+      "DC",
+      "FL"
+    ]
   }
-  // ... more business names
+  // ... more business names, each with full list of jurisdictions
 ]
 ```
 
 </details>
+
+[Full example response](https://github.com/janlukasschroeder/sec-api/blob/master/examples/api-responses/form-adv-other-business-names.json)
 
 ### Get Separately Managed Accounts (Schedule D, Section 5.K)
 
@@ -1309,7 +1099,7 @@ const smaData = await formAdvApi.getSeparatelyManagedAccounts('149777');
 ```
 
 <details>
-  <summary>Example Response</summary>
+  <summary>Example Response (shortened)</summary>
 
 ```json
 {
@@ -1317,17 +1107,8 @@ const smaData = await formAdvApi.getSeparatelyManagedAccounts('149777');
     "a": {
       "i-exchangeTradedEquity": { "midYear": "58 %", "endOfYear": "58 %" },
       "ii-nonExchangeTradedEquity": { "midYear": "0 %", "endOfYear": "0 %" },
-      "iii-usGovernmentBonds": { "midYear": "2 %", "endOfYear": "2 %" },
-      "iv-usStateAndLocalBonds": { "midYear": "2 %", "endOfYear": "2 %" },
-      "v-sovereignBonds": { "midYear": "0 %", "endOfYear": "0 %" },
-      "vi-investmentGradeCorporateBonds": { "midYear": "4 %", "endOfYear": "4 %" },
-      "vii-nonInvestmentGradeCorporateBonds": { "midYear": "0 %", "endOfYear": "0 %" },
-      "viii-derivatives": { "midYear": "0 %", "endOfYear": "0 %" },
-      "ix-registeredInvestmentCompanies": { "midYear": "26 %", "endOfYear": "25 %" },
-      "x-pooledInvestmentVehicles": { "midYear": "4 %", "endOfYear": "4 %" },
-      "xi-cash": { "midYear": "3 %", "endOfYear": "4 %" },
-      "xii-other": { "midYear": "1 %", "endOfYear": "1 %" },
-      "other": "STRUCTURED INVESTMENTS AND ANNUITIES"
+      "iii-usGovernmentBonds": { "midYear": "2 %", "endOfYear": "2 %" }
+      // ... iv through xii also included
     }
   },
   "2-borrowingsAndDerivatives": {
@@ -1343,9 +1124,9 @@ const smaData = await formAdvApi.getSeparatelyManagedAccounts('149777');
         "moreThan150": "$ 67,201,944,992"
       },
       "derivativeExposures": {
-        "lessThan10": { "interestRate": "0 %", "foreignExchange": "0 %", "credit": "0 %", "equity": "4 %", "commodity": "0 %", "other": "0 %" },
-        "between10And149": { "interestRate": "0 %", "foreignExchange": "0 %", "credit": "0 %", "equity": "58 %", "commodity": "0 %", "other": "0 %" },
-        "moreThan150": { "interestRate": "0 %", "foreignExchange": "0 %", "credit": "0 %", "equity": "185 %", "commodity": "0 %", "other": "0 %" }
+        "lessThan10": { "interestRate": "0 %", "equity": "4 %" },
+        "between10And149": { "equity": "58 %" },
+        "moreThan150": { "equity": "185 %" }
       }
     }
     // ... end of year data also included
@@ -1354,10 +1135,7 @@ const smaData = await formAdvApi.getSeparatelyManagedAccounts('149777');
     {
       "a-legalName": "MORGAN STANLEY SMITH BARNEY LLC",
       "b-businessName": "MORGAN STANLEY",
-      "c-locations": [{ "city": "PURCHASE", "state": "New York", "country": "United States" }],
       "d-isRelatedPerson": true,
-      "e-secRegistrationNumber": "8 - 68191",
-      "f-lei": "",
       "g-amountHeldAtCustodian": "$ 1,733,996,722,410"
     }
   ]
@@ -1366,17 +1144,20 @@ const smaData = await formAdvApi.getSeparatelyManagedAccounts('149777');
 
 </details>
 
+[Full example response](https://github.com/janlukasschroeder/sec-api/blob/master/examples/api-responses/form-adv-separately-managed-accounts.json)
+
 ### Get Financial Industry Affiliations (Schedule D, Section 7.A)
 
 Retrieve related persons and financial industry affiliations, such as affiliated broker-dealers, investment advisers, insurance companies, and pooled investment vehicle sponsors.
 
 ```js
-const affiliations = await formAdvApi.getFinancialIndustryAffiliations('149777');
+const affiliations =
+  await formAdvApi.getFinancialIndustryAffiliations('149777');
 // response: [...] array of financial industry affiliations
 ```
 
 <details>
-  <summary>Example Response</summary>
+  <summary>Example Response (shortened)</summary>
 
 ```json
 [
@@ -1385,32 +1166,22 @@ const affiliations = await formAdvApi.getFinancialIndustryAffiliations('149777')
     "2-businessName": "MS CAPITAL PARTNERS ADVISER INC.",
     "3-secFileNumber": "80169426",
     "4a-crdNumber": "147521",
-    "4b-cikNumbers": [],
     "5-typesOfRelatedPerson": ["b-otherAdviser", "f-commodityPoolOperator"],
     "6-controlsRelatedPerson": false,
     "7-underCommonControl": false,
     "8a-relatedPersonActsAsCustodian": false,
-    "8b-notOperationallyIndependent": false,
-    "8c-locationOfRelatedPerson": {
-      "street1": "",
-      "street2": "",
-      "city": "",
-      "state": "",
-      "zipCode": "",
-      "country": ""
-    },
     "9a-exemptFromRegistration": false,
-    "9b-exemption": "",
-    "10a-registeredWithForeignRegulator": false,
-    "10b-foreignRegulator": [],
     "11-shareSupervisedPersons": true,
     "12-shareSameLocation": false
+    // ... also includes: 4b-cikNumbers, 8b, 8c-locationOfRelatedPerson, 9b, 10a, 10b
   }
   // ... more affiliations
 ]
 ```
 
 </details>
+
+[Full example response](https://github.com/janlukasschroeder/sec-api/blob/master/examples/api-responses/form-adv-financial-industry-affiliations.json)
 
 ### Get Private Funds (Schedule D, Section 7.B.1)
 
@@ -1420,7 +1191,7 @@ const privateFunds = await formAdvApi.getPrivateFunds('793');
 ```
 
 <details>
-  <summary>Example Response</summary>
+  <summary>Example Response (shortened)</summary>
 
 ```json
 [
@@ -1431,18 +1202,10 @@ const privateFunds = await formAdvApi.getPrivateFunds('793');
     "3a-namesOfGeneralPartnerManagerTrusteeDirector": [
       "STIFEL NICOLAUS & COMPANY, INC."
     ],
-    "3b-filingAdvisers": "No Information Filed",
-    "4-1-exclusionUnder3c1": false,
     "4-2-exclusionUnder3c7": true,
-    "5-nameCountryOfForeignFinancialRegAuthority": [],
-    "6a-isMasterFundInMasterFeederArrangement": false,
-    "6b-nameIdOfFeederFunds": [],
     "6c-isFeederFundInMasterFeederAgreement": true,
     "6d-nameIdOfMasterFund": "EI FUND V, LP",
-    "7a-f-feederFundDetails": [],
     "8a-isFundOfFunds": true,
-    "8b-investsInFundsManagedByYouRelatedPerson": false,
-    "9-investsInSecuritiesAccordingTo6e": false,
     "10-typeOfFund": {
       "selectedTypes": ["other private fund"],
       "otherFundType": "FEEDER INTO PRIVATE EQUITY FUND"
@@ -1450,77 +1213,27 @@ const privateFunds = await formAdvApi.getPrivateFunds('793');
     "11-grossAssetValue": 2027469,
     "12-minInvestmentCommitment": 100000,
     "13-numberOfBeneficialOwners": 25,
-    "14-percentageOwnedByYou": 0,
-    "15a-percentageOwnedByFundsOfFunds": 0,
-    "15b-salesAreLimited": false,
-    "16-percentageOwnedByNonUnitedStatesPersons": 0,
-    "17a-isSubadviser": false,
-    "17b-nameAndSecFileNumber": "No Information Filed",
-    "18a-investmentAdvisersAdviseFund": false,
-    "18b-otherAdvisers": [],
-    "19-clientsAreSolicited": true,
-    "20-percentageClientsInvestedInFund": 0,
-    "21-fundReliedOnExemption": true,
-    "22-formDFileNumbers": ["021-151919"],
-    "23a-1-financialStatementsAreSubjectToAnnualAudit": true,
-    "23a-2-financialStatementsPreparedWithUsGaap": true,
     "23b-f-auditors": [
       {
         "23b-name": "KATZ SAPPER MILLER",
-        "23c-location": {
-          "city": "INDIANAPOLIS",
-          "state": "Indiana",
-          "country": "United States"
-        },
-        "23d-isIndependentPublicAccountant": true,
-        "23e-isRegistered": true,
-        "23e-boardAssignedNumber": "2804",
-        "23f-isSubjectToInspection": true
+        "23d-isIndependentPublicAccountant": true
       }
     ],
-    "23g-financialStatementsDistributedToInvestors": true,
-    "23h-reportsIncludeUnqualifiedOpinions": "yes",
-    "24a-fundUsesPrimeBrokers": false,
-    "24b-e-primeBrokers": [],
-    "25a-fundUsesCustodians": true,
     "25b-g-custodians": [
       {
         "25b-legalName": "STIFEL, NICOLAUS & COMPANY, INCORPORATED",
-        "25c-businessName": "STIFEL, NICOLAUS & COMPANY, INCORPORATED",
-        "25d-location": {
-          "city": "ST. LOUIS",
-          "state": "Missouri",
-          "country": "United States"
-        },
-        "25e-isRelatedPerson": true,
-        "25f-1-secRegistrationNumber": "8 - 1447",
-        "25f-2-crdNumber": "793",
-        "25g-legalEntityIdentifier": ""
+        "25e-isRelatedPerson": true
       }
-    ],
-    "26a-fundUsesAdministrators": true,
-    "26b-f-administrators": [
-      {
-        "26b-name": "HALL KISTLER & COMPANY",
-        "26c-location": {
-          "city": "CANTON",
-          "state": "Ohio",
-          "country": "United States"
-        },
-        "26d-isRelatedPerson": false,
-        "26e-statementsProvidedTo": "no investors",
-        "26f-statementsSentBy": "ADMINISTRATOR PREPARES INVESTOR ACCOUNT STATEMENTS, AND STIFEL NICOLAUS SENDS THE STATEMENTS TO INVESTORS."
-      }
-    ],
-    "27-percentageOfAssetsValuedNotByRelatedPerson": 100,
-    "28a-fundUsesMarketers": false,
-    "28b-g-marketers": []
+    ]
+    // ... 28 fields per fund in full response
   }
   // ... more funds
 ]
 ```
 
 </details>
+
+[Full example response](https://github.com/janlukasschroeder/sec-api/blob/master/examples/api-responses/form-adv-private-funds.json)
 
 ### Get Brochures
 
@@ -1559,6 +1272,8 @@ const brochures = await formAdvApi.getBrochures('149777');
 ```
 
 </details>
+
+[Full example response](https://github.com/janlukasschroeder/sec-api/blob/master/examples/api-responses/form-adv-brochures.json)
 
 > See the documentation for more details: https://sec-api.io/docs/investment-adviser-and-adv-api
 
