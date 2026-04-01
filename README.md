@@ -1,8 +1,18 @@
 # SEC-API.io JavaScript API Library
 
-`sec-api` is a JavaScript library for accessing the complete EDGAR database, including over **20 million SEC filings** from 1993/94 to the present and more than **100 million exhibits and attachments**.
+<a href="https://sec-api.io/docs"><img src="https://sec-api.io/favicon.svg" alt="" width="48" align="left"/></a>
 
-Download filings and related documents, such as complete submission files, index pages, SGML headers, XML and XBRL files, PDFs, and more, at up to **20 requests per second**, with **no API key required**.
+**The industry-standard for SEC & EDGAR data**, trusted by the world's largest hedge funds, investment banks, exchanges, law firms, and universities. Developed by PhDs in finance and physics.
+
+<br clear="left"/>
+
+[![Documentation](https://img.shields.io/badge/Documentation-sec--api.io-blue)](https://sec-api.io/docs)
+[![npm downloads](https://img.shields.io/npm/dm/sec-api)](https://www.npmjs.com/package/sec-api)
+
+- **20+ million EDGAR filings** and **100+ million exhibits** — from investor presentations, credit agreements, M&A, government contracts, and executive employment agreements to board composition and subsidiaries
+- **800,000+ entities, survivorship-bias free** — covers every SEC-regulated filer that ever reported, including delisted companies, dissolved funds, terminated advisors, and entities no longer reporting. From insiders and public/private companies to ETFs, mutual funds, hedge funds, foreign private issuers, BDCs, REITs, shell companies, and more
+- **All 500+ EDGAR form types** — annual and quarterly reports (10-K, 10-Q, 20-F, 40-F), proxy statements (DEF 14A) and voting records, registration statements and prospectuses, and everything in between, including form types no longer in use
+- **Full historical time range** — from 1993 to present, with data updated in real-time
 
 The full API documentation is available at [sec-api.io/docs](https://sec-api.io/docs).
 
