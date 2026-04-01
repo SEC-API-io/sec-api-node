@@ -1,6 +1,6 @@
 {
   "name": "sec-api",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "SEC-API.io JavaScript Library",
   "main": "index.js",
   "exports": {
