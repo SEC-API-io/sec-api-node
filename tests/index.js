@@ -245,6 +245,51 @@ function assert(condition, message) {
     assert(result.filings && result.filings.length > 0, 'No filings returned');
   });
 
+  await test('getIndividuals returns individual advisors', async () => {
+    const result = await secApi.formAdvApi.getIndividuals({
+      query: 'CrntEmps.CrntEmp.orgPK:149777',
+      from: '0',
+      size: '1',
+      sort: [{ id: { order: 'desc' } }],
+    });
+    assert(result.filings && result.filings.length > 0, 'No filings returned');
+  });
+
+  await test('getDirectOwners returns Schedule A data', async () => {
+    const result = await secApi.formAdvApi.getDirectOwners('361');
+    assert(Array.isArray(result) && result.length > 0, 'No direct owners returned');
+  });
+
+  await test('getIndirectOwners returns Schedule B data', async () => {
+    const result = await secApi.formAdvApi.getIndirectOwners('149777');
+    assert(Array.isArray(result) && result.length > 0, 'No indirect owners returned');
+  });
+
+  await test('getPrivateFunds returns Schedule D 7.B.1 data', async () => {
+    const result = await secApi.formAdvApi.getPrivateFunds('793');
+    assert(Array.isArray(result) && result.length > 0, 'No private funds returned');
+  });
+
+  await test('getOtherBusinessNames returns Schedule D 1.B data', async () => {
+    const result = await secApi.formAdvApi.getOtherBusinessNames('149777');
+    assert(Array.isArray(result) && result.length > 0, 'No other business names returned');
+  });
+
+  await test('getSeparatelyManagedAccounts returns Schedule D 5.K data', async () => {
+    const result = await secApi.formAdvApi.getSeparatelyManagedAccounts('149777');
+    assert(result, 'No separately managed accounts data returned');
+  });
+
+  await test('getFinancialIndustryAffiliations returns Schedule D 7.A data', async () => {
+    const result = await secApi.formAdvApi.getFinancialIndustryAffiliations('149777');
+    assert(Array.isArray(result) && result.length > 0, 'No financial industry affiliations returned');
+  });
+
+  await test('getBrochures returns brochure data', async () => {
+    const result = await secApi.formAdvApi.getBrochures('149777');
+    assert(result.brochures && result.brochures.length > 0, 'No brochures returned');
+  });
+
   console.log('\nExecutive Compensation API');
   await test('getData by ticker returns compensation data', async () => {
     const result = await secApi.execCompApi.getData('TSLA');

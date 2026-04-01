@@ -1273,6 +1273,145 @@ const indirectOwners = await formAdvApi.getIndirectOwners('326262');
 
 </details>
 
+### Get Other Business Names (Schedule D, Section 1.B)
+
+```js
+const otherBusinessNames = await formAdvApi.getOtherBusinessNames('149777');
+// response: [...] array of other business names
+```
+
+<details>
+  <summary>Example Response</summary>
+
+```json
+[
+  {
+    "name": "MORGAN STANLEY SMITH BARNEY",
+    "jurisdictions": ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "DC", "FL", "GA", "GU", "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "PR", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VI", "VA", "WA", "WV", "WI", "WY"]
+  },
+  {
+    "name": "MORGAN STANLEY WEALTH MANAGEMENT",
+    "jurisdictions": ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "DC", "FL", "GA", "GU", "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "PR", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VI", "VA", "WA", "WV", "WI", "WY"]
+  }
+  // ... more business names
+]
+```
+
+</details>
+
+### Get Separately Managed Accounts (Schedule D, Section 5.K)
+
+Retrieve details about separately managed accounts, including asset type distributions, borrowings, derivative exposures, and custodians.
+
+```js
+const smaData = await formAdvApi.getSeparatelyManagedAccounts('149777');
+// response: { ... } separately managed account details
+```
+
+<details>
+  <summary>Example Response</summary>
+
+```json
+{
+  "1-separatelyManagedAccounts": {
+    "a": {
+      "i-exchangeTradedEquity": { "midYear": "58 %", "endOfYear": "58 %" },
+      "ii-nonExchangeTradedEquity": { "midYear": "0 %", "endOfYear": "0 %" },
+      "iii-usGovernmentBonds": { "midYear": "2 %", "endOfYear": "2 %" },
+      "iv-usStateAndLocalBonds": { "midYear": "2 %", "endOfYear": "2 %" },
+      "v-sovereignBonds": { "midYear": "0 %", "endOfYear": "0 %" },
+      "vi-investmentGradeCorporateBonds": { "midYear": "4 %", "endOfYear": "4 %" },
+      "vii-nonInvestmentGradeCorporateBonds": { "midYear": "0 %", "endOfYear": "0 %" },
+      "viii-derivatives": { "midYear": "0 %", "endOfYear": "0 %" },
+      "ix-registeredInvestmentCompanies": { "midYear": "26 %", "endOfYear": "25 %" },
+      "x-pooledInvestmentVehicles": { "midYear": "4 %", "endOfYear": "4 %" },
+      "xi-cash": { "midYear": "3 %", "endOfYear": "4 %" },
+      "xii-other": { "midYear": "1 %", "endOfYear": "1 %" },
+      "other": "STRUCTURED INVESTMENTS AND ANNUITIES"
+    }
+  },
+  "2-borrowingsAndDerivatives": {
+    "a-i-midYear": {
+      "regulatoryAssetsUnderManagement": {
+        "lessThan10": "$ 1,556,490,216,199",
+        "between10And149": "$ 113,832,393,489",
+        "moreThan150": "$ 16,522,479,023"
+      },
+      "borrowings": {
+        "lessThan10": "$ 1,640,415,435",
+        "between10And149": "$ 53,635,978,014",
+        "moreThan150": "$ 67,201,944,992"
+      },
+      "derivativeExposures": {
+        "lessThan10": { "interestRate": "0 %", "foreignExchange": "0 %", "credit": "0 %", "equity": "4 %", "commodity": "0 %", "other": "0 %" },
+        "between10And149": { "interestRate": "0 %", "foreignExchange": "0 %", "credit": "0 %", "equity": "58 %", "commodity": "0 %", "other": "0 %" },
+        "moreThan150": { "interestRate": "0 %", "foreignExchange": "0 %", "credit": "0 %", "equity": "185 %", "commodity": "0 %", "other": "0 %" }
+      }
+    }
+    // ... end of year data also included
+  },
+  "3-custodiansForSeparatelyManagedAccounts": [
+    {
+      "a-legalName": "MORGAN STANLEY SMITH BARNEY LLC",
+      "b-businessName": "MORGAN STANLEY",
+      "c-locations": [{ "city": "PURCHASE", "state": "New York", "country": "United States" }],
+      "d-isRelatedPerson": true,
+      "e-secRegistrationNumber": "8 - 68191",
+      "f-lei": "",
+      "g-amountHeldAtCustodian": "$ 1,733,996,722,410"
+    }
+  ]
+}
+```
+
+</details>
+
+### Get Financial Industry Affiliations (Schedule D, Section 7.A)
+
+Retrieve related persons and financial industry affiliations, such as affiliated broker-dealers, investment advisers, insurance companies, and pooled investment vehicle sponsors.
+
+```js
+const affiliations = await formAdvApi.getFinancialIndustryAffiliations('149777');
+// response: [...] array of financial industry affiliations
+```
+
+<details>
+  <summary>Example Response</summary>
+
+```json
+[
+  {
+    "1-nameOfRelatedPerson": "MS CAPITAL PARTNERS ADVISER INC.",
+    "2-businessName": "MS CAPITAL PARTNERS ADVISER INC.",
+    "3-secFileNumber": "80169426",
+    "4a-crdNumber": "147521",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": ["b-otherAdviser", "f-commodityPoolOperator"],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": false,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": true,
+    "12-shareSameLocation": false
+  }
+  // ... more affiliations
+]
+```
+
+</details>
+
 ### Get Private Funds (Schedule D, Section 7.B.1)
 
 ```js
@@ -1862,28 +2001,22 @@ const data = await form144Api.getData({
 
 Access Form 13F filings that disclose quarterly holdings of institutional investment managers with over $100 million in assets under management. Separate endpoints are available for holdings data and cover pages.
 
+### 13F Holdings
+
+Query individual stock positions reported in 13F-HR filings, including issuer name, CUSIP, share count, market value, and voting authority.
+
 ```js
-const { form13FHoldingsApi, form13FCoverPagesApi } = require('sec-api');
+const { form13FHoldingsApi } = require('sec-api');
 
 form13FHoldingsApi.setApiKey('YOUR_API_KEY');
-form13FCoverPagesApi.setApiKey('YOUR_API_KEY');
 
-// Search 13F holdings
 const holdings = await form13FHoldingsApi.getData({
   query: 'cik:1067983',
   from: '0',
   size: '50',
   sort: [{ filedAt: { order: 'desc' } }],
 });
-
-// Search 13F cover pages
-const coverPages = await form13FCoverPagesApi.getData({
-  query: 'cik:1067983',
-  from: '0',
-  size: '10',
-  sort: [{ filedAt: { order: 'desc' } }],
-});
-// response (both): { total, data }
+// response: { total, data }
 ```
 
 <details>
@@ -1950,6 +2083,77 @@ const coverPages = await form13FCoverPagesApi.getData({
         }
         // ... more holdings
       ]
+    }
+  ]
+}
+```
+
+</details>
+
+### 13F Cover Pages
+
+Query cover page data from 13F filings, including the filing manager's name, report type, total holdings count, and aggregate portfolio value.
+
+```js
+const { form13FCoverPagesApi } = require('sec-api');
+
+form13FCoverPagesApi.setApiKey('YOUR_API_KEY');
+
+const coverPages = await form13FCoverPagesApi.getData({
+  query: 'cik:1067983',
+  from: '0',
+  size: '10',
+  sort: [{ filedAt: { order: 'desc' } }],
+});
+// response: { total, data }
+```
+
+<details>
+  <summary>Example Response</summary>
+  
+```json
+{
+  "total": { "value": 13, "relation": "eq" },
+  "data": [
+    {
+      "id": "1ef1c3fa0b53c72620f026f0ab47e7c6",
+      "accessionNo": "0001350694-26-000001",
+      "filedAt": "2026-02-13T16:03:50-05:00",
+      "formType": "13F-HR",
+      "cik": "1350694",
+      "crdNumber": "105129",
+      "secFileNumber": "801-35875",
+      "form13FFileNumber": "028-11794",
+      "periodOfReport": "2025-12-31",
+      "isAmendment": false,
+      "amendmentInfo": {},
+      "filingManager": {
+        "name": "Bridgewater Associates, LP",
+        "address": {
+          "street": "One Nyala Farms Road",
+          "city": "Westport",
+          "stateOrCountry": "CT",
+          "zipCode": 6880
+        }
+      },
+      "reportType": "13F HOLDINGS REPORT",
+      "otherManagersReportingForThisManager": [],
+      "provideInfoForInstruction5": false,
+      "signature": {
+        "name": "Michael Kitson",
+        "title": "Chief Compliance Officer and Counsel",
+        "phone": "203-226-3030",
+        "signature": "/s/Michael Kitson",
+        "city": "Westport",
+        "stateOrCountry": "CT",
+        "signatureDate": "02-13-2026"
+      },
+      "tableEntryTotal": 1040,
+      "tableEntryTotalAsReported": 1040,
+      "tableValueTotal": 27421613830,
+      "tableValueTotalAsReported": 27421613830,
+      "otherIncludedManagersCount": 0,
+      "otherIncludedManagers": []
     }
   ]
 }

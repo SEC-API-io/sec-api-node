@@ -1,0 +1,203 @@
+{
+  "1-separatelyManagedAccounts": {
+    "a": {
+      "i-exchangeTradedEquity": {
+        "midYear": "58 %",
+        "endOfYear": "58 %"
+      },
+      "ii-nonExchangeTradedEquity": {
+        "midYear": "0 %",
+        "endOfYear": "0 %"
+      },
+      "iii-usGovernmentBonds": {
+        "midYear": "2 %",
+        "endOfYear": "2 %"
+      },
+      "iv-usStateAndLocalBonds": {
+        "midYear": "2 %",
+        "endOfYear": "2 %"
+      },
+      "v-sovereignBonds": {
+        "midYear": "0 %",
+        "endOfYear": "0 %"
+      },
+      "vi-investmentGradeCorporateBonds": {
+        "midYear": "4 %",
+        "endOfYear": "4 %"
+      },
+      "vii-nonInvestmentGradeCorporateBonds": {
+        "midYear": "0 %",
+        "endOfYear": "0 %"
+      },
+      "viii-derivatives": {
+        "midYear": "0 %",
+        "endOfYear": "0 %"
+      },
+      "ix-registeredInvestmentCompanies": {
+        "midYear": "26 %",
+        "endOfYear": "25 %"
+      },
+      "x-pooledInvestmentVehicles": {
+        "midYear": "4 %",
+        "endOfYear": "4 %"
+      },
+      "xi-cash": {
+        "midYear": "3 %",
+        "endOfYear": "4 %"
+      },
+      "xii-other": {
+        "midYear": "1 %",
+        "endOfYear": "1 %"
+      },
+      "other": "STRUCTURED INVESTMENTS AND ANNUITIES"
+    },
+    "b": {
+      "i-exchangeTradedEquity": {
+        "endOfYear": "%"
+      },
+      "ii-nonExchangeTradedEquity": {
+        "endOfYear": "%"
+      },
+      "iii-usGovernmentBonds": {
+        "endOfYear": "%"
+      },
+      "iv-usStateAndLocalBonds": {
+        "endOfYear": "%"
+      },
+      "v-sovereignBonds": {
+        "endOfYear": "%"
+      },
+      "vi-investmentGradeCorporateBonds": {
+        "endOfYear": "%"
+      },
+      "vii-nonInvestmentGradeCorporateBonds": {
+        "endOfYear": "%"
+      },
+      "viii-derivatives": {
+        "endOfYear": "%"
+      },
+      "ix-registeredInvestmentCompanies": {
+        "endOfYear": "%"
+      },
+      "x-pooledInvestmentVehicles": {
+        "endOfYear": "%"
+      },
+      "xi-cash": {
+        "endOfYear": "%"
+      },
+      "xii-other": {
+        "endOfYear": "%"
+      },
+      "other": ""
+    }
+  },
+  "2-borrowingsAndDerivatives": {
+    "a-i-midYear": {
+      "regulatoryAssetsUnderManagement": {
+        "lessThan10": "$ 1,556,490,216,199",
+        "between10And149": "$ 113,832,393,489",
+        "moreThan150": "$ 16,522,479,023"
+      },
+      "borrowings": {
+        "lessThan10": "$ 1,640,415,435",
+        "between10And149": "$ 53,635,978,014",
+        "moreThan150": "$ 67,201,944,992"
+      },
+      "derivativeExposures": {
+        "lessThan10": {
+          "interestRate": "0 %",
+          "foreignExchange": "0 %",
+          "credit": "0 %",
+          "equity": "4 %",
+          "commodity": "0 %",
+          "other": "0 %"
+        },
+        "between10And149": {
+          "interestRate": "0 %",
+          "foreignExchange": "0 %",
+          "credit": "0 %",
+          "equity": "58 %",
+          "commodity": "0 %",
+          "other": "0 %"
+        },
+        "moreThan150": {
+          "interestRate": "0 %",
+          "foreignExchange": "0 %",
+          "credit": "0 %",
+          "equity": "185 %",
+          "commodity": "0 %",
+          "other": "0 %"
+        }
+      }
+    },
+    "a-i-optional": "",
+    "a-ii-endOfYear": {
+      "regulatoryAssetsUnderManagement": {
+        "lessThan10": "$ 1,821,351,370,482",
+        "between10And149": "$ 123,456,784,214",
+        "moreThan150": "$ 16,815,420,636"
+      },
+      "borrowings": {
+        "lessThan10": "$ 1,849,322,225",
+        "between10And149": "$ 57,207,183,075",
+        "moreThan150": "$ 73,243,668,360"
+      },
+      "derivativeExposures": {
+        "lessThan10": {
+          "interestRate": "0 %",
+          "foreignExchange": "0 %",
+          "credit": "0 %",
+          "equity": "4 %",
+          "commodity": "0 %",
+          "other": "0 %"
+        },
+        "between10And149": {
+          "interestRate": "0 %",
+          "foreignExchange": "0 %",
+          "credit": "0 %",
+          "equity": "60 %",
+          "commodity": "0 %",
+          "other": "0 %"
+        },
+        "moreThan150": {
+          "interestRate": "0 %",
+          "foreignExchange": "0 %",
+          "credit": "0 %",
+          "equity": "213 %",
+          "commodity": "0 %",
+          "other": "0 %"
+        }
+      }
+    },
+    "a-ii-optional": "",
+    "b": {
+      "regulatoryAssetsUnderManagement": {
+        "lessThan10": "$",
+        "between10And149": "$",
+        "moreThan150": "$"
+      },
+      "borrowings": {
+        "lessThan10": "$",
+        "between10And149": "$",
+        "moreThan150": "$"
+      }
+    }
+  },
+  "3-custodiansForSeparatelyManagedAccounts": [
+    {
+      "a-legalName": "MORGAN STANLEY SMITH BARNEY LLC",
+      "b-businessName": "MORGAN STANLEY",
+      "c-locations": [
+        {
+          "city": "PURCHASE",
+          "state": "New York",
+          "country": "United States"
+        }
+      ],
+      "d-isRelatedPerson": true,
+      "e-secRegistrationNumber": "8 - 68191",
+      "f-lei": "",
+      "g-amountHeldAtCustodian": "$ 1,733,996,722,410"
+    }
+  ]
+}

@@ -290,6 +290,36 @@ const getAdvPrivateFunds = async (crd) => {
   return getWithToken(url);
 };
 
+const getAdvOtherBusinessNames = async (crd) => {
+  const url =
+    config.formAdvApi.endpoint +
+    '/schedule-d-1-b/' +
+    crd +
+    '?token=' +
+    store.apiKey;
+  return getWithToken(url);
+};
+
+const getAdvSeparatelyManagedAccounts = async (crd) => {
+  const url =
+    config.formAdvApi.endpoint +
+    '/schedule-d-5-k/' +
+    crd +
+    '?token=' +
+    store.apiKey;
+  return getWithToken(url);
+};
+
+const getAdvFinancialIndustryAffiliations = async (crd) => {
+  const url =
+    config.formAdvApi.endpoint +
+    '/schedule-d-7-a/' +
+    crd +
+    '?token=' +
+    store.apiKey;
+  return getWithToken(url);
+};
+
 const getAdvBrochures = async (crd) => {
   const url =
     config.formAdvApi.endpoint +
@@ -503,6 +533,9 @@ const modules = {
     getDirectOwners: getAdvDirectOwners,
     getIndirectOwners: getAdvIndirectOwners,
     getPrivateFunds: getAdvPrivateFunds,
+    getOtherBusinessNames: getAdvOtherBusinessNames,
+    getSeparatelyManagedAccounts: getAdvSeparatelyManagedAccounts,
+    getFinancialIndustryAffiliations: getAdvFinancialIndustryAffiliations,
     getBrochures: getAdvBrochures,
   },
   insiderTradingApi: {

@@ -1,0 +1,4286 @@
+[
+  {
+    "1-nameOfRelatedPerson": "MS CAPITAL PARTNERS ADVISER INC.",
+    "2-businessName": "MS CAPITAL PARTNERS ADVISER INC.",
+    "3-secFileNumber": "80169426",
+    "4a-crdNumber": "147521",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser",
+      "f-commodityPoolOperator"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": false,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": true,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MORGAN STANLEY PRIVATE EQUITY ASIA, INC.",
+    "2-businessName": "MORGAN STANLEY PRIVATE EQUITY ASIA, INC.",
+    "3-secFileNumber": "80163987",
+    "4a-crdNumber": "134366",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser",
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MORGAN STANLEY INVESTMENT MANAGEMENT INC.",
+    "2-businessName": "MORGAN STANLEY INVESTMENT MANAGEMENT INC.",
+    "3-secFileNumber": "80115757",
+    "4a-crdNumber": "110353",
+    "4b-cikNumbers": [
+      "1230193"
+    ],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser",
+      "f-commodityPoolOperator",
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": true,
+    "10b-foreignRegulator": [
+      "Bahamas - Securities Commission of the Bahamas",
+      "China, People's Republic of - China Securities Regulatory Commission ",
+      "India - Securities and Exchange Board of India",
+      "South Korea - Financial Supervisory Commission / Financial Supervisory Service"
+    ],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "CONSULTING GROUP ADVISORY SERVICES LLC",
+    "2-businessName": "CONSULTING GROUP ADVISORY SERVICES LLC",
+    "3-secFileNumber": "80164791",
+    "4a-crdNumber": "137463",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": true,
+    "12-shareSameLocation": true
+  },
+  {
+    "1-nameOfRelatedPerson": "MORGAN STANLEY BANK, N.A.",
+    "2-businessName": "MORGAN STANLEY BANK, NA",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [
+      "1871769"
+    ],
+    "5-typesOfRelatedPerson": [
+      "h-bankingThriftingInstitution"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": true,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "201 S. MAIN STREET",
+      "street2": "5TH FLOOR",
+      "city": "SALT CITY CITY",
+      "state": "Utah",
+      "zipCode": "84111",
+      "country": "United States"
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": true,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MORGAN STANLEY PRIVATE BANK, NATIONAL ASSOCIATION",
+    "2-businessName": "MORGAN STANLEY PRIVATE BANK, NATIONAL ASSOCIATION",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [
+      "1534177"
+    ],
+    "5-typesOfRelatedPerson": [
+      "h-bankingThriftingInstitution"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": true,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "2000 WESTCHESTER AVE",
+      "street2": "",
+      "city": "PURCHASE",
+      "state": "New York",
+      "zipCode": "10577",
+      "country": "United States"
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": true,
+    "12-shareSameLocation": true
+  },
+  {
+    "1-nameOfRelatedPerson": "MORGAN STANLEY & CO. LLC",
+    "2-businessName": "MORGAN STANLEY & CO. LLC",
+    "3-secFileNumber": "815869",
+    "4a-crdNumber": "8209",
+    "4b-cikNumbers": [
+      "1359291"
+    ],
+    "5-typesOfRelatedPerson": [
+      "a-brokerBealer",
+      "g-futuresCommissionMerchant"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": true,
+    "10b-foreignRegulator": [
+      "Other - CANADA - MONTREAL EXCHANGE AND BOURSE DE MONTREAL",
+      "Other - MEXICO - MEXICAN DERIVATIVES EXCHANGE"
+    ],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": true
+  },
+  {
+    "1-nameOfRelatedPerson": "CERES MANAGED FUTURES LLC",
+    "2-businessName": "CERES MANAGED FUTURES LLC",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "f-commodityPoolOperator",
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MORGAN STANLEY PRIVATE EQUITY ASIA V GP ONT, L.P.",
+    "2-businessName": "MORGAN STANLEY PRIVATE EQUITY ASIA V GP ONT, L.P.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "f-commodityPoolOperator",
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MSREF VII GLOBAL-GP (CAYMAN), L.P.",
+    "2-businessName": "MSREF VII GLOBAL-GP (CAYMAN), L.P.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MSREF VII GLOBAL-GP (U.S.), L.L.C.",
+    "2-businessName": "MSREF VII GLOBAL-GP (U.S.), L.L.C.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP CRYSTAL-SMA I SLP LP",
+    "2-businessName": "AIP CRYSTAL-SMA I SLP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": true,
+    "9b-exemption": "ABA 2005 NO ACTION LETTER",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": true
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP GLOBAL DIVERSIFIED ALTERNATIVES V GP LP",
+    "2-businessName": "AIP GLOBAL DIVERSIFIED ALTERNATIVES V GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP GLOBAL DIVERSIFIED VI GP LP",
+    "2-businessName": "AIP GLOBAL DIVERSIFIED VI GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP GLOBAL INCOME I GP LP",
+    "2-businessName": "AIP GLOBAL INCOME I GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS TACTICAL VALUE FUND GP LP",
+    "2-businessName": "MS TACTICAL VALUE FUND GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": true
+  },
+  {
+    "1-nameOfRelatedPerson": "MORGAN STANLEY PRIVATE EQUITY ASIA IV, L.L.C.",
+    "2-businessName": "MORGAN STANLEY PRIVATE EQUITY ASIA IV, L.L.C.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "f-commodityPoolOperator",
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MSREF VII GLOBAL-GP, L.P.",
+    "2-businessName": "MSREF VII GLOBAL-GP, L.P.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "f-commodityPoolOperator",
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MORGAN STANLEY FIXED INCOME GP INC.",
+    "2-businessName": "MORGAN STANLEY FIXED INCOME GP INC.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP COMPREHENSIVE SECONDARIES I GP LP",
+    "2-businessName": "AIP COMPREHENSIVE SECONDARIES I GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP COMPREHENSIVE SECONDARIES II GP LP",
+    "2-businessName": "AIP COMPREHENSIVE SECONDARIES II GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP GLOBAL INCOME II SLP LP",
+    "2-businessName": "AIP GLOBAL INCOME II SLP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": true,
+    "9b-exemption": "ABA 2005 NO ACTION LETTER",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP OPPORTUNISTIC ACI I GP LP",
+    "2-businessName": "AIP OPPORTUNISTIC ACI I GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP GLOBAL IMPACT I GP LP",
+    "2-businessName": "AIP GLOBAL IMPACT I GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP OPPORTUNISTIC ALTERNATIVES GP LP",
+    "2-businessName": "AIP OPPORTUNISTIC ALTERNATIVES GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP OPPORTUNISTIC SECONDARIES I SLP LP",
+    "2-businessName": "AIP OPPORTUNISTIC SECONDARIES I SLP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": true,
+    "9b-exemption": "ABA 2005 NO ACTION LETTER",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP RE FOF II GP LP",
+    "2-businessName": "AIP RE FOF II GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "GLOBAL DIVERSIFIED ALTERNATIVES III GP LP",
+    "2-businessName": "GLOBAL DIVERSIFIED ALTERNATIVES III GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "GLOBAL DIVERSIFIED ALTERNATIVES IV GP LP",
+    "2-businessName": "GLOBAL DIVERSIFIED ALTERNATIVES IV GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "GLOBAL DIVERSIFIED ALTERNATIVES IV SLP GP LTD",
+    "2-businessName": "GLOBAL DIVERSIFIED ALTERNATIVES IV SLP GP LTD",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": true,
+    "9b-exemption": "ABA 2005 NO ACTION LETTER",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MORGAN STANLEY REAL ESTATE ADVISOR, INC.",
+    "2-businessName": "MORGAN STANLEY REAL ESTATE ADVISOR, INC.",
+    "3-secFileNumber": "80162377",
+    "4a-crdNumber": "127488",
+    "4b-cikNumbers": [
+      "1404783"
+    ],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser",
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP ASIA-SMA GP LP",
+    "2-businessName": "AIP ASIA-SMA GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP ASIA-SMA II SLP LP",
+    "2-businessName": "AIP ASIA-SMA II SLP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": true,
+    "9b-exemption": "ABA 2005 NO ACTION LETTER",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP BRICKYARD GP LP",
+    "2-businessName": "AIP BRICKYARD GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP DIAMOND-SMA I SLP LP",
+    "2-businessName": "AIP DIAMOND-SMA I SLP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": true,
+    "9b-exemption": "ABA 2005 NO ACTION LETTER",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP GATEWAY II GP LP",
+    "2-businessName": "AIP GATEWAY II GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP GLOBAL DIVERSIFIED VII SLP LP",
+    "2-businessName": "AIP GLOBAL DIVERSIFIED VII SLP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": true,
+    "9b-exemption": "ABA 2005 NO ACTION LETTER",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP GRANITE-SMA GP LP",
+    "2-businessName": "AIP GRANITE-SMA GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP MBAR SLP LP",
+    "2-businessName": "AIP MBAR SLP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": true,
+    "9b-exemption": "ABA 2005 NO ACTION LETTER",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP MCS VALUE SLP LP",
+    "2-businessName": "AIP MCS VALUE SLP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": true,
+    "9b-exemption": "ABA 2005 NO ACTION LETTER",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP MEDYARD GP LP",
+    "2-businessName": "AIP MEDYARD GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP NML-SMA GP LP",
+    "2-businessName": "AIP NML-SMA GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP OPPORTUNISTIC ACI II SLP GP LP",
+    "2-businessName": "AIP OPPORTUNISTIC ACI II SLP GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": true,
+    "9b-exemption": "ABA 2005 NO ACTION LETTER",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP RE FOF 2009 GP LP",
+    "2-businessName": "AIP RE FOF 2009 GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP RE FOF 2010 GP LP",
+    "2-businessName": "AIP RE FOF 2010 GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP SOUTHYARD GP INC.",
+    "2-businessName": "AIP SOUTHYARD GP INC.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP TRANSITIONAL DIVERSIFIED ALTERNATIVES GP LP",
+    "2-businessName": "AIP TRANSITIONAL DIVERSIFIED ALTERNATIVES GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "FLINT CAPITAL PARTNERS GP LP",
+    "2-businessName": "FLINT CAPITAL PARTNERS GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "GPF PRIVATE EQUITY GP LP",
+    "2-businessName": "GPF PRIVATE EQUITY GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "GTB CAPITAL PARTNERS GP LP",
+    "2-businessName": "GTB CAPITAL PARTNERS GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MESA WEST DSA, LLC",
+    "2-businessName": "MESA WEST DSA, LLC",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS CAPITAL PARTNERS VI GP INC.",
+    "2-businessName": "MS CAPITAL PARTNERS VI GP INC.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS CAPITAL PARTNERS VII GP INC.",
+    "2-businessName": "MS CAPITAL PARTNERS VII GP INC.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MORGAN STANLEY INSURANCE SERVICES INC.",
+    "2-businessName": "MORGAN STANLEY INSURANCE SERVICES INC.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "l-insuranceCompany"
+    ],
+    "6-controlsRelatedPerson": true,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MORGAN STANLEY PRIVATE EQUITY ASIA III, INC.",
+    "2-businessName": "MORGAN STANLEY PRIVATE EQUITY ASIA III, INC.",
+    "3-secFileNumber": "80167700",
+    "4a-crdNumber": "143479",
+    "4b-cikNumbers": [
+      "1522733"
+    ],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser",
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MORGAN STANLEY PRIVATE EQUITY ASIA III, L.L.C.",
+    "2-businessName": "MORGAN STANLEY PRIVATE EQUITY ASIA III, L.L.C.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [
+      "1522732"
+    ],
+    "5-typesOfRelatedPerson": [
+      "f-commodityPoolOperator",
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MORGAN STANLEY PRIVATE EQUITY ASIA IV, INC.",
+    "2-businessName": "MORGAN STANLEY PRIVATE EQUITY ASIA IV, INC.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MORGAN STANLEY PRIVATE EQUITY ASIA V, INC.",
+    "2-businessName": "MORGAN STANLEY PRIVATE EQUITY ASIA V, INC.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MORGAN STANLEY PRIVATE EQUITY ASIA, LLC",
+    "2-businessName": "MORGAN STANLEY PRIVATE EQUITY ASIA, LLC",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "f-commodityPoolOperator",
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MORGAN STANLEY ALTERNATIVES HOLDING D INC.",
+    "2-businessName": "MORGAN STANLEY ALTERNATIVES HOLDING D INC.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS CAPITAL PARTNERS V GP L.P.",
+    "2-businessName": "MS CAPITAL PARTNERS V GP L.P.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS CAPITAL PARTNERS VIII GP LP",
+    "2-businessName": "MS CAPITAL PARTNERS VIII GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS CREDIT PARTNERS II GP L.P.",
+    "2-businessName": "MS CREDIT PARTNERS II GP L.P.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "f-commodityPoolOperator",
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS CREDIT PARTNERS III GP L.P.",
+    "2-businessName": "MS CREDIT PARTNERS III GP L.P.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "f-commodityPoolOperator",
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS CREDIT PARTNERS III S.A R.L.",
+    "2-businessName": "MS CREDIT PARTNERS III S.A R.L.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "f-commodityPoolOperator",
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS ENERGY PARTNERS GP INC.",
+    "2-businessName": "MS ENERGY PARTNERS GP INC.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS ENERGY PARTNERS GP LP",
+    "2-businessName": "MS ENERGY PARTNERS GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS EXPANSION CAPITAL GP INC.",
+    "2-businessName": "MS EXPANSION CAPITAL GP INC.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS EXPANSION CAPITAL GP LP",
+    "2-businessName": "MS EXPANSION CAPITAL GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS EXPANSION CREDIT GP INC.",
+    "2-businessName": "MS EXPANSION CREDIT GP INC.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS EXPANSION CREDIT GP L.P.",
+    "2-businessName": "MS EXPANSION CREDIT GP L.P.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS EXPANSION EQUITY GP INC.",
+    "2-businessName": "MS EXPANSION EQUITY GP INC.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS TACTICAL VALUE FUND GP INC.",
+    "2-businessName": "MS TACTICAL VALUE FUND GP INC.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": true
+  },
+  {
+    "1-nameOfRelatedPerson": "MSCP V GP INC.",
+    "2-businessName": "MSCP V GP INC.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MSCP V OFFSHORE INVESTORS GP LTD.",
+    "2-businessName": "MSCP V OFFSHORE INVESTORS GP LTD.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MSCVF I GP INC.",
+    "2-businessName": "MSCVF I GP INC.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MSCVF I GP LP",
+    "2-businessName": "MSCVF I GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MSREF VII GLOBAL (CAYMAN) II, LTD.",
+    "2-businessName": "MSREF VII GLOBAL (CAYMAN) II, LTD.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MSREF VIII GLOBAL-GP, L.P.",
+    "2-businessName": "MSREF VIII GLOBAL-GP, L.P.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "f-commodityPoolOperator",
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MSREF VIII GP, L.L.C.",
+    "2-businessName": "MSREF VIII GP, L.L.C.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MSREF VIII, INC.",
+    "2-businessName": "MSREF VIII, INC.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MSREI IX GLOBAL-GP, L.P.",
+    "2-businessName": "MSREI IX GLOBAL-GP, L.P.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "f-commodityPoolOperator",
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MSREI IX GP, L.L.C.",
+    "2-businessName": "MSREI IX GP, L.L.C.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "PRIVATE INVESTMENT PARTNERS INC.",
+    "2-businessName": "PRIVATE INVESTMENT PARTNERS INC.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "SBHU LIFE AGENCY, INC.",
+    "2-businessName": "SBHU LIFE AGENCY, INC.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "l-insuranceCompany"
+    ],
+    "6-controlsRelatedPerson": true,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP COSMIC SLP LP",
+    "2-businessName": "AIP COSMIC SLP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": true,
+    "9b-exemption": "ABA 2005 NO ACTION LETTER",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "BANCO MORGAN STANLEY S.A.",
+    "2-businessName": "BANCO MORGAN STANLEY S.A.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "h-bankingThriftingInstitution"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": true,
+    "10b-foreignRegulator": [
+      "Other - BRAZILIAN CENTRAL BANK"
+    ],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MORGAN STANLEY VENTURE PARTNERS III, L.L.C.",
+    "2-businessName": "MORGAN STANLEY VENTURE PARTNERS III, L.L.C.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS CREDIT PARTNERS GP INC.",
+    "2-businessName": "MS CREDIT PARTNERS GP INC.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "f-commodityPoolOperator",
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS CREDIT PARTNERS HOLDINGS INC.",
+    "2-businessName": "MS CREDIT PARTNERS HOLDINGS INC.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [
+      "1790614"
+    ],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS CREDIT PARTNERS II GP INC.",
+    "2-businessName": "MS CREDIT PARTNERS II GP INC.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "f-commodityPoolOperator",
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS EXPANSION CREDIT II GP INC.",
+    "2-businessName": "MS EXPANSION CREDIT II GP INC.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS EXPANSION CREDIT II GP LP",
+    "2-businessName": "MS EXPANSION CREDIT II GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS EXPANSION EQUITY GP LP",
+    "2-businessName": "MS EXPANSION EQUITY GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MSDW VENTURE PARTNERS IV, LLC",
+    "2-businessName": "MSDW VENTURE PARTNERS IV, LLC",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MSDW VP IV HOLDINGS, INC.",
+    "2-businessName": "MSDW VP IV HOLDINGS, INC.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MSREI X GLOBAL-GP, LP",
+    "2-businessName": "MSREI X GLOBAL-GP, LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "f-commodityPoolOperator",
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MSREI X GP, L.L.C.",
+    "2-businessName": "MSREI X GP, L.L.C.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MSVP 2002 FUND, LLC",
+    "2-businessName": "MSVP 2002 FUND, LLC",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MSVP 2002, INC.",
+    "2-businessName": "MSVP 2002, INC.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP ASIA-SMA III SLP LP",
+    "2-businessName": "AIP ASIA-SMA III SLP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": false,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP OPPORTUNISTIC SECONDARIES II SLP LP",
+    "2-businessName": "AIP OPPORTUNISTIC SECONDARIES II SLP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "E*TRADE FUTURES L.L.C.",
+    "2-businessName": "E*TRADE FUTURES L.L.C.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "g-futuresCommissionMerchant"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": true,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MORGAN STANLEY INSTITUTIONAL INVESTMENT ADVISORS LLC",
+    "2-businessName": "MORGAN STANLEY INSTITUTIONAL INVESTMENT ADVISORS LLC",
+    "3-secFileNumber": "80169938",
+    "4a-crdNumber": "149122",
+    "4b-cikNumbers": [
+      "2026079"
+    ],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": true,
+    "12-shareSameLocation": true
+  },
+  {
+    "1-nameOfRelatedPerson": "MORGAN STANLEY NEXT LEVEL FUND GP, LLC",
+    "2-businessName": "MORGAN STANLEY NEXT LEVEL FUND GP, LLC",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP 1GT FUND (LUX) GP S.A.R.L.",
+    "2-businessName": "AIP 1GT FUND (LUX) GP S.A.R.L.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP 1GT FUND GP LP",
+    "2-businessName": "AIP 1GT FUND GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP RUBY-SMA I SLP LP",
+    "2-businessName": "AIP RUBY-SMA I SLP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser",
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": true,
+    "9b-exemption": "ABA 2005 NO ACTION LETTER",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "CT REAL ASSETS SLP LP",
+    "2-businessName": "CT REAL ASSETS SLP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": true,
+    "9b-exemption": "ABA 2005 NO ACTION LETTER",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS CAPITAL PARTNERS CV GP LLC",
+    "2-businessName": "MS CAPITAL PARTNERS CV GP LLC",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS CREDIT PARTNERS IV GP L.P.",
+    "2-businessName": "MS CREDIT PARTNERS IV GP L.P.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "f-commodityPoolOperator",
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS EXPANSION EQUITY IX GP INC.",
+    "2-businessName": "MS EXPANSION EQUITY IX GP INC.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS TACTICAL VALUE FUND II GP INC.",
+    "2-businessName": "MS TACTICAL VALUE FUND II GP INC.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS TACTICAL VALUE FUND II GP LP",
+    "2-businessName": "MS TACTICAL VALUE FUND II GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS CREDIT PARTNERS IV GP INC.",
+    "2-businessName": "MS CREDIT PARTNERS IV GP INC.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "f-commodityPoolOperator",
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "OLOMANA REAL ASSETS SLP LP",
+    "2-businessName": "OLOMANA REAL ASSETS SLP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser",
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": true,
+    "9b-exemption": "ABA 2005 NO ACTION LETTER",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "PARAMETRIC PORTFOLIO ASSOCIATES LLC",
+    "2-businessName": "PARAMETRIC PORTFOLIO ASSOCIATES",
+    "3-secFileNumber": "80160485",
+    "4a-crdNumber": "114310",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser",
+      "f-commodityPoolOperator",
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": true,
+    "10b-foreignRegulator": [
+      "Canada - Alberta Securities Commission",
+      "Canada - British Columbia Securities Commission",
+      "Canada - Manitoba Securities Commission",
+      "Canada - Nova Scotia Securities Commission",
+      "Canada - Ontario Securities Commission",
+      "Canada - Quebec, Financial Markets Authority",
+      "Ireland - Central Bank of Ireland"
+    ],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "EATON VANCE MANAGEMENT",
+    "2-businessName": "EATON VANCE MANAGEMENT",
+    "3-secFileNumber": "80115930",
+    "4a-crdNumber": "104859",
+    "4b-cikNumbers": [
+      "1076598"
+    ],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": true,
+    "10b-foreignRegulator": [
+      "South Korea - Financial Supervisory Commission / Financial Supervisory Service"
+    ],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "BOSTON MANAGEMENT AND RESEARCH",
+    "2-businessName": "BOSTON MANAGEMENT AND RESEARCH",
+    "3-secFileNumber": "80143127",
+    "4a-crdNumber": "104853",
+    "4b-cikNumbers": [
+      "877781"
+    ],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser",
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "CALVERT RESEARCH AND MANAGEMENT",
+    "2-businessName": "CALVERT RESEARCH AND MANAGEMENT",
+    "3-secFileNumber": "801108378",
+    "4a-crdNumber": "285127",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "ATLANTA CAPITAL MANAGEMENT COMPANY, L.L.C.",
+    "2-businessName": "ATLANTA CAPITAL",
+    "3-secFileNumber": "80160673",
+    "4a-crdNumber": "116719",
+    "4b-cikNumbers": [
+      "1027817"
+    ],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP SEEDLING I SLP LP",
+    "2-businessName": "AIP SEEDLING I SLP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": true,
+    "9b-exemption": "ABA 2005 NO ACTION LETTER",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP DR SLP LP",
+    "2-businessName": "AIP DR SLP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser",
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": true,
+    "9b-exemption": "ABA 2005 NO ACTION LETTER",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP GLOBAL VENTURE I SLP LP",
+    "2-businessName": "AIP GLOBAL VENTURE I SLP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": true,
+    "9b-exemption": "ABA 2005 NO ACTION LETTER",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS CAPITAL PARTNERS VIII GP INC.",
+    "2-businessName": "MS CAPITAL PARTNERS VIII GP INC.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS EXPANSION EQUITY IX GP LP",
+    "2-businessName": "MS EXPANSION EQUITY IX GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS CAPITAL PARTNERS VI GP LP",
+    "2-businessName": "MS CAPITAL PARTNERS VI GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS CAPITAL PARTNERS VII GP LP",
+    "2-businessName": "MS CAPITAL PARTNERS VII GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MORGAN STANLEY INVESTMENT MANAGEMENT LIMITED",
+    "2-businessName": "MORGAN STANLEY INVESTMENT MANAGEMENT LIMITED",
+    "3-secFileNumber": "80126847",
+    "4a-crdNumber": "105922",
+    "4b-cikNumbers": [
+      "1358504"
+    ],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser",
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": true,
+    "10b-foreignRegulator": [
+      "Denmark - Danish Financial Supervisory Authority",
+      "Other - UNITED ARAB EMIRATES - ABU DHABI GLOBAL MARKET FINANCIAL SERVICES REGULATORY AUTHORITY",
+      "South Africa - Financial Services Board",
+      "South Korea - Financial Supervisory Commission / Financial Supervisory Service",
+      "United Kingdom - Financial Conduct Authority"
+    ],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MORGAN STANLEY DISTRIBUTION, INC.",
+    "2-businessName": "MORGAN STANLEY DISTRIBUTION, INC.",
+    "3-secFileNumber": "844766",
+    "4a-crdNumber": "30344",
+    "4b-cikNumbers": [
+      "886116"
+    ],
+    "5-typesOfRelatedPerson": [
+      "a-brokerBealer"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": true,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MESA WEST CAPITAL, LLC",
+    "2-businessName": "MESA WEST CAPITAL",
+    "3-secFileNumber": "80172711",
+    "4a-crdNumber": "158959",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser",
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MESA WEST REAL ESTATE INCOME FUND V GP, L.L.C.",
+    "2-businessName": "MESA WEST REAL ESTATE INCOME FUND V GP, L.L.C.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MORGAN STANLEY WEALTH MANAGEMENT CANADA INC.",
+    "2-businessName": "MORGAN STANLEY WEALTH MANAGEMENT CANADA INC.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "a-brokerBealer"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": true,
+    "10b-foreignRegulator": [
+      "Canada - Alberta Securities Commission",
+      "Canada - British Columbia Securities Commission",
+      "Canada - Manitoba Securities Commission",
+      "Canada - New Brunswick Securities Commission",
+      "Canada - Newfoundland and Labrador, Financial Services Regulation Division",
+      "Canada - Northwest Territories, Office of the Registrar of Securities",
+      "Canada - Nova Scotia Securities Commission",
+      "Canada - Nunavut, Registrar of Securities",
+      "Canada - Ontario Securities Commission",
+      "Canada - Prince Edward Island, Securities Office",
+      "Canada - Quebec, Financial Markets Authority",
+      "Canada - Saskatchewan Financial Services Commission",
+      "Canada - Yukon Territories, Registrar of Securities"
+    ],
+    "11-shareSupervisedPersons": true,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS CAPITAL PARTNERS W50 CV GP LLC",
+    "2-businessName": "MS CAPITAL PARTNERS W50 CV GP LLC",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "EATON VANCE DISTRIBUTORS, INC.",
+    "2-businessName": "EATON VANCE DISTRIBUTORS, INC.",
+    "3-secFileNumber": "847939",
+    "4a-crdNumber": "37731",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "a-brokerBealer"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": true,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MORGAN STANLEY VENTURE CAPITAL III INC",
+    "2-businessName": "MORGAN STANLEY VENTURE CAPITAL III INC",
+    "3-secFileNumber": "80152909",
+    "4a-crdNumber": "108708",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser",
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS SENIOR LOAN PARTNERS GP INC.",
+    "2-businessName": "MS SENIOR LOAN PARTNERS GP INC.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "f-commodityPoolOperator",
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS SENIOR LOAN PARTNERS GP L.P.",
+    "2-businessName": "MS SENIOR LOAN PARTNERS GP L.P.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "f-commodityPoolOperator",
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MSDW VENTURE PARTNERS IV INC",
+    "2-businessName": "MSDW VENTURE PARTNERS IV INC",
+    "3-secFileNumber": "80156916",
+    "4a-crdNumber": "108709",
+    "4b-cikNumbers": [
+      "1230210"
+    ],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser",
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MSIM DELAWARE GP INC.",
+    "2-businessName": "MSIM DELAWARE GP INC.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP COMPREHENSIVE SECONDARIES III SLP LP",
+    "2-businessName": "AIP COMPREHENSIVE SECONDARIES III SLP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": true,
+    "9b-exemption": "ABA 2005 NO ACTION LETTER",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP ORION PRIVATE EQUITY SLP LP",
+    "2-businessName": "AIP ORION PRIVATE EQUITY SLP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": true,
+    "9b-exemption": "ABA 2005 NO ACTION LETTER",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "AIP OPPORTUNISTIC SECONDARIES III SLP LP",
+    "2-businessName": "AIP OPPORTUNISTIC SECONDARIES III SLP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": true,
+    "9b-exemption": "ABA 2005 NO ACTION LETTER",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MORGAN STANLEY AIP GP LP",
+    "2-businessName": "MORGAN STANLEY AIP GP LP",
+    "3-secFileNumber": "80160699",
+    "4a-crdNumber": "117050",
+    "4b-cikNumbers": [
+      "1230207"
+    ],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser",
+      "f-commodityPoolOperator",
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MORGAN STANLEY CAPITAL SERVICES, LLC",
+    "2-businessName": "MORGAN STANLEY CAPITAL SERVICES, LLC",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "a-brokerBealer",
+      "d-swapDealer"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MORGAN STANLEY EATON VANCE CLO MANAGER LLC",
+    "2-businessName": "MORGAN STANLEY | EATON VANCE CLO MANAGER LLC",
+    "3-secFileNumber": "801118877",
+    "4a-crdNumber": "309263",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "b-otherAdviser",
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS EXPANSION CREDIT III GP LP",
+    "2-businessName": "MS EXPANSION CREDIT III GP LP",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS PARTNERS III GP INC.",
+    "2-businessName": "MS PARTNERS III GP INC.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "f-commodityPoolOperator",
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  },
+  {
+    "1-nameOfRelatedPerson": "MS EXPANSION CREDIT III GP INC.",
+    "2-businessName": "MS EXPANSION CREDIT III GP INC.",
+    "3-secFileNumber": "",
+    "4a-crdNumber": "",
+    "4b-cikNumbers": [],
+    "5-typesOfRelatedPerson": [
+      "p-sponsorOfPooledInvestmentVehicles"
+    ],
+    "6-controlsRelatedPerson": false,
+    "7-underCommonControl": true,
+    "8a-relatedPersonActsAsCustodian": false,
+    "8b-notOperationallyIndependent": false,
+    "8c-locationOfRelatedPerson": {
+      "street1": "",
+      "street2": "",
+      "city": "",
+      "state": "",
+      "zipCode": "",
+      "country": ""
+    },
+    "9a-exemptFromRegistration": false,
+    "9b-exemption": "",
+    "10a-registeredWithForeignRegulator": false,
+    "10b-foreignRegulator": [],
+    "11-shareSupervisedPersons": false,
+    "12-shareSameLocation": false
+  }
+]
