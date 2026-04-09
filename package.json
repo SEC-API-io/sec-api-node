@@ -45,7 +45,7 @@
   },
   "homepage": "https://github.com/janlukasschroeder/sec-api#readme",
   "dependencies": {
-    "axios": "1.13.5"
+    "axios": "1.15.0"
   },
   "bin": {
     "sec-api": "./index.js"
