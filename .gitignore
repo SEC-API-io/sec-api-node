@@ -5,3 +5,5 @@ deploy.sh
 .npmrc
 .claude
 tmp
+TODO.md
+/scripts/*

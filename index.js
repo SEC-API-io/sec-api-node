@@ -1,7 +1,13 @@
 #!/usr/bin/env node
 
 const config = require('./config');
-const axios = require('axios');
+const {
+  getJson,
+  postJson,
+  getBuffer,
+  getText,
+  get,
+} = require('./modules/http-client');
 
 const store = { apiKey: '' };
 
@@ -10,71 +16,40 @@ const setApiKey = (apiKey) => {
 };
 
 /**
- * Retry wrapper with backoff for handling 429 (too many requests) errors.
- */
-const withRetry = async (fn, maxRetries = 3) => {
-  for (let i = 0; i < maxRetries; i++) {
-    try {
-      return await fn();
-    } catch (error) {
-      if (error.response && error.response.status === 429 && i < maxRetries - 1) {
-        await new Promise((resolve) => setTimeout(resolve, 500 * (i + 1)));
-        continue;
-      }
-      throw error;
-    }
-  }
-};
-
-/**
  * Helper: POST query to endpoint with token as query param, return JSON.
  */
 const postWithToken = async (endpoint, query) => {
   const url = endpoint + '?token=' + store.apiKey;
-  return withRetry(async () => {
-    const { data } = await axios.post(url, query);
-    return data;
-  });
+  return postJson({ url, body: query });
 };
 
 /**
  * Helper: GET endpoint with token as query param, return JSON.
  */
 const getWithToken = async (url) => {
-  return withRetry(async () => {
-    const { data } = await axios.get(url);
-    return data;
-  });
+  return getJson(url);
 };
 
 /*
  * Query API
  */
 const getFilingsQuery = async (query) => {
-  const options = {
-    method: 'post',
+  return postJson({
     url: config.queryApi.endpoint,
+    body: query,
     headers: { Authorization: store.apiKey },
-    data: query,
-  };
-
-  const { data } = await axios(options);
-  return data;
+  });
 };
 
 /**
  * Full-text Search API
  */
 const getFilingsFullText = async (query) => {
-  const options = {
-    method: 'post',
+  return postJson({
     url: config.fullTextApi.endpoint,
+    body: query,
     headers: { Authorization: store.apiKey },
-    data: query,
-  };
-
-  const { data } = await axios(options);
-  return data;
+  });
 };
 
 /**
@@ -109,14 +84,7 @@ const getFile = async (
   const url =
     config.downloadApiV2.endpoint + urlPath + '?token=' + store.apiKey;
 
-  const options = {
-    method: 'get',
-    url,
-    responseType: 'arraybuffer',
-    decompress: params.decompress,
-  };
-
-  const { data, headers } = await axios(options);
+  const { data, headers } = await getBuffer(url);
 
   if (!params.autoConvertToString) {
     return data;
@@ -147,13 +115,7 @@ const getFilingContent = async (url, type = 'html') => {
     _url = config.downloadApi.endpoint + filename + '?token=' + store.apiKey;
   }
 
-  const options = {
-    method: 'get',
-    url: _url,
-  };
-
-  const { data } = await axios(options);
-  return data;
+  return getText(_url);
 };
 
 /**
@@ -168,10 +130,8 @@ const getPdf = async (url) => {
     '&token=' +
     store.apiKey;
 
-  return withRetry(async () => {
-    const { data } = await axios.get(requestUrl, { responseType: 'arraybuffer' });
-    return data;
-  });
+  const { data } = await getBuffer(requestUrl);
+  return data;
 };
 
 /**
@@ -196,8 +156,7 @@ const xbrlToJson = async ({ htmUrl, xbrlUrl, accessionNo } = {}) => {
     requestUrl += '&accession-no=' + accessionNo;
   }
 
-  const { data } = await axios.get(requestUrl);
-  return data;
+  return getJson(requestUrl);
 };
 
 /**
@@ -212,8 +171,7 @@ const getSection = async (filingUrl, section = '1A', returnType = 'text') => {
     config.extractorApi.endpoint +
     `?token=${store.apiKey}&url=${filingUrl}&item=${section}&type=${returnType}`;
 
-  const { data } = await axios.get(requestUrl);
-  return data;
+  return get(requestUrl);
 };
 
 /**
@@ -322,11 +280,7 @@ const getAdvFinancialIndustryAffiliations = async (crd) => {
 
 const getAdvBrochures = async (crd) => {
   const url =
-    config.formAdvApi.endpoint +
-    '/brochures/' +
-    crd +
-    '?token=' +
-    store.apiKey;
+    config.formAdvApi.endpoint + '/brochures/' + crd + '?token=' + store.apiKey;
   return getWithToken(url);
 };
 
@@ -345,7 +299,9 @@ const getExecComp = async (parameter) => {
   } else if (typeof parameter === 'object') {
     return postWithToken(config.execCompApi.endpoint, parameter);
   } else {
-    throw new Error('Invalid parameter. Provide a ticker string or a query object.');
+    throw new Error(
+      'Invalid parameter. Provide a ticker string or a query object.',
+    );
   }
 };
 
@@ -372,11 +328,7 @@ const getNpxMetadata = async (query) => {
 
 const getNpxVotingRecords = async (accessionNo) => {
   const url =
-    config.formNpxApi.endpoint +
-    '/' +
-    accessionNo +
-    '?token=' +
-    store.apiKey;
+    config.formNpxApi.endpoint + '/' + accessionNo + '?token=' + store.apiKey;
   return getWithToken(url);
 };
 

@@ -883,7 +883,7 @@ const firms = await formAdvApi.getFirms({
 
 </details>
 
-[Full example response](https://github.com/janlukasschroeder/sec-api/blob/master/examples/api-responses/form-adv-firms.json)
+[Full example response](https://github.com/sec-api-io/sec-api-node/blob/master/examples/api-responses/form-adv-firms.json)
 
 ### Search Individual Advisors
 
@@ -965,7 +965,7 @@ const individuals = await formAdvApi.getIndividuals({
 
 </details>
 
-[Full example response](https://github.com/janlukasschroeder/sec-api/blob/master/examples/api-responses/form-adv-individuals.json)
+[Full example response](https://github.com/sec-api-io/sec-api-node/blob/master/examples/api-responses/form-adv-individuals.json)
 
 ### Get Direct Owners (Schedule A)
 
@@ -1005,7 +1005,7 @@ const directOwners = await formAdvApi.getDirectOwners('793');
 
 </details>
 
-[Full example response](https://github.com/janlukasschroeder/sec-api/blob/master/examples/api-responses/form-adv-direct-owners.json)
+[Full example response](https://github.com/sec-api-io/sec-api-node/blob/master/examples/api-responses/form-adv-direct-owners.json)
 
 ### Get Indirect Owners (Schedule B)
 
@@ -1047,7 +1047,7 @@ const indirectOwners = await formAdvApi.getIndirectOwners('326262');
 
 </details>
 
-[Full example response](https://github.com/janlukasschroeder/sec-api/blob/master/examples/api-responses/form-adv-indirect-owners.json)
+[Full example response](https://github.com/sec-api-io/sec-api-node/blob/master/examples/api-responses/form-adv-indirect-owners.json)
 
 ### Get Other Business Names (Schedule D, Section 1.B)
 
@@ -1097,7 +1097,7 @@ const otherBusinessNames = await formAdvApi.getOtherBusinessNames('149777');
 
 </details>
 
-[Full example response](https://github.com/janlukasschroeder/sec-api/blob/master/examples/api-responses/form-adv-other-business-names.json)
+[Full example response](https://github.com/sec-api-io/sec-api-node/blob/master/examples/api-responses/form-adv-other-business-names.json)
 
 ### Get Separately Managed Accounts (Schedule D, Section 5.K)
 
@@ -1154,7 +1154,7 @@ const smaData = await formAdvApi.getSeparatelyManagedAccounts('149777');
 
 </details>
 
-[Full example response](https://github.com/janlukasschroeder/sec-api/blob/master/examples/api-responses/form-adv-separately-managed-accounts.json)
+[Full example response](https://github.com/sec-api-io/sec-api-node/blob/master/examples/api-responses/form-adv-separately-managed-accounts.json)
 
 ### Get Financial Industry Affiliations (Schedule D, Section 7.A)
 
@@ -1191,7 +1191,7 @@ const affiliations =
 
 </details>
 
-[Full example response](https://github.com/janlukasschroeder/sec-api/blob/master/examples/api-responses/form-adv-financial-industry-affiliations.json)
+[Full example response](https://github.com/sec-api-io/sec-api-node/blob/master/examples/api-responses/form-adv-financial-industry-affiliations.json)
 
 ### Get Private Funds (Schedule D, Section 7.B.1)
 
@@ -1243,7 +1243,7 @@ const privateFunds = await formAdvApi.getPrivateFunds('793');
 
 </details>
 
-[Full example response](https://github.com/janlukasschroeder/sec-api/blob/master/examples/api-responses/form-adv-private-funds.json)
+[Full example response](https://github.com/sec-api-io/sec-api-node/blob/master/examples/api-responses/form-adv-private-funds.json)
 
 ### Get Brochures
 
@@ -1283,7 +1283,7 @@ const brochures = await formAdvApi.getBrochures('149777');
 
 </details>
 
-[Full example response](https://github.com/janlukasschroeder/sec-api/blob/master/examples/api-responses/form-adv-brochures.json)
+[Full example response](https://github.com/sec-api-io/sec-api-node/blob/master/examples/api-responses/form-adv-brochures.json)
 
 > See the documentation for more details: https://sec-api.io/docs/investment-adviser-and-adv-api
 

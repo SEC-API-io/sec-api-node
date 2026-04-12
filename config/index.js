@@ -1,11 +1,4 @@
 module.exports = {
-  io: {
-    server: 'https://api.sec-api.io:3334',
-    // server: 'http://localhost:3333',
-    namespace: {
-      allFilings: 'all-filings',
-    },
-  },
   queryApi: {
     endpoint: 'https://api.sec-api.io',
   },
