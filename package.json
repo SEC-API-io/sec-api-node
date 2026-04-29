@@ -1,6 +1,6 @@
 {
   "name": "sec-api",
-  "version": "4.0.7",
+  "version": "4.0.8",
   "description": "SEC-API.io TypeScript and JavaScript Library",
   "main": "index.js",
   "exports": {
