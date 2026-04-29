@@ -8,7 +8,7 @@
 - **20+ million EDGAR filings** and **100+ million exhibits** — from license agreements, investor presentations, and other Reg FD disclosures, over insider trading, credit & bond agreements, bylaws, IPOs, secondaries & shelf offerings, M&A terms, government contracts, audit reports, SEC enforcement actions, AAERs, and executive employment agreements to board composition, subsidiaries, public float and cybersecurity incidents.
 - **1.1M+ entities, survivorship-bias free** — covers every SEC-regulated filer that ever reported, including delisted companies, dissolved funds, terminated advisors, and entities no longer reporting. From insiders and public/private companies to financial advisors, ETFs, mutual funds, hedge funds, money-market funds, institutional investors, foreign private issuers, BDCs, REITs, shell companies, brokers, dealers, asset-backed securities issuers, SROs, and more.
 - **All 500+ EDGAR form types** — annual and quarterly reports (10-K, 10-Q, 20-F, 40-F), proxy voting statements (DEF 14A, PRE 14) and voting records, registration statements and prospectuses, and everything in between, including form types no longer in use.
-- **Full historical time range** — from 1993 to present, with data updated in real-time
+- **Full historical time range** — from 1993 to present, with data updated in real-time.
 
 The full API documentation is available at [sec-api.io/docs](https://sec-api.io/docs).
 
@@ -40,6 +40,19 @@ const filing = await downloadApi.getFile(
 );
 
 console.log(filing.slice(0, 1000));
+```
+
+**Download Entire Datasets of SEC Filings**
+
+```js
+const { datasetsApi } = require('sec-api');
+
+datasetsApi.setApiKey('YOUR_API_KEY');
+
+// downloads all 10-K filings (1993-present) to ./sec-api-datasets/form-10k-content/YYYY/YYYY-MM.zip
+await datasetsApi.download('form-10k-content');
+// all 13-F institutional holdings
+await datasetsApi.download('form-13f-holdings');
 ```
 
 ## Feature Overview
@@ -811,6 +824,185 @@ Download complete datasets for offline analysis and large-scale processing. All 
 | Form N-PORT - Fund Holdings                         | NPORT, NPORT/A              | 2019-present | JSONL                |
 | Form DEF 14A - Proxy Statements                     | DEF 14A                     | 1994-present | ZIP (HTML, TXT)      |
 | [View all datasets...](https://sec-api.io/datasets) |                             |              |                      |
+
+### Download a Dataset
+
+Downloads are atomic (written to a `.tmp` file first, renamed on completion), so interrupted downloads are automatically resumed on the next run. Only new or updated files are downloaded — existing files are skipped if their size matches the remote. This makes it easy to keep a local copy of any dataset in sync with a single line of code.
+
+```js
+const { datasetsApi } = require('sec-api');
+
+datasetsApi.setApiKey('YOUR_API_KEY');
+
+// first run: downloads all containers to ./sec-api-datasets/form-10k-content/
+await datasetsApi.download('form-10k-content');
+
+// subsequent runs: only downloads new or updated containers, skips the rest
+await datasetsApi.sync('form-10k-content');
+
+// specify a custom directory
+await datasetsApi.download({
+  name: 'form-10k-content',
+  path: './my-data/form-10k-content',
+});
+```
+
+Alternatively, download the entire dataset as a single ZIP file:
+
+```js
+await datasetsApi.download({ name: 'form-10k-content', strategy: 'zip' });
+```
+
+Set up a daily cron job or scheduled task to keep your local dataset up to date:
+
+```js
+// sync.js — run daily via cron, e.g.: 0 6 * * * node sync.js
+const { datasetsApi } = require('sec-api');
+
+datasetsApi.setApiKey('YOUR_API_KEY');
+await datasetsApi.sync({
+  name: 'form-10k-content',
+  path: './my-data/form-10k-content',
+});
+```
+
+### List Available Datasets
+
+```js
+const { datasetsApi } = require('sec-api');
+
+// no API key required — returns raw JSON list
+const allDatasets = await datasetsApi.getAll();
+```
+
+<details>
+  <summary>Example Response (shortened)</summary>
+
+```json
+[
+  {
+    "datasetId": "1f11ba9b-e03a-6950-a464-a23fcc53ee6f",
+    "datasetIdInUrl": "audit-fees",
+    "name": "Audit Fees",
+    "description": "Structured dataset of annual audit fees extracted from SEC filings...",
+    "formTypes": ["DEF 14A"],
+    "containerFormat": ".jsonl.gz",
+    "fileTypes": ["JSONL"],
+    "updatedAt": "2026-04-09T05:00:01.000Z",
+    "earliestSampleDate": "2001-03-01",
+    "totalRecords": null,
+    "totalSize": 9792910
+  },
+  {
+    "datasetId": "1f12abbc-262c-65a0-8b3e-1288c41dcc76",
+    "datasetIdInUrl": "earnings-results-form-8-k-item-2-02",
+    "name": "Earnings Results - Form 8-K, Item 2.02 (2004-Present)",
+    "description": "The Form 8-K Item 2.02 Results Dataset contains all disclosures filed on EDGAR...",
+    "formTypes": ["8-K", "8-K/A"],
+    "containerFormat": "ZIP",
+    "fileTypes": ["HTML", "JSON", "TXT", "GIF", "JPG", "PDF"],
+    "updatedAt": "2026-04-09T07:07:44.885Z",
+    "earliestSampleDate": "2004-08-01",
+    "totalRecords": 2242018,
+    "totalSize": 154607640756
+  }
+]
+```
+
+</details>
+
+<br>
+
+Or use `showAll()` for formatted terminal output:
+
+```js
+await datasetsApi.showAll();
+```
+
+```
+  ID                                                 Name                                                    Format             Size
+  ────────────────────────────────────────────────── ─────────────────────────────────────────────────────── ────────── ────────────
+  audit-fees                                         Audit Fees                                              .jsonl.gz        9.8 MB
+  earnings-results-form-8-k-item-2-02                Earnings Results - Form 8-K, Item 2.02 (2004-Present)   ZIP            154.6 GB
+  form-10k-content                                   Form 10-K - Annual Reports - Filing Contents            ZIP             33.8 GB
+  form-4                                             Form 4 – Statement of Changes in Beneficial Ownership   .jsonl.gz      912.2 MB
+  ...
+
+  490 datasets available. Browse all at https://sec-api.io/datasets
+```
+
+### Get Dataset Details
+
+```js
+// returns raw JSON object
+const details = await datasetsApi.getDetails('form-10k-content');
+```
+
+<details>
+  <summary>Example Response (shortened)</summary>
+
+```json
+{
+  "datasetId": "1f11bb55-d58b-6080-bace-e7a62567f4b9",
+  "datasetDownloadUrl": "https://api.sec-api.io/datasets/form-10k-content.zip",
+  "name": "Form 10-K - Annual Reports - Filing Contents",
+  "description": "HTML and TXT files of all Form 10-K filings published since 1993...",
+  "updatedAt": "2026-04-09T07:07:57.058Z",
+  "earliestSampleDate": "1993-10-01",
+  "totalRecords": 303021,
+  "totalSize": 33809939825,
+  "formTypes": [
+    "10-K",
+    "10-K/A",
+    "10-K405",
+    "10-K405/A",
+    "10-KSB",
+    "10-KSB/A",
+    "10-KT",
+    "10-KT/A"
+  ],
+  "containerFormat": "ZIP",
+  "fileTypes": ["TXT", "JSON", "HTML", "PAPER"],
+  "containers": [
+    {
+      "downloadUrl": "https://api.sec-api.io/datasets/form-10k-content/2026/2026-04.zip",
+      "key": "2026/2026-04.zip",
+      "size": 15593008,
+      "records": 167,
+      "updatedAt": "2026-04-09T07:07:57.058Z"
+    },
+    {
+      "downloadUrl": "https://api.sec-api.io/datasets/form-10k-content/2026/2026-03.zip",
+      "key": "2026/2026-03.zip",
+      "size": 616726590,
+      "records": 6468,
+      "updatedAt": "2026-04-02T02:52:01.741Z"
+    }
+  ]
+}
+```
+
+</details>
+
+<br>
+
+Or use `showDetails()` for formatted terminal output:
+
+```js
+await datasetsApi.showDetails('form-10k-content');
+```
+
+```
+  Name:             Form 10-K - Annual Reports - Filing Contents
+  Description:      HTML and TXT files of all Form 10-K filings published since 1993...
+  Updated:          2026-04-09T07:07:57.058Z
+  Earliest data:    1993-10-01
+  Form types:       10-K, 10-K/A, 10-K405, 10-K405/A, 10-KSB, 10-KSB/A, 10-KT, 10-KT/A
+  Format:           ZIP
+  Total records:    303,021
+  Total size:       33.8 GB
+  Containers:       390
+```
 
 ## Form ADV API
 

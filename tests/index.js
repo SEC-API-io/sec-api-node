@@ -70,6 +70,7 @@ function assert(condition, message) {
       'edgarEntitiesApi',
       'auditFeesApi',
       'edgarIndexApi',
+      'datasetsApi',
     ];
     const actualKeys = Object.keys(secApi);
     assert(
@@ -519,6 +520,148 @@ function assert(condition, message) {
   await test('getIngestionLog returns filings for a date', async () => {
     const result = await secApi.edgarIndexApi.getIngestionLog('2025-12-02');
     assert(result.data && result.data.length > 0, 'No data returned');
+  });
+
+  console.log('\nDatasets API');
+  await test('getAll returns list of datasets', async () => {
+    const datasets = await secApi.datasetsApi.getAll();
+    assert(Array.isArray(datasets), 'Expected array');
+    assert(datasets.length > 0, 'No datasets returned');
+    assert(datasets[0].datasetIdInUrl, 'Dataset missing datasetIdInUrl');
+    assert(datasets[0].name, 'Dataset missing name');
+  });
+
+  await test('getDetails returns dataset details with containers', async () => {
+    const ds = await secApi.datasetsApi.getDetails('audit-fees');
+    assert(ds.name, 'Missing name');
+    assert(Array.isArray(ds.containers), 'Missing containers array');
+    assert(ds.containers.length > 0, 'No containers returned');
+    assert(ds.containers[0].downloadUrl, 'Container missing downloadUrl');
+    assert(ds.containers[0].key, 'Container missing key');
+  });
+
+  await test('getDetails throws for unknown dataset', async () => {
+    try {
+      await secApi.datasetsApi.getDetails('does-not-exist-xyz');
+      assert(false, 'Expected to throw');
+    } catch (err) {
+      assert(
+        err.message.includes('not found'),
+        'Expected "not found" in error message',
+      );
+    }
+  });
+
+  await test('download accepts a string dataset name', async () => {
+    // string form should resolve to the same dataset lookup as the object form.
+    // call with a non-existent name to avoid an actual download — the string
+    // must propagate through to getDetails which throws "not found".
+    try {
+      await secApi.datasetsApi.download('does-not-exist-xyz');
+      assert(false, 'Expected to throw');
+    } catch (err) {
+      assert(
+        err.message.includes('not found'),
+        'string form should propagate to getDetails. got: ' + err.message,
+      );
+    }
+  });
+
+  await test('download accepts an object with name', async () => {
+    try {
+      await secApi.datasetsApi.download({ name: 'does-not-exist-xyz' });
+      assert(false, 'Expected to throw');
+    } catch (err) {
+      assert(
+        err.message.includes('not found'),
+        'object form should propagate to getDetails. got: ' + err.message,
+      );
+    }
+  });
+
+  await test('sync accepts both string and object forms', async () => {
+    try {
+      await secApi.datasetsApi.sync('does-not-exist-xyz');
+      assert(false, 'Expected sync(string) to throw');
+    } catch (err) {
+      assert(
+        err.message.includes('not found'),
+        'sync(string) should propagate',
+      );
+    }
+    try {
+      await secApi.datasetsApi.sync({ name: 'does-not-exist-xyz' });
+      assert(false, 'Expected sync(object) to throw');
+    } catch (err) {
+      assert(
+        err.message.includes('not found'),
+        'sync(object) should propagate',
+      );
+    }
+  });
+
+  await test('download streams to disk, verifies size, and skips on re-run', async () => {
+    const fs = require('fs');
+    const path = require('path');
+    const { downloadToFile } = require('../modules/http-client');
+
+    // pick the smallest container from audit-fees to keep the test fast
+    const ds = await secApi.datasetsApi.getDetails('audit-fees');
+    const smallest = ds.containers.reduce((a, b) => (a.size < b.size ? a : b));
+
+    const tmpDir = path.join(__dirname, 'tmp-download-test');
+    const destPath = path.join(tmpDir, smallest.key);
+    if (fs.existsSync(tmpDir)) {
+      fs.rmSync(tmpDir, { recursive: true });
+    }
+
+    try {
+      const sep = smallest.downloadUrl.includes('?') ? '&' : '?';
+      const url = smallest.downloadUrl + sep + 'token=' + apiKey;
+
+      // first call: actually downloads the file
+      const start = Date.now();
+      await downloadToFile({
+        url,
+        destPath,
+        expectedSize: smallest.size,
+      });
+      const firstDuration = Date.now() - start;
+
+      assert(fs.existsSync(destPath), 'destination file should exist');
+      const stats = fs.statSync(destPath);
+      assert(
+        stats.size === smallest.size,
+        'downloaded size ' + stats.size + ' != expected ' + smallest.size,
+      );
+
+      // tmp file should not exist after atomic rename
+      assert(
+        !fs.existsSync(destPath + '.tmp'),
+        'tmp file should be cleaned up after rename',
+      );
+
+      // second call: should skip (size matches) and return very quickly
+      const skipStart = Date.now();
+      await downloadToFile({
+        url,
+        destPath,
+        expectedSize: smallest.size,
+      });
+      const skipDuration = Date.now() - skipStart;
+      assert(
+        skipDuration < firstDuration,
+        'skip should be faster than initial download (' +
+          skipDuration +
+          'ms vs ' +
+          firstDuration +
+          'ms)',
+      );
+    } finally {
+      if (fs.existsSync(tmpDir)) {
+        fs.rmSync(tmpDir, { recursive: true });
+      }
+    }
   });
 
   // Summary

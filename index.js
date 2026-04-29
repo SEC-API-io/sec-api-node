@@ -8,11 +8,13 @@ const {
   getText,
   get,
 } = require('./modules/http-client');
+const datasets = require('./modules/datasets');
 
 const store = { apiKey: '' };
 
 const setApiKey = (apiKey) => {
   store.apiKey = apiKey;
+  datasets.setApiKey(apiKey);
 };
 
 /**
@@ -602,6 +604,15 @@ const modules = {
   edgarIndexApi: {
     setApiKey,
     getIngestionLog,
+  },
+  datasetsApi: {
+    setApiKey,
+    getAll: datasets.getAll,
+    showAll: datasets.showAll,
+    getDetails: datasets.getDetails,
+    showDetails: datasets.showDetails,
+    download: datasets.download,
+    sync: datasets.sync,
   },
 };
 

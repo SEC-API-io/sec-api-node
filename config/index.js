@@ -116,4 +116,8 @@ module.exports = {
   edgarIndexIngestionLogApi: {
     endpoint: 'https://api.sec-api.io/edgar-index/ingestion-log',
   },
+  datasetsApi: {
+    indexEndpoint: 'https://api.sec-api.io/bulk/indicies/master/index.json',
+    detailEndpoint: 'https://api.sec-api.io/datasets',
+  },
 };

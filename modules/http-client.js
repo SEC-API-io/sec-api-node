@@ -1,5 +1,7 @@
 const https = require('https');
 const zlib = require('zlib');
+const fs = require('fs');
+const path = require('path');
 
 const MAX_REDIRECTS = 5;
 const MAX_RETRIES = 3;
@@ -181,3 +183,120 @@ const get = async (url) => {
   return data.toString('utf-8');
 };
 module.exports.get = get;
+
+// stream a GET response directly to a file. follows redirects, no decompression
+// (file payloads like .zip are already compressed). resolves on completion.
+const streamToFile = ({ url, destPath, _redirectCount = 0 }) => {
+  return new Promise((resolve, reject) => {
+    const parsedUrl = new URL(url);
+
+    const req = https.request(parsedUrl, { method: 'GET', agent }, (res) => {
+      const status = res.statusCode;
+
+      // follow 3xx redirects
+      if (status >= 300 && status < 400 && res.headers.location) {
+        res.resume();
+        if (_redirectCount >= MAX_REDIRECTS) {
+          const error = new Error('Too many redirects');
+          error.response = { status, httpStatus: status };
+          reject(error);
+          return;
+        }
+        const redirectUrl = new URL(res.headers.location, url).href;
+        resolve(
+          streamToFile({
+            url: redirectUrl,
+            destPath,
+            _redirectCount: _redirectCount + 1,
+          }),
+        );
+        return;
+      }
+
+      if (status < 200 || status >= 300) {
+        const chunks = [];
+        res.on('data', (chunk) => chunks.push(chunk));
+        res.on('end', () => {
+          const body = Buffer.concat(chunks).toString('utf-8');
+          let parsed = {};
+          try {
+            parsed = JSON.parse(body);
+          } catch (_) {
+            // not JSON
+          }
+          const errorMessage = parsed.error || body;
+          const error = new Error(errorMessage);
+          error.response = {
+            status: parsed.status || status,
+            httpStatus: status,
+            error: parsed.error,
+          };
+          reject(error);
+        });
+        res.on('error', reject);
+        return;
+      }
+
+      const fileStream = fs.createWriteStream(destPath);
+      res.pipe(fileStream);
+      fileStream.on('finish', () => {
+        fileStream.close(() => {
+          return resolve();
+        });
+      });
+      fileStream.on('error', reject);
+      res.on('error', reject);
+    });
+
+    req.on('error', reject);
+    req.end();
+  });
+};
+
+// download a URL to a local file with atomic write, retry, and skip-if-exists
+// based on expected file size. writes to .tmp then renames on completion.
+const downloadToFile = async ({ url, destPath, expectedSize }) => {
+  if (fs.existsSync(destPath)) {
+    if (
+      expectedSize === undefined ||
+      expectedSize === null ||
+      fs.statSync(destPath).size === expectedSize
+    ) {
+      return destPath;
+    }
+  }
+
+  const dir = path.dirname(destPath);
+  if (dir && dir !== '.') {
+    fs.mkdirSync(dir, { recursive: true });
+  }
+  const tmpPath = destPath + '.tmp';
+
+  for (let attempt = 0; attempt < MAX_RETRIES; attempt++) {
+    try {
+      await streamToFile({ url, destPath: tmpPath });
+      fs.renameSync(tmpPath, destPath);
+      return destPath;
+    } catch (error) {
+      if (fs.existsSync(tmpPath)) {
+        try {
+          fs.unlinkSync(tmpPath);
+        } catch (_) {
+          // ignore cleanup error
+        }
+      }
+      if (
+        error.response &&
+        error.response.httpStatus === 429 &&
+        attempt < MAX_RETRIES - 1
+      ) {
+        await new Promise((resolve) =>
+          setTimeout(resolve, 500 * (attempt + 1)),
+        );
+        continue;
+      }
+      throw error;
+    }
+  }
+};
+module.exports.downloadToFile = downloadToFile;

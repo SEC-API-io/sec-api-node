@@ -39,6 +39,7 @@ export const {
   edgarEntitiesApi,
   auditFeesApi,
   edgarIndexApi,
+  datasetsApi,
 } = secApi;
 
 export default secApi;
